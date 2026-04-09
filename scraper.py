@@ -10,7 +10,11 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-REDDIT_HEADERS = {"User-Agent": "GTADealsBot/1.0"}
+REDDIT_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/json",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 GTA_WIKI_BASE = "https://gta.wiki/w"
 
 # Matches the annotation Rockstar's subreddit mods add to removed vehicles,
@@ -36,43 +40,37 @@ def fetch_weekly_post():
     Strategy: try the subreddit front page first (post is always stickied),
     then fall back to a broader search if not found there.
     """
-    # 1. Try front page — weekly post is always stickied at the top
-    try:
-        r = requests.get(
-            "https://www.reddit.com/r/gtaonline.json",
-            headers=REDDIT_HEADERS, timeout=15
-        )
-        r.raise_for_status()
-        for post in r.json()["data"]["children"]:
-            d = post["data"]
-            if _is_weekly_post(d.get("title", "")):
-                return {
-                    "title": d["title"],
-                    "body": d.get("selftext", ""),
-                    "url": "https://reddit.com" + d.get("permalink", ""),
-                }
-    except Exception:
-        pass
+    import time as _time
 
-    # 2. Fall back to search with a broader time window
-    try:
-        r = requests.get(
-            "https://www.reddit.com/r/gtaonline/search.json",
-            params={"q": "Weekly Bonuses Discounts", "restrict_sr": "on",
-                    "sort": "new", "limit": 10, "t": "month"},
-            headers=REDDIT_HEADERS, timeout=15
-        )
-        r.raise_for_status()
-        for post in r.json()["data"]["children"]:
-            d = post["data"]
-            if _is_weekly_post(d.get("title", "")):
-                return {
-                    "title": d["title"],
-                    "body": d.get("selftext", ""),
-                    "url": "https://reddit.com" + d.get("permalink", ""),
-                }
-    except Exception:
-        pass
+    urls = [
+        ("https://www.reddit.com/r/gtaonline.json", {}),
+        ("https://www.reddit.com/r/gtaonline/search.json",
+         {"q": "Weekly Bonuses Discounts", "restrict_sr": "on",
+          "sort": "new", "limit": 10, "t": "month"}),
+    ]
+
+    for attempt in range(3):  # retry up to 3 times
+        for url, params in urls:
+            try:
+                _time.sleep(3 + attempt * 5)  # increasing delay on retries
+                r = requests.get(url, params=params or None,
+                                 headers=REDDIT_HEADERS, timeout=30)
+                if r.status_code == 429:
+                    print(f"Rate limited, waiting {10 + attempt * 10}s...")
+                    _time.sleep(10 + attempt * 10)
+                    continue
+                r.raise_for_status()
+                for post in r.json()["data"]["children"]:
+                    d = post["data"]
+                    if _is_weekly_post(d.get("title", "")):
+                        return {
+                            "title": d["title"],
+                            "body": d.get("selftext", ""),
+                            "url": "https://reddit.com" + d.get("permalink", ""),
+                        }
+            except Exception as e:
+                print(f"Attempt {attempt+1} failed for {url}: {e}")
+                continue
 
     return None
 
