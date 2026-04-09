@@ -20,7 +20,27 @@ const STAT_MAP = [
   {
     keys: ["drivetrain"],
     label: "Drivetrain",
-    format: v => v.split("(")[0].trim()  // strip parenthetical notes
+    format: v => {
+      // Format 1: "AWD (50% rear, 50% front)" or "AWD (40% rear, 60% front)"
+      const fmt1 = v.match(/AWD[^(]*\((\d+)%\s*rear[,\s]+(\d+)%\s*front\)/i)
+                || v.match(/AWD[^(]*\((\d+)%\s*front[,\s]+(\d+)%\s*rear\)/i);
+      if (fmt1) {
+        const rearFirst = /rear.*front/i.test(v);
+        const a = parseInt(fmt1[1]), b = parseInt(fmt1[2]);
+        const front = rearFirst ? b : a, rear = rearFirst ? a : b;
+        return `AWD (${front}% front, ${rear}% rear)`;
+      }
+      // Format 2: "AWD 40% FWD 60% RWD" -> extract FWD and RWD percentages
+      const fmt2 = v.match(/(\d+)%\s*FWD[\s,]+(\d+)%\s*RWD/i)
+                || v.match(/(\d+)%\s*RWD[\s,]+(\d+)%\s*FWD/i);
+      if (fmt2) {
+        const fwdFirst = /FWD.*RWD/i.test(v);
+        const a = parseInt(fmt2[1]), b = parseInt(fmt2[2]);
+        const front = fwdFirst ? a : b, rear = fwdFirst ? b : a;
+        return `AWD (${front}% front, ${rear}% rear)`;
+      }
+      return v.split("(")[0].trim();
+    }
   },
   {
     keys: ["mass"],
@@ -119,9 +139,26 @@ function buildCard(vehicle) {
 
   const statsHTML = buildStatsHTML(vehicle.stats);
   const priceHTML = buildPriceHTML(vehicle);
-  const storeLabel = vehicle.removed || vehicle.previously_available ? 'Previously at' : 'Available at';
+  // Determine store label and style
+  let storeLabel, storeClass;
+  if (vehicle.removed || vehicle.previously_available) {
+    const inLuxury = (window._luxuryVehicles || []).some(v => v.name.toLowerCase() === vehicle.name.toLowerCase());
+    const inPDM = (window._pdmVehicles || []).some(v => v.name.toLowerCase() === vehicle.name.toLowerCase());
+    if (inLuxury || inPDM) {
+      storeLabel = 'Only available at';
+      storeClass = 'store-showroom-only';
+      // Override store with the actual showroom name
+      vehicle = {...vehicle, store: inLuxury ? 'Luxury Autos' : 'Premium Deluxe Motorsport'};
+    } else {
+      storeLabel = 'Previously at';
+      storeClass = 'store-removed';
+    }
+  } else {
+    storeLabel = 'Available at';
+    storeClass = '';
+  }
   const storeHTML = vehicle.store
-    ? `<span class="store-name ${vehicle.removed || vehicle.previously_available ? 'store-removed' : ''}">${storeLabel}: ${vehicle.store}</span>`
+    ? `<span class="store-name ${storeClass}">${storeLabel}: ${vehicle.store}</span>`
     : "";
   const wikiHTML = vehicle.wiki_url
     ? `<a href="${vehicle.wiki_url}" target="_blank" class="wiki-link">View on GTA Wiki ↗</a>`
@@ -158,8 +195,14 @@ function renderGroupedDiscounts(containerEl, groups) {
     return;
   }
   groups = groups.filter(g => !g.group.toLowerCase().includes('gun van'));
-  // Filter removed vehicles from discounts — discount is irrelevant if not in GTA Online
-  groups = groups.map(g => ({...g, vehicles: g.vehicles.filter(v => !v.removed && !v.previously_available)}));
+  // For removed vehicles: only show in discounts if they appear in a showroom this week
+  // Build showroom set directly from data passed in (not globals which may not be set yet)
+  groups = groups.map(g => ({...g, vehicles: g.vehicles.filter(v => {
+    if (!v.removed && !v.previously_available) return true;
+    const inShowroom = (window._luxuryVehicles || []).concat(window._pdmVehicles || [])
+      .some(sv => sv.name.toLowerCase() === v.name.toLowerCase());
+    return inShowroom;
+  })}));
   groups.sort((a, b) => b.group.toLowerCase().includes('law enforcement') ? 1 : -1);
   containerEl.innerHTML = groups.map(group => `
     <div class="discount-group">
@@ -214,6 +257,9 @@ async function loadDeals() {
     }
 
     // Render grids
+    // Store showroom vehicles globally BEFORE rendering discounts so filter works
+    window._luxuryVehicles = data.luxury_autos || [];
+    window._pdmVehicles = data.pdm || [];
     renderGroupedDiscounts(document.getElementById("grid-discounts"), data.discount_groups || [{group: "Discounts", vehicles: data.discounts}]);
     renderGrid(document.getElementById("grid-luxury"),    data.luxury_autos);
     renderGrid(document.getElementById("grid-pdm"),       data.pdm);

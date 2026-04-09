@@ -1,106 +1,41 @@
 {
-  "date_range": "April 9th to April 16th",
-  "post_url": "https://reddit.com/r/gtaonline/comments/1sg2pa0/weekly_bonuses_and_discounts_april_9th_to_april/",
-  "post_title": "Weekly Bonuses and Discounts - April 9th to April 16th (Not live until ~5am EDT on April 9th)",
+  "date_range": "15th)",
+  "post_url": "https://rockstarintel.com/gta-online-event-week-new-police-content-april-9th-15th/",
+  "post_title": "GTA Online Event Week: New Police Content (April 9th-15th)",
   "discount_groups": [
     {
-      "group": "Discounts",
+      "group": "Law Enforcement Vehicle Discounts",
       "vehicles": [
         {
-          "name": "Western Police Bike",
+          "name": "Bravado Dorado Cruiser",
           "discount": 35,
           "removed": false,
-          "wiki_url": "https://gta.wiki/w/Police_Bike",
-          "image": "https://gta.wiki/images/thumb/PoliceBike-GTAV-front.png/600px-PoliceBike-GTAV-front.png?c4b57",
-          "price": "",
-          "store": "",
+          "wiki_url": "https://gta.wiki/w/Dorado_Cruiser",
+          "image": "https://gta.wiki/images/thumb/DoradoCruiser-GTAOe-FrontQuarter.png/600px-DoradoCruiser-GTAOe-FrontQuarter.png?81b4a",
+          "price": "$5,005,000",
+          "store": "Warstock Cache & Carry",
           "previously_available": false,
           "stats": {
-            "Top Speed": "84 / 135",
+            "Max velocity": "141.7 / 87.854",
             "Gears": "4",
-            "Drivetrain": "RWD",
-            "Mass": "250 / 551",
-            "Fuel Tank Size": "65"
-          }
-        },
-        {
-          "name": "Invetero Coquette D10 Pursuit",
-          "discount": 35,
-          "removed": false,
-          "wiki_url": "https://gta.wiki/w/Coquette_D10_Pursuit",
-          "image": "https://gta.wiki/images/thumb/CoquetteD10Pursuit-GTAOee-FrontQuarter.png/600px-CoquetteD10Pursuit-GTAOee-FrontQuarter.png?7e802",
-          "price": "$5,620,000",
-          "store": "Warstock Cache & Carry",
-          "previously_available": false,
-          "stats": {
-            "Max velocity": "160 / 99.2",
-            "Gears": "8",
-            "Drivetrain": "RWD",
-            "Mass": "1660 / 3652"
-          }
-        },
-        {
-          "name": "Vapid Caracara Pursuit",
-          "discount": 35,
-          "removed": false,
-          "wiki_url": "https://gta.wiki/w/Caracara_Pursuit",
-          "image": "https://gta.wiki/images/thumb/CaracaraPursuit-GTAOe-FrontQuarter.png/600px-CaracaraPursuit-GTAOe-FrontQuarter.png?ced17",
-          "price": "$5,335,000",
-          "store": "Warstock Cache & Carry",
-          "previously_available": false,
-          "stats": {
-            "Max velocity": "138 / 85.56",
-            "Gears": "6",
             "Drivetrain": "AWD (50% rear, 50% front)",
-            "Mass": "2580 / 5676"
+            "Mass": "2150 / 4730"
           }
         },
         {
-          "name": "Canis Terminus Patrol",
+          "name": "Bravado Gauntlet Interceptor",
           "discount": 35,
           "removed": false,
-          "wiki_url": "https://gta.wiki/w/Terminus_Patrol",
-          "image": "https://gta.wiki/images/thumb/TerminusPatrol-GTAOe-FrontQuarter.png/600px-TerminusPatrol-GTAOe-FrontQuarter.png?19b08",
-          "price": "$5,125,000",
+          "wiki_url": "https://gta.wiki/w/Gauntlet_Interceptor",
+          "image": "https://gta.wiki/images/thumb/GauntletInterceptor-GTAOe-front.png/600px-GauntletInterceptor-GTAOe-front.png?f84c7",
+          "price": "$5,420,000",
           "store": "Warstock Cache & Carry",
           "previously_available": false,
           "stats": {
-            "Max velocity": "148 / 91.76",
-            "Gears": "6",
-            "Drivetrain": "AWD (50% rear, 50% front)",
-            "Mass": "2100 / 4620"
-          }
-        },
-        {
-          "name": "Willard Outreach Faction",
-          "discount": 35,
-          "removed": false,
-          "wiki_url": "https://gta.wiki/w/Outreach_Faction",
-          "image": "https://gta.wiki/images/thumb/OutreachFaction-GTAOe-FrontQuarter.png/600px-OutreachFaction-GTAOe-FrontQuarter.png?6bf52",
-          "price": "$4,150,000",
-          "store": "Warstock Cache & Carry",
-          "previously_available": false,
-          "stats": {
-            "Max velocity": "140 / 86.8",
+            "Max velocity": "155 / 96.1",
             "Gears": "5",
             "Drivetrain": "RWD",
-            "Mass": "1280 / 2816"
-          }
-        },
-        {
-          "name": "Vapid Dominator FX Interceptor",
-          "discount": 35,
-          "removed": false,
-          "wiki_url": "https://gta.wiki/w/Dominator_FX_Interceptor",
-          "image": "https://gta.wiki/images/thumb/DominatorFXInterceptor-GTAOe-FrontQuarter.png/600px-DominatorFXInterceptor-GTAOe-FrontQuarter.png?9a057",
-          "price": "$4,950,000",
-          "store": "Warstock Cache & Carry",
-          "previously_available": false,
-          "stats": {
-            "Max velocity": "153 / 94.86",
-            "Gears": "5",
-            "Drivetrain": "RWD",
-            "Mass": "1200 / 2640"
+            "Mass": "2150 / 4730"
           }
         },
         {
@@ -120,19 +55,19 @@
           }
         },
         {
-          "name": "Bravado Dorado Cruiser",
+          "name": "Canis Terminus Patrol",
           "discount": 35,
           "removed": false,
-          "wiki_url": "https://gta.wiki/w/Dorado_Cruiser",
-          "image": "https://gta.wiki/images/thumb/DoradoCruiser-GTAOe-FrontQuarter.png/600px-DoradoCruiser-GTAOe-FrontQuarter.png?81b4a",
-          "price": "$5,005,000",
+          "wiki_url": "https://gta.wiki/w/Terminus_Patrol",
+          "image": "https://gta.wiki/images/thumb/TerminusPatrol-GTAOe-FrontQuarter.png/600px-TerminusPatrol-GTAOe-FrontQuarter.png?19b08",
+          "price": "$5,125,000",
           "store": "Warstock Cache & Carry",
           "previously_available": false,
           "stats": {
-            "Max velocity": "141.7 / 87.854",
-            "Gears": "4",
+            "Max velocity": "148 / 91.76",
+            "Gears": "6",
             "Drivetrain": "AWD (50% rear, 50% front)",
-            "Mass": "2150 / 4730"
+            "Mass": "2100 / 4620"
           }
         },
         {
@@ -168,6 +103,70 @@
           }
         },
         {
+          "name": "Declasse Park Ranger",
+          "discount": 35,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/Park_Ranger",
+          "image": "https://gta.wiki/images/thumb/ParkRanger-GTAV-front.png/600px-ParkRanger-GTAV-front.png?692e0",
+          "price": "$2,980,000",
+          "store": "Warstock Cache & Carry",
+          "previously_available": false,
+          "stats": {
+            "Max velocity": "135 / 83.7",
+            "Gears": "5",
+            "Drivetrain": "AWD (40% rear, 60% front)",
+            "Mass": "2400 / 5280"
+          }
+        },
+        {
+          "name": "Invetero Coquette D10 Pursuit",
+          "discount": 35,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/Coquette_D10_Pursuit",
+          "image": "https://gta.wiki/images/thumb/CoquetteD10Pursuit-GTAOee-FrontQuarter.png/600px-CoquetteD10Pursuit-GTAOee-FrontQuarter.png?7e802",
+          "price": "$5,620,000",
+          "store": "Warstock Cache & Carry",
+          "previously_available": false,
+          "stats": {
+            "Max velocity": "160 / 99.2",
+            "Gears": "8",
+            "Drivetrain": "RWD",
+            "Mass": "1660 / 3652"
+          }
+        },
+        {
+          "name": "Vapid Caracara Pursuit",
+          "discount": 35,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/Caracara_Pursuit",
+          "image": "https://gta.wiki/images/thumb/CaracaraPursuit-GTAOe-FrontQuarter.png/600px-CaracaraPursuit-GTAOe-FrontQuarter.png?ced17",
+          "price": "$5,335,000",
+          "store": "Warstock Cache & Carry",
+          "previously_available": false,
+          "stats": {
+            "Max velocity": "138 / 85.56",
+            "Gears": "6",
+            "Drivetrain": "AWD (50% rear, 50% front)",
+            "Mass": "2580 / 5676"
+          }
+        },
+        {
+          "name": "Vapid Dominator FX Interceptor",
+          "discount": 35,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/Dominator_FX_Interceptor",
+          "image": "https://gta.wiki/images/thumb/DominatorFXInterceptor-GTAOe-FrontQuarter.png/600px-DominatorFXInterceptor-GTAOe-FrontQuarter.png?9a057",
+          "price": "$4,950,000",
+          "store": "Warstock Cache & Carry",
+          "previously_available": false,
+          "stats": {
+            "Max velocity": "153 / 94.86",
+            "Gears": "5",
+            "Drivetrain": "RWD",
+            "Mass": "1200 / 2640"
+          }
+        },
+        {
           "name": "Vapid Stanier LE Cruiser",
           "discount": 35,
           "removed": false,
@@ -181,22 +180,6 @@
             "Gears": "5",
             "Drivetrain": "RWD",
             "Mass": "1400 / 3080"
-          }
-        },
-        {
-          "name": "Bravado Gauntlet Interceptor",
-          "discount": 35,
-          "removed": false,
-          "wiki_url": "https://gta.wiki/w/Gauntlet_Interceptor",
-          "image": "https://gta.wiki/images/thumb/GauntletInterceptor-GTAOe-front.png/600px-GauntletInterceptor-GTAOe-front.png?f84c7",
-          "price": "$5,420,000",
-          "store": "Warstock Cache & Carry",
-          "previously_available": false,
-          "stats": {
-            "Max velocity": "155 / 96.1",
-            "Gears": "5",
-            "Drivetrain": "RWD",
-            "Mass": "2150 / 4730"
           }
         },
         {
@@ -216,21 +199,43 @@
           }
         },
         {
-          "name": "Declasse Park Ranger",
+          "name": "Western Police Bike",
           "discount": 35,
           "removed": false,
-          "wiki_url": "https://gta.wiki/w/Park_Ranger",
-          "image": "https://gta.wiki/images/thumb/ParkRanger-GTAV-front.png/600px-ParkRanger-GTAV-front.png?692e0",
-          "price": "$2,980,000",
+          "wiki_url": "https://gta.wiki/w/Police_Bike",
+          "image": "https://gta.wiki/images/thumb/PoliceBike-GTAV-front.png/600px-PoliceBike-GTAV-front.png?c4b57",
+          "price": "",
+          "store": "",
+          "previously_available": false,
+          "stats": {
+            "Top Speed": "84 / 135",
+            "Gears": "4",
+            "Drivetrain": "RWD",
+            "Mass": "250 / 551",
+            "Fuel Tank Size": "65"
+          }
+        },
+        {
+          "name": "Willard Outreach Faction",
+          "discount": 35,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/Outreach_Faction",
+          "image": "https://gta.wiki/images/thumb/OutreachFaction-GTAOe-FrontQuarter.png/600px-OutreachFaction-GTAOe-FrontQuarter.png?6bf52",
+          "price": "$4,150,000",
           "store": "Warstock Cache & Carry",
           "previously_available": false,
           "stats": {
-            "Max velocity": "135 / 83.7",
+            "Max velocity": "140 / 86.8",
             "Gears": "5",
-            "Drivetrain": "AWD (40% rear, 60% front)",
-            "Mass": "2400 / 5280"
+            "Drivetrain": "RWD",
+            "Mass": "1280 / 2816"
           }
-        },
+        }
+      ]
+    },
+    {
+      "group": "Discounts",
+      "vehicles": [
         {
           "name": "Imponte Arbiter GT",
           "discount": 30,
@@ -248,7 +253,7 @@
           }
         },
         {
-          "name": "Vapid Apocalypse Imperator (Arena)",
+          "name": "Vapid Apocalypse Imperator",
           "discount": 30,
           "removed": false,
           "wiki_url": "https://gta.wiki/w/Apocalypse_Imperator",
@@ -382,6 +387,23 @@
           }
         },
         {
+          "name": "Vom Feuer Anti-Aircraft Trailer",
+          "discount": 30,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/Anti-Aircraft_Trailer",
+          "image": "https://gta.wiki/images/thumb/ExitStrategy-GTAO-JobImage.png/600px-ExitStrategy-GTAO-JobImage.png?464ca",
+          "price": "$1,862,000",
+          "store": "Warstock Cache & Carry",
+          "previously_available": false,
+          "stats": {
+            "Maximum Velocity": "65.2 / 105",
+            "Gears": "1",
+            "Drivetrain": "RWD",
+            "Mass": "1000 / 2204.6",
+            "Fuel Tank Size": "0"
+          }
+        },
+        {
           "name": "Nagasaki Outlaw",
           "discount": 30,
           "removed": false,
@@ -447,140 +469,41 @@
             "Mass": "1140 / 2513",
             "Fuel Tank Size": "10"
           }
-        },
-        {
-          "name": "Pfister Comet Safari",
-          "discount": 30,
-          "removed": false,
-          "wiki_url": "https://gta.wiki/w/Comet_Safari",
-          "image": "https://gta.wiki/images/thumb/CometSafari-GTAOee-FrontQuarter.png/600px-CometSafari-GTAOee-FrontQuarter.png?c3920",
-          "price": "$710,000",
-          "store": "Legendary Motorsport",
-          "previously_available": false,
-          "stats": {
-            "Maximum Velocity": "94.4 / 152",
-            "Gears": "5",
-            "Drivetrain": "AWD 30% FWD 70% RWD",
-            "Mass": "1150 / 2535.3",
-            "Fuel Tank Size": "60"
-          }
-        },
-        {
-          "name": "Dewbauchee Specter",
-          "discount": 30,
-          "removed": false,
-          "wiki_url": "https://gta.wiki/w/Specter",
-          "image": "https://gta.wiki/images/thumb/Specter-GTAO-front.png/600px-Specter-GTAO-front.png?035d3",
-          "price": "$599,000",
-          "store": "Benny's Original Motor Works",
-          "previously_available": false,
-          "stats": {
-            "Maximum Velocity": "96 / 155",
-            "Gears": "6",
-            "Drivetrain": "RWD",
-            "Mass": "1550 / 3417",
-            "Fuel Tank Size": "60"
-          }
         }
       ]
     }
   ],
   "discounts": [
     {
-      "name": "Western Police Bike",
+      "name": "Bravado Dorado Cruiser",
       "discount": 35,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Police_Bike",
-      "image": "https://gta.wiki/images/thumb/PoliceBike-GTAV-front.png/600px-PoliceBike-GTAV-front.png?c4b57",
-      "price": "",
-      "store": "",
+      "wiki_url": "https://gta.wiki/w/Dorado_Cruiser",
+      "image": "https://gta.wiki/images/thumb/DoradoCruiser-GTAOe-FrontQuarter.png/600px-DoradoCruiser-GTAOe-FrontQuarter.png?81b4a",
+      "price": "$5,005,000",
+      "store": "Warstock Cache & Carry",
       "previously_available": false,
       "stats": {
-        "Top Speed": "84 / 135",
+        "Max velocity": "141.7 / 87.854",
         "Gears": "4",
-        "Drivetrain": "RWD",
-        "Mass": "250 / 551",
-        "Fuel Tank Size": "65"
-      }
-    },
-    {
-      "name": "Invetero Coquette D10 Pursuit",
-      "discount": 35,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Coquette_D10_Pursuit",
-      "image": "https://gta.wiki/images/thumb/CoquetteD10Pursuit-GTAOee-FrontQuarter.png/600px-CoquetteD10Pursuit-GTAOee-FrontQuarter.png?7e802",
-      "price": "$5,620,000",
-      "store": "Warstock Cache & Carry",
-      "previously_available": false,
-      "stats": {
-        "Max velocity": "160 / 99.2",
-        "Gears": "8",
-        "Drivetrain": "RWD",
-        "Mass": "1660 / 3652"
-      }
-    },
-    {
-      "name": "Vapid Caracara Pursuit",
-      "discount": 35,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Caracara_Pursuit",
-      "image": "https://gta.wiki/images/thumb/CaracaraPursuit-GTAOe-FrontQuarter.png/600px-CaracaraPursuit-GTAOe-FrontQuarter.png?ced17",
-      "price": "$5,335,000",
-      "store": "Warstock Cache & Carry",
-      "previously_available": false,
-      "stats": {
-        "Max velocity": "138 / 85.56",
-        "Gears": "6",
         "Drivetrain": "AWD (50% rear, 50% front)",
-        "Mass": "2580 / 5676"
+        "Mass": "2150 / 4730"
       }
     },
     {
-      "name": "Canis Terminus Patrol",
+      "name": "Bravado Gauntlet Interceptor",
       "discount": 35,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Terminus_Patrol",
-      "image": "https://gta.wiki/images/thumb/TerminusPatrol-GTAOe-FrontQuarter.png/600px-TerminusPatrol-GTAOe-FrontQuarter.png?19b08",
-      "price": "$5,125,000",
+      "wiki_url": "https://gta.wiki/w/Gauntlet_Interceptor",
+      "image": "https://gta.wiki/images/thumb/GauntletInterceptor-GTAOe-front.png/600px-GauntletInterceptor-GTAOe-front.png?f84c7",
+      "price": "$5,420,000",
       "store": "Warstock Cache & Carry",
       "previously_available": false,
       "stats": {
-        "Max velocity": "148 / 91.76",
-        "Gears": "6",
-        "Drivetrain": "AWD (50% rear, 50% front)",
-        "Mass": "2100 / 4620"
-      }
-    },
-    {
-      "name": "Willard Outreach Faction",
-      "discount": 35,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Outreach_Faction",
-      "image": "https://gta.wiki/images/thumb/OutreachFaction-GTAOe-FrontQuarter.png/600px-OutreachFaction-GTAOe-FrontQuarter.png?6bf52",
-      "price": "$4,150,000",
-      "store": "Warstock Cache & Carry",
-      "previously_available": false,
-      "stats": {
-        "Max velocity": "140 / 86.8",
+        "Max velocity": "155 / 96.1",
         "Gears": "5",
         "Drivetrain": "RWD",
-        "Mass": "1280 / 2816"
-      }
-    },
-    {
-      "name": "Vapid Dominator FX Interceptor",
-      "discount": 35,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Dominator_FX_Interceptor",
-      "image": "https://gta.wiki/images/thumb/DominatorFXInterceptor-GTAOe-FrontQuarter.png/600px-DominatorFXInterceptor-GTAOe-FrontQuarter.png?9a057",
-      "price": "$4,950,000",
-      "store": "Warstock Cache & Carry",
-      "previously_available": false,
-      "stats": {
-        "Max velocity": "153 / 94.86",
-        "Gears": "5",
-        "Drivetrain": "RWD",
-        "Mass": "1200 / 2640"
+        "Mass": "2150 / 4730"
       }
     },
     {
@@ -600,19 +523,19 @@
       }
     },
     {
-      "name": "Bravado Dorado Cruiser",
+      "name": "Canis Terminus Patrol",
       "discount": 35,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Dorado_Cruiser",
-      "image": "https://gta.wiki/images/thumb/DoradoCruiser-GTAOe-FrontQuarter.png/600px-DoradoCruiser-GTAOe-FrontQuarter.png?81b4a",
-      "price": "$5,005,000",
+      "wiki_url": "https://gta.wiki/w/Terminus_Patrol",
+      "image": "https://gta.wiki/images/thumb/TerminusPatrol-GTAOe-FrontQuarter.png/600px-TerminusPatrol-GTAOe-FrontQuarter.png?19b08",
+      "price": "$5,125,000",
       "store": "Warstock Cache & Carry",
       "previously_available": false,
       "stats": {
-        "Max velocity": "141.7 / 87.854",
-        "Gears": "4",
+        "Max velocity": "148 / 91.76",
+        "Gears": "6",
         "Drivetrain": "AWD (50% rear, 50% front)",
-        "Mass": "2150 / 4730"
+        "Mass": "2100 / 4620"
       }
     },
     {
@@ -648,6 +571,70 @@
       }
     },
     {
+      "name": "Declasse Park Ranger",
+      "discount": 35,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Park_Ranger",
+      "image": "https://gta.wiki/images/thumb/ParkRanger-GTAV-front.png/600px-ParkRanger-GTAV-front.png?692e0",
+      "price": "$2,980,000",
+      "store": "Warstock Cache & Carry",
+      "previously_available": false,
+      "stats": {
+        "Max velocity": "135 / 83.7",
+        "Gears": "5",
+        "Drivetrain": "AWD (40% rear, 60% front)",
+        "Mass": "2400 / 5280"
+      }
+    },
+    {
+      "name": "Invetero Coquette D10 Pursuit",
+      "discount": 35,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Coquette_D10_Pursuit",
+      "image": "https://gta.wiki/images/thumb/CoquetteD10Pursuit-GTAOee-FrontQuarter.png/600px-CoquetteD10Pursuit-GTAOee-FrontQuarter.png?7e802",
+      "price": "$5,620,000",
+      "store": "Warstock Cache & Carry",
+      "previously_available": false,
+      "stats": {
+        "Max velocity": "160 / 99.2",
+        "Gears": "8",
+        "Drivetrain": "RWD",
+        "Mass": "1660 / 3652"
+      }
+    },
+    {
+      "name": "Vapid Caracara Pursuit",
+      "discount": 35,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Caracara_Pursuit",
+      "image": "https://gta.wiki/images/thumb/CaracaraPursuit-GTAOe-FrontQuarter.png/600px-CaracaraPursuit-GTAOe-FrontQuarter.png?ced17",
+      "price": "$5,335,000",
+      "store": "Warstock Cache & Carry",
+      "previously_available": false,
+      "stats": {
+        "Max velocity": "138 / 85.56",
+        "Gears": "6",
+        "Drivetrain": "AWD (50% rear, 50% front)",
+        "Mass": "2580 / 5676"
+      }
+    },
+    {
+      "name": "Vapid Dominator FX Interceptor",
+      "discount": 35,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Dominator_FX_Interceptor",
+      "image": "https://gta.wiki/images/thumb/DominatorFXInterceptor-GTAOe-FrontQuarter.png/600px-DominatorFXInterceptor-GTAOe-FrontQuarter.png?9a057",
+      "price": "$4,950,000",
+      "store": "Warstock Cache & Carry",
+      "previously_available": false,
+      "stats": {
+        "Max velocity": "153 / 94.86",
+        "Gears": "5",
+        "Drivetrain": "RWD",
+        "Mass": "1200 / 2640"
+      }
+    },
+    {
       "name": "Vapid Stanier LE Cruiser",
       "discount": 35,
       "removed": false,
@@ -661,22 +648,6 @@
         "Gears": "5",
         "Drivetrain": "RWD",
         "Mass": "1400 / 3080"
-      }
-    },
-    {
-      "name": "Bravado Gauntlet Interceptor",
-      "discount": 35,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Gauntlet_Interceptor",
-      "image": "https://gta.wiki/images/thumb/GauntletInterceptor-GTAOe-front.png/600px-GauntletInterceptor-GTAOe-front.png?f84c7",
-      "price": "$5,420,000",
-      "store": "Warstock Cache & Carry",
-      "previously_available": false,
-      "stats": {
-        "Max velocity": "155 / 96.1",
-        "Gears": "5",
-        "Drivetrain": "RWD",
-        "Mass": "2150 / 4730"
       }
     },
     {
@@ -696,19 +667,36 @@
       }
     },
     {
-      "name": "Declasse Park Ranger",
+      "name": "Western Police Bike",
       "discount": 35,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Park_Ranger",
-      "image": "https://gta.wiki/images/thumb/ParkRanger-GTAV-front.png/600px-ParkRanger-GTAV-front.png?692e0",
-      "price": "$2,980,000",
+      "wiki_url": "https://gta.wiki/w/Police_Bike",
+      "image": "https://gta.wiki/images/thumb/PoliceBike-GTAV-front.png/600px-PoliceBike-GTAV-front.png?c4b57",
+      "price": "",
+      "store": "",
+      "previously_available": false,
+      "stats": {
+        "Top Speed": "84 / 135",
+        "Gears": "4",
+        "Drivetrain": "RWD",
+        "Mass": "250 / 551",
+        "Fuel Tank Size": "65"
+      }
+    },
+    {
+      "name": "Willard Outreach Faction",
+      "discount": 35,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Outreach_Faction",
+      "image": "https://gta.wiki/images/thumb/OutreachFaction-GTAOe-FrontQuarter.png/600px-OutreachFaction-GTAOe-FrontQuarter.png?6bf52",
+      "price": "$4,150,000",
       "store": "Warstock Cache & Carry",
       "previously_available": false,
       "stats": {
-        "Max velocity": "135 / 83.7",
+        "Max velocity": "140 / 86.8",
         "Gears": "5",
-        "Drivetrain": "AWD (40% rear, 60% front)",
-        "Mass": "2400 / 5280"
+        "Drivetrain": "RWD",
+        "Mass": "1280 / 2816"
       }
     },
     {
@@ -728,7 +716,7 @@
       }
     },
     {
-      "name": "Vapid Apocalypse Imperator (Arena)",
+      "name": "Vapid Apocalypse Imperator",
       "discount": 30,
       "removed": false,
       "wiki_url": "https://gta.wiki/w/Apocalypse_Imperator",
@@ -862,6 +850,23 @@
       }
     },
     {
+      "name": "Vom Feuer Anti-Aircraft Trailer",
+      "discount": 30,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Anti-Aircraft_Trailer",
+      "image": "https://gta.wiki/images/thumb/ExitStrategy-GTAO-JobImage.png/600px-ExitStrategy-GTAO-JobImage.png?464ca",
+      "price": "$1,862,000",
+      "store": "Warstock Cache & Carry",
+      "previously_available": false,
+      "stats": {
+        "Maximum Velocity": "65.2 / 105",
+        "Gears": "1",
+        "Drivetrain": "RWD",
+        "Mass": "1000 / 2204.6",
+        "Fuel Tank Size": "0"
+      }
+    },
+    {
       "name": "Nagasaki Outlaw",
       "discount": 30,
       "removed": false,
@@ -927,40 +932,6 @@
         "Mass": "1140 / 2513",
         "Fuel Tank Size": "10"
       }
-    },
-    {
-      "name": "Pfister Comet Safari",
-      "discount": 30,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Comet_Safari",
-      "image": "https://gta.wiki/images/thumb/CometSafari-GTAOee-FrontQuarter.png/600px-CometSafari-GTAOee-FrontQuarter.png?c3920",
-      "price": "$710,000",
-      "store": "Legendary Motorsport",
-      "previously_available": false,
-      "stats": {
-        "Maximum Velocity": "94.4 / 152",
-        "Gears": "5",
-        "Drivetrain": "AWD 30% FWD 70% RWD",
-        "Mass": "1150 / 2535.3",
-        "Fuel Tank Size": "60"
-      }
-    },
-    {
-      "name": "Dewbauchee Specter",
-      "discount": 30,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Specter",
-      "image": "https://gta.wiki/images/thumb/Specter-GTAO-front.png/600px-Specter-GTAO-front.png?035d3",
-      "price": "$599,000",
-      "store": "Benny's Original Motor Works",
-      "previously_available": false,
-      "stats": {
-        "Maximum Velocity": "96 / 155",
-        "Gears": "6",
-        "Drivetrain": "RWD",
-        "Mass": "1550 / 3417",
-        "Fuel Tank Size": "60"
-      }
     }
   ],
   "luxury_autos": [
@@ -1000,7 +971,7 @@
   "pdm": [
     {
       "name": "Grotti Itali Classic",
-      "discount": null,
+      "discount": 30,
       "removed": false,
       "wiki_url": "https://gta.wiki/w/Itali_Classic",
       "image": "https://gta.wiki/images/thumb/ItaliClassic-GTAOee-FrontQuarter.png/600px-ItaliClassic-GTAOee-FrontQuarter.png?76f72",
@@ -1016,7 +987,7 @@
     },
     {
       "name": "Dinka Jester Classic",
-      "discount": null,
+      "discount": 30,
       "removed": false,
       "wiki_url": "https://gta.wiki/w/Jester_Classic",
       "image": "https://gta.wiki/images/thumb/JesterClassic-GTAOe-FrontQuarter.png/600px-JesterClassic-GTAOe-FrontQuarter.png?0ad11",
@@ -1033,8 +1004,8 @@
     },
     {
       "name": "Grotti Stinger",
-      "discount": null,
-      "removed": true,
+      "discount": 30,
+      "removed": false,
       "wiki_url": "https://gta.wiki/w/Stinger",
       "image": "https://gta.wiki/images/thumb/StingerGT-GTAO-front.png/600px-StingerGT-GTAO-front.png?5a9b2",
       "price": "$850,000",
@@ -1050,7 +1021,7 @@
     },
     {
       "name": "Dewbauchee JB 700W",
-      "discount": null,
+      "discount": 30,
       "removed": false,
       "wiki_url": "https://gta.wiki/w/JB_700W",
       "image": "https://gta.wiki/images/thumb/JB700W-GTAO-front.png/600px-JB700W-GTAO-front.png?e662c",

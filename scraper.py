@@ -10,18 +10,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-REDDIT_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept": "application/json",
-    "Accept-Language": "en-US,en;q=0.9",
-}
-GTA_WIKI_BASE = "https://gta.wiki/w"
-
-# Matches the annotation Rockstar's subreddit mods add to removed vehicles,
-# e.g. "Benefactor Schafter (Removed Vehicle)" or "Vapid Ellie (Removed Vehicle)"
 _REMOVED_TAG_RE = re.compile(r"\s*\(Removed Vehicle\)\s*", re.IGNORECASE)
-
-# Also strip store/availability annotations added by post editors
 _ANNOTATION_RE = re.compile(
     r"\s*\(available at [^)]+\)\s*"
     r"|\s*\(story mode only\)\s*"
@@ -30,105 +19,86 @@ _ANNOTATION_RE = re.compile(
 )
 
 def strip_removed_tag(raw: str) -> tuple[str, bool]:
-    """Return (clean_name, is_removed). Detects the inline '(Removed Vehicle)' tag
-    and strips other editorial annotations like '(available at Premium Deluxe Motorsports)'.
-    """
-    # Strip other annotations first
+    """Return (clean_name, is_removed). Detects inline removal/annotation tags."""
     raw = _ANNOTATION_RE.sub("", raw).strip()
     if _REMOVED_TAG_RE.search(raw):
         return _REMOVED_TAG_RE.sub("", raw).strip(), True
     return raw.strip(), False
 
 
-# ─── Reddit ─────────────────────────────────────────────────────────────────
 
-def _is_weekly_post(title: str) -> bool:
-    t = title.lower()
-    return "weekly" in t and ("bonus" in t or "discount" in t)
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+INTEL_BASE = "https://rockstarintel.com"
+GTA_WIKI_BASE = "https://gta.wiki/w"
 
-
-def _fetch_post_body(permalink: str) -> str:
-    """Fetch the full post body given a permalink using the JSON API."""
-    url = f"https://www.reddit.com{permalink}.json"
-    try:
-        r = requests.get(url, headers=REDDIT_HEADERS, timeout=30)
-        if r.status_code == 200:
-            data = r.json()
-            return data[0]["data"]["children"][0]["data"].get("selftext", "")
-    except Exception:
-        pass
-    return ""
+# Patterns that match RockstarINTEL weekly event article slugs
+WEEKLY_SLUG_PATTERNS = [
+    r"gta.online.event.week",
+    r"new.gta.online.event",
+    r"gta.online.weekly.update",
+    r"weekly.bonuses",
+]
 
 
 def fetch_weekly_post():
-    """Find the current weekly bonuses/discounts post on r/gtaonline.
-    Uses the RSS feed which is less blocked than the JSON API from datacenter IPs.
-    Falls back to JSON API if RSS fails.
+    """Fetch the latest GTA Online weekly update article from RockstarINTEL.
+    Finds the most recent weekly event article on the homepage and parses it.
     """
     import time as _time
-    import xml.etree.ElementTree as ET
 
-    # Strategy 1: RSS feed (more permissive than JSON API)
-    rss_urls = [
-        "https://www.reddit.com/r/gtaonline/.rss",
-        "https://www.reddit.com/r/gtaonline/search.rss?q=Weekly+Bonuses+Discounts&restrict_sr=on&sort=new",
-    ]
-    for rss_url in rss_urls:
+    for attempt in range(3):
         try:
-            _time.sleep(2)
-            r = requests.get(rss_url, headers=REDDIT_HEADERS, timeout=30)
-            if r.status_code != 200:
-                continue
-            root = ET.fromstring(r.text)
-            ns = {"atom": "http://www.w3.org/2005/Atom"}
-            for entry in root.findall(".//atom:entry", ns) or root.findall(".//entry"):
-                title_el = entry.find("{http://www.w3.org/2005/Atom}title") or entry.find("title")
-                link_el = entry.find("{http://www.w3.org/2005/Atom}link") or entry.find("link")
-                if title_el is None:
-                    continue
-                title = title_el.text or ""
-                if _is_weekly_post(title):
-                    link = link_el.get("href", "") if link_el is not None else ""
-                    # Extract permalink from URL
-                    permalink = "/" + "/".join(link.split("/")[3:]) if link else ""
-                    body = _fetch_post_body(permalink) if permalink else ""
-                    return {
-                        "title": title,
-                        "body": body,
-                        "url": link,
-                    }
-        except Exception as e:
-            print(f"RSS attempt failed: {e}")
-            continue
+            _time.sleep(1 + attempt * 2)
+            r = requests.get(INTEL_BASE, headers=HEADERS, timeout=30)
+            r.raise_for_status()
+            soup = BeautifulSoup(r.text, "html.parser")
 
-    # Strategy 2: JSON API with retries
-    json_urls = [
-        ("https://www.reddit.com/r/gtaonline.json", {}),
-        ("https://www.reddit.com/r/gtaonline/search.json",
-         {"q": "Weekly Bonuses Discounts", "restrict_sr": "on",
-          "sort": "new", "limit": 10, "t": "month"}),
-    ]
-    for attempt in range(2):
-        for url, params in json_urls:
-            try:
-                _time.sleep(5 + attempt * 10)
-                r = requests.get(url, params=params or None,
-                                 headers=REDDIT_HEADERS, timeout=30)
-                if r.status_code in (403, 429):
-                    print(f"Blocked ({r.status_code}) on attempt {attempt+1}")
+            # Find the first (most recent) weekly article link
+            seen = set()
+            article_url = None
+            for a in soup.find_all("a", href=True):
+                href = a.get("href", "")
+                if not href.startswith(INTEL_BASE + "/"):
                     continue
-                r.raise_for_status()
-                for post in r.json()["data"]["children"]:
-                    d = post["data"]
-                    if _is_weekly_post(d.get("title", "")):
-                        return {
-                            "title": d["title"],
-                            "body": d.get("selftext", ""),
-                            "url": "https://reddit.com" + d.get("permalink", ""),
-                        }
-            except Exception as e:
-                print(f"JSON attempt {attempt+1} failed: {e}")
+                if href in seen:
+                    continue
+                seen.add(href)
+                slug = href.replace(INTEL_BASE + "/", "").lower()
+                if any(re.search(p, slug) for p in WEEKLY_SLUG_PATTERNS):
+                    article_url = href
+                    break
+
+            if not article_url:
+                print(f"No weekly article found on attempt {attempt+1}")
                 continue
+
+            # Fetch the article
+            _time.sleep(1)
+            ra = requests.get(article_url, headers=HEADERS, timeout=30)
+            ra.raise_for_status()
+            article_soup = BeautifulSoup(ra.text, "html.parser")
+
+            # Extract title
+            title_el = article_soup.find("h1")
+            title = title_el.get_text(strip=True) if title_el else ""
+
+            # Extract article body text
+            article_el = article_soup.find("article") or article_soup.find(
+                "div", class_=re.compile(r"entry|post|content|article", re.I)
+            )
+            body = article_el.get_text("\n") if article_el else article_soup.get_text("\n")
+
+            print(f"Found article: {title}")
+            return {
+                "title": title,
+                "body": body,
+                "url": article_url,
+                "source": "rockstarintel",
+            }
+
+        except Exception as e:
+            print(f"Attempt {attempt+1} failed: {e}")
+            continue
 
     return None
 
@@ -139,6 +109,7 @@ def parse_date_range(title: str) -> str:
     if m:
         return m.group(1).strip()
     return title
+
 
 
 # ─── Post Parser ─────────────────────────────────────────────────────────────
@@ -718,9 +689,12 @@ def fandom_fetch_vehicle(vehicle_name: str) -> dict:
 
 # Non-vehicle keywords — items with these words are not purchasable vehicles
 NON_VEHICLE_KEYWORDS = {
-    "upgrade", "modification", "property", "office", "warehouse",
-    "hangar", "facility", "bunker", "clubhouse", "arena", "bail office",
-    "trailer", "weapon", "armor", "armour", "pass", "membership",
+    # Properties, businesses and upgrades — never vehicles
+    "upgrades and modifications", "upgrade", "modification",
+    "property", "office", "warehouse", "hangar", "facility",
+    "bunker", "clubhouse", "bail office", "pass", "membership",
+    # Specific non-vehicle discount items that appear in posts
+    "body armor", "ammo",
 }
 
 def is_vehicle(name: str) -> bool:
@@ -728,12 +702,123 @@ def is_vehicle(name: str) -> bool:
     name_lower = name.lower()
     # Allow "Arena War" vehicles that have Arena in their name as a variant
     # but block pure property/upgrade entries
+    import re as _re
     for kw in NON_VEHICLE_KEYWORDS:
-        if kw in name_lower and not any(
-            v in name_lower for v in ["imperator", "sasquatch", "apocalypse", "future shock", "nightmare"]
-        ):
+        # Use word-boundary matching to avoid false positives like 'ammo' in 'Squaddie'
+        if _re.search(r'\b' + _re.escape(kw) + r'\b', name_lower):
             return False
     return True
+
+
+# ─── RockstarINTEL Parsers ───────────────────────────────────────────────────
+
+def intel_parse_discounts(body: str) -> list[dict]:
+    """Parse discounts from RockstarINTEL plain-text format."""
+    lines = [l.strip() for l in body.splitlines() if l.strip()]
+    items = []
+    in_discounts = False
+    current_pct = None
+    pct_re = re.compile(r"^(\d+)%\s*off\s*$", re.IGNORECASE)
+
+    for line in lines:
+        if line.lower() == "discounts":
+            in_discounts = True
+            continue
+        if not in_discounts:
+            continue
+        # Stop at Bonuses or next major section
+        if line.lower() in ("bonuses", "gun van contents", "weekly challenge"):
+            break
+        # Percentage header
+        m = pct_re.match(line)
+        if m:
+            current_pct = int(m.group(1))
+            continue
+        # Vehicle line — skip if it looks like a non-vehicle
+        if current_pct and line and not line.startswith(("2x", "3x", "4x", "GTA$")):
+            name, removed = strip_removed_tag(line.replace("\xa0", " ").strip())
+            if name and is_vehicle(name):
+                items.append({"name": name, "discount": current_pct, "removed": removed})
+
+    return items
+
+
+def intel_parse_all_discount_groups(body: str) -> list[dict]:
+    """Parse discounts grouped by percentage from RockstarINTEL format."""
+    lines = [l.strip() for l in body.splitlines() if l.strip()]
+    groups = {}  # pct -> list of vehicles
+    group_order = []
+    in_discounts = False
+    current_pct = None
+    pct_re = re.compile(r"^(\d+)%\s*off\s*$", re.IGNORECASE)
+
+    for line in lines:
+        if line.lower() == "discounts":
+            in_discounts = True
+            continue
+        if not in_discounts:
+            continue
+        if line.lower() in ("bonuses", "gun van contents", "weekly challenge"):
+            break
+        m = pct_re.match(line)
+        if m:
+            current_pct = int(m.group(1))
+            if current_pct not in groups:
+                groups[current_pct] = []
+                group_order.append(current_pct)
+            continue
+        if current_pct and line and not line.startswith(("2x", "3x", "4x", "GTA$")):
+            name, removed = strip_removed_tag(line.replace("\xa0", " ").strip())
+            if name and is_vehicle(name):
+                groups[current_pct].append({"name": name, "discount": current_pct, "removed": removed})
+
+    # Convert to list of group dicts, merging LE vehicles into one group
+    # Group LE vehicles (those with patrol/cruiser/pursuit/interceptor etc) separately
+    LE_KEYWORDS = re.compile(r"cruiser|patrol|pursuit|interceptor|outreach|police bike|park ranger", re.I)
+    result = []
+    le_vehicles = []
+    regular_vehicles = []
+
+    for pct in group_order:
+        for v in groups[pct]:
+            if LE_KEYWORDS.search(v["name"]):
+                le_vehicles.append(v)
+            else:
+                regular_vehicles.append(v)
+
+    if le_vehicles:
+        result.append({"group": "Law Enforcement Vehicle Discounts", "vehicles": le_vehicles})
+    if regular_vehicles:
+        result.append({"group": "Discounts", "vehicles": regular_vehicles})
+
+    return result
+
+
+def intel_parse_showroom(body: str, header_keyword: str) -> list[dict]:
+    """Parse showroom vehicles from RockstarINTEL plain-text format.
+    Vehicles are listed as a comma/ampersand separated list on the line
+    after the section header.
+    """
+    lines = [l.strip() for l in body.splitlines() if l.strip()]
+    for i, line in enumerate(lines):
+        if header_keyword.lower() in line.lower():
+            # The vehicle list is usually 1-2 lines after the header
+            for j in range(i+1, min(i+4, len(lines))):
+                candidate = lines[j]
+                # Skip descriptive sentences, look for comma/& separated names
+                if "," in candidate or "&" in candidate:
+                    # Split on comma and &
+                    raw_names = re.split(r",|&", candidate)
+                    vehicles = []
+                    for raw in raw_names:
+                        name = raw.replace(".", "").replace("\xa0", " ").strip()
+                        if name and len(name) > 2:
+                            name, removed = strip_removed_tag(name)
+                            vehicles.append({"name": name, "removed": removed})
+                    if vehicles:
+                        return vehicles
+    return []
+
 
 
 def enrich_vehicle(name: str, discount: int | None = None, removed: bool = False) -> dict:
@@ -782,13 +867,18 @@ def get_weekly_deals() -> dict:
     body = post["body"]
     date_range = parse_date_range(post["title"])
 
-    # Parse sections
-    raw_luxury = parse_showroom(body, "Luxury Autos")
-    raw_pdm = parse_showroom(body, "Premium Deluxe Motorsports")
+    # Use appropriate parsers based on source
+    is_intel = post.get("source") == "rockstarintel"
 
-    # Enrich each discount group separately, skipping gun van and non-vehicles
-    raw_groups = [g for g in parse_all_discount_groups(body)
-                  if "gun van" not in g["group"].lower()]
+    if is_intel:
+        raw_luxury = intel_parse_showroom(body, "Luxury Autos")
+        raw_pdm = intel_parse_showroom(body, "Premium Deluxe Motorsport")
+        raw_groups = intel_parse_all_discount_groups(body)
+    else:
+        raw_luxury = parse_showroom(body, "Luxury Autos")
+        raw_pdm = parse_showroom(body, "Premium Deluxe Motorsports")
+        raw_groups = [g for g in parse_all_discount_groups(body)
+                      if "gun van" not in g["group"].lower()]
     enriched_groups = []
     for group in raw_groups:
         vehicles = [v for v in group["vehicles"] if is_vehicle(v["name"])]
@@ -799,11 +889,19 @@ def get_weekly_deals() -> dict:
     # Also keep flat list for backward compat
     discounts = [v for g in enriched_groups for v in g["vehicles"]]
 
+    # Build a discount lookup so showroom vehicles can show their discount
+    discount_lookup = {v["name"].lower(): v["discount"]
+                       for g in enriched_groups for v in g["vehicles"]}
+
     print(f"Enriching {len(raw_luxury)} Luxury Autos vehicles...")
-    luxury = [enrich_vehicle(v["name"], removed=v.get("removed", False)) for v in raw_luxury]
+    luxury = [enrich_vehicle(v["name"],
+                             discount=discount_lookup.get(v["name"].lower()),
+                             removed=v.get("removed", False)) for v in raw_luxury]
 
     print(f"Enriching {len(raw_pdm)} PDM vehicles...")
-    pdm = [enrich_vehicle(v["name"], removed=v.get("removed", False)) for v in raw_pdm]
+    pdm = [enrich_vehicle(v["name"],
+                          discount=discount_lookup.get(v["name"].lower()),
+                          removed=v.get("removed", False)) for v in raw_pdm]
 
     return {
         "date_range": date_range,

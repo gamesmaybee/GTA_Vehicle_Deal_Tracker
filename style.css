@@ -505,3 +505,8 @@ footer a:hover { text-decoration: underline; }
   background: #4a9eff;
   color: #fff;
 }
+
+.store-showroom-only {
+  color: #f4c430 !important;
+  opacity: 1;
+}
