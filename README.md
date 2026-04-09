@@ -1,85 +1,42 @@
-# GTA Online Car Deals Dashboard
+# GTA Online Car Deals
 
-A live dashboard that scrapes r/gtaonline weekly posts and displays discounted vehicles, Luxury Autos, and Premium Deluxe Motorsport listings with stats and images pulled from the GTA Fandom wiki.
-
-## Files
-
-```
-gta-deals/
-├── server.py     # Flask API server
-├── scraper.py    # Reddit + Fandom wiki scraper
-├── index.html    # Frontend
-├── style.css     # Styles
-├── app.js        # Frontend logic
-└── README.md
-```
-
-## Setup
-
-### 1. Install dependencies
-
-```bash
-pip install flask flask-cors requests beautifulsoup4 --break-system-packages
-```
-
-> No Reddit API key needed — uses the public JSON endpoint.
-
-### 2. Run the server
-
-```bash
-python server.py
-```
-
-The server starts at `http://localhost:5000`.
-
-### 3. Open the frontend
-
-Open `index.html` in your browser. It connects to the local Flask server.
-
-> If you hit CORS issues opening the HTML directly, serve it with:
-> ```bash
-> python -m http.server 8080
-> ```
-> Then visit `http://localhost:8080`.
+A dashboard showing this week's discounted vehicles, Luxury Autos, and Premium Deluxe Motorsport listings in GTA Online, with stats and images pulled from [gta.wiki](https://gta.wiki).
 
 ## How it works
 
-### Scraper (`scraper.py`)
-1. Searches r/gtaonline for the latest weekly bonuses/discounts post using the public Reddit JSON API
-2. Parses the post body using regex and line-by-line parsing to extract:
-   - Discounted vehicles (with % off)
-   - Law enforcement vehicle discounts
-   - Luxury Autos showroom listings
-   - Premium Deluxe Motorsport showroom listings
-3. For each vehicle, queries the GTA Fandom wiki API for the page, then scrapes:
-   - Vehicle image (from the infobox)
-   - Stats (top speed, lap time, drive type, etc.)
-   - Price
-4. Marks vehicles as "Removed" if they appear in the known removed vehicles list
+- `scraper.py` — fetches the weekly sticky post from r/gtaonline, parses vehicles, then pulls images, prices, stats and store info from gta.wiki
+- `data.json` — the scraped data served as a static file
+- `index.html` / `style.css` / `app.js` — the frontend, hosted on GitHub Pages
 
-### Server (`server.py`)
-- Flask app exposing:
-  - `GET /api/deals` — returns cached deal data (refreshes every hour)
-  - `POST /api/refresh` — force-clears cache and re-scrapes
+## Running locally
 
-### Frontend (`index.html` + `style.css` + `app.js`)
-- Fetches data from the local API on load
-- Three tab sections: Discounts / Luxury Autos / PDM
-- Each vehicle card shows:
-  - Vehicle image
-  - Name
-  - Discount badge (if discounted) + "Removed" badge (if removed from game)
-  - Original price + sale price (or normal price)
-  - Up to 4 key stats
-  - Link to GTA Wiki page
-- Refresh button to force re-scrape
+**Requirements:** Python 3.9+
 
-## Removed Vehicles
+```bash
+pip install requests beautifulsoup4
+python scraper.py data.json
+```
 
-The `REMOVED_VEHICLES` set in `scraper.py` contains known removed vehicles (no longer purchasable in-game). Update this list manually using the [r/gtaonline removed vehicles wiki](https://www.reddit.com/r/gtaonline/wiki/vehicles/removed_vehicles).
+Then open `index.html` in your browser. You'll need to serve it locally due to CORS:
 
-## Extending
+```bash
+python -m http.server 8080
+```
 
-- To add more vehicle stats, adjust `STAT_PRIORITY` in `app.js`
-- To add more sections (e.g. podium vehicle, prize ride), extend `parse_showroom()` calls in `scraper.py` and add a new grid + nav button in `index.html`
-- To deploy, replace `const API = "http://localhost:5000/api"` in `app.js` with your server URL
+Then visit `http://localhost:8080`.
+
+## Updating the data
+
+Run the scraper to regenerate `data.json` with the latest weekly deals:
+
+```bash
+python scraper.py data.json
+```
+
+GTA Online resets every Wednesday, so that's when you'd want to re-run it.
+
+## Data sources
+
+- Weekly deals — [r/gtaonline](https://reddit.com/r/gtaonline)
+- Vehicle stats & images — [gta.wiki](https://gta.wiki)
+- Fallback data — [GTA Fandom Wiki](https://gta.fandom.com)
