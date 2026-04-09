@@ -315,15 +315,21 @@
           }
         },
         {
-          "name": "Grotti Stinger (available at Premium Deluxe Motorsports)",
+          "name": "Grotti Stinger",
           "discount": 30,
           "removed": false,
-          "wiki_url": "",
-          "image": "",
-          "price": "",
-          "store": "",
-          "previously_available": false,
-          "stats": {}
+          "wiki_url": "https://gta.wiki/w/Stinger",
+          "image": "https://gta.wiki/images/thumb/StingerGT-GTAO-front.png/600px-StingerGT-GTAO-front.png?5a9b2",
+          "price": "$850,000",
+          "store": "Legendary Motorsport",
+          "previously_available": true,
+          "stats": {
+            "Top Speed": "90 / 145",
+            "Gears": "5",
+            "Drivetrain": "RWD",
+            "Mass": "1100 / 2425",
+            "Fuel Tank Size": "65"
+          }
         },
         {
           "name": "Dewbauchee JB 700W",
@@ -789,15 +795,21 @@
       }
     },
     {
-      "name": "Grotti Stinger (available at Premium Deluxe Motorsports)",
+      "name": "Grotti Stinger",
       "discount": 30,
       "removed": false,
-      "wiki_url": "",
-      "image": "",
-      "price": "",
-      "store": "",
-      "previously_available": false,
-      "stats": {}
+      "wiki_url": "https://gta.wiki/w/Stinger",
+      "image": "https://gta.wiki/images/thumb/StingerGT-GTAO-front.png/600px-StingerGT-GTAO-front.png?5a9b2",
+      "price": "$850,000",
+      "store": "Legendary Motorsport",
+      "previously_available": true,
+      "stats": {
+        "Top Speed": "90 / 145",
+        "Gears": "5",
+        "Drivetrain": "RWD",
+        "Mass": "1100 / 2425",
+        "Fuel Tank Size": "65"
+      }
     },
     {
       "name": "Dewbauchee JB 700W",

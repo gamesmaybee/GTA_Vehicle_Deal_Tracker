@@ -21,8 +21,20 @@ GTA_WIKI_BASE = "https://gta.wiki/w"
 # e.g. "Benefactor Schafter (Removed Vehicle)" or "Vapid Ellie (Removed Vehicle)"
 _REMOVED_TAG_RE = re.compile(r"\s*\(Removed Vehicle\)\s*", re.IGNORECASE)
 
+# Also strip store/availability annotations added by post editors
+_ANNOTATION_RE = re.compile(
+    r"\s*\(available at [^)]+\)\s*"
+    r"|\s*\(story mode only\)\s*"
+    r"|\s*\(GTA\+[^)]*\)\s*",
+    re.IGNORECASE
+)
+
 def strip_removed_tag(raw: str) -> tuple[str, bool]:
-    """Return (clean_name, is_removed). Detects the inline '(Removed Vehicle)' tag."""
+    """Return (clean_name, is_removed). Detects the inline '(Removed Vehicle)' tag
+    and strips other editorial annotations like '(available at Premium Deluxe Motorsports)'.
+    """
+    # Strip other annotations first
+    raw = _ANNOTATION_RE.sub("", raw).strip()
     if _REMOVED_TAG_RE.search(raw):
         return _REMOVED_TAG_RE.sub("", raw).strip(), True
     return raw.strip(), False
