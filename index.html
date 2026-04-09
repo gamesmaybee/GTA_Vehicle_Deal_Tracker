@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GTA Car Deals</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="scanline-overlay"></div>
+
+  <header id="site-header">
+    <div class="header-inner">
+      <div class="header-logo">
+        <span class="logo-gta">GTA</span>
+        <span class="logo-online">ONLINE</span>
+      </div>
+      <div class="header-title-block">
+        <h1 class="main-title">CAR DEALS</h1>
+        <p class="date-range" id="date-range">Loading...</p>
+      </div>
+      <div class="header-actions">
+        <a id="post-link" href="#" target="_blank" class="btn-reddit">View on Reddit ↗</a>
+        <button id="refresh-btn" class="btn-refresh">↺ Refresh</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="section-nav">
+    <button class="nav-btn active" data-section="discounts">Discounts</button>
+    <button class="nav-btn" data-section="luxury">Luxury Autos</button>
+    <button class="nav-btn" data-section="pdm">Premium Deluxe</button>
+  </nav>
+
+  <main id="app">
+    <div id="loading" class="loading-screen">
+      <div class="loading-inner">
+        <div class="loading-spinner"></div>
+        <p>Scanning r/gtaonline...</p>
+      </div>
+    </div>
+
+    <div id="error-screen" class="error-screen hidden">
+      <p class="error-msg" id="error-msg">Something went wrong.</p>
+    </div>
+
+    <!-- DISCOUNTS SECTION -->
+    <section id="section-discounts" class="deals-section hidden">
+      <div class="section-header">
+        <h2 class="section-title">DISCOUNTED VEHICLES</h2>
+        <span class="section-subtitle">This week's price drops</span>
+      </div>
+      <div id="grid-discounts"></div>
+    </section>
+
+    <!-- LUXURY AUTOS SECTION -->
+    <section id="section-luxury" class="deals-section hidden">
+      <div class="section-header">
+        <h2 class="section-title">LUXURY AUTOS</h2>
+        <span class="section-subtitle">In-dealership this week</span>
+      </div>
+      <div class="vehicle-grid" id="grid-luxury"></div>
+    </section>
+
+    <!-- PDM SECTION -->
+    <section id="section-pdm" class="deals-section hidden">
+      <div class="section-header">
+        <h2 class="section-title">PREMIUM DELUXE MOTORSPORT</h2>
+        <span class="section-subtitle">Showroom floor vehicles</span>
+      </div>
+      <div class="vehicle-grid" id="grid-pdm"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Data sourced from <a href="https://reddit.com/r/gtaonline" target="_blank">r/gtaonline</a> &amp; <a href="https://gta.fandom.com" target="_blank">GTA Fandom Wiki</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
