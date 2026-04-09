@@ -35,29 +35,75 @@ def _is_weekly_post(title: str) -> bool:
     return "weekly" in t and ("bonus" in t or "discount" in t)
 
 
+def _fetch_post_body(permalink: str) -> str:
+    """Fetch the full post body given a permalink using the JSON API."""
+    url = f"https://www.reddit.com{permalink}.json"
+    try:
+        r = requests.get(url, headers=REDDIT_HEADERS, timeout=30)
+        if r.status_code == 200:
+            data = r.json()
+            return data[0]["data"]["children"][0]["data"].get("selftext", "")
+    except Exception:
+        pass
+    return ""
+
+
 def fetch_weekly_post():
     """Find the current weekly bonuses/discounts post on r/gtaonline.
-    Strategy: try the subreddit front page first (post is always stickied),
-    then fall back to a broader search if not found there.
+    Uses the RSS feed which is less blocked than the JSON API from datacenter IPs.
+    Falls back to JSON API if RSS fails.
     """
     import time as _time
+    import xml.etree.ElementTree as ET
 
-    urls = [
+    # Strategy 1: RSS feed (more permissive than JSON API)
+    rss_urls = [
+        "https://www.reddit.com/r/gtaonline/.rss",
+        "https://www.reddit.com/r/gtaonline/search.rss?q=Weekly+Bonuses+Discounts&restrict_sr=on&sort=new",
+    ]
+    for rss_url in rss_urls:
+        try:
+            _time.sleep(2)
+            r = requests.get(rss_url, headers=REDDIT_HEADERS, timeout=30)
+            if r.status_code != 200:
+                continue
+            root = ET.fromstring(r.text)
+            ns = {"atom": "http://www.w3.org/2005/Atom"}
+            for entry in root.findall(".//atom:entry", ns) or root.findall(".//entry"):
+                title_el = entry.find("{http://www.w3.org/2005/Atom}title") or entry.find("title")
+                link_el = entry.find("{http://www.w3.org/2005/Atom}link") or entry.find("link")
+                if title_el is None:
+                    continue
+                title = title_el.text or ""
+                if _is_weekly_post(title):
+                    link = link_el.get("href", "") if link_el is not None else ""
+                    # Extract permalink from URL
+                    permalink = "/" + "/".join(link.split("/")[3:]) if link else ""
+                    body = _fetch_post_body(permalink) if permalink else ""
+                    return {
+                        "title": title,
+                        "body": body,
+                        "url": link,
+                    }
+        except Exception as e:
+            print(f"RSS attempt failed: {e}")
+            continue
+
+    # Strategy 2: JSON API with retries
+    json_urls = [
         ("https://www.reddit.com/r/gtaonline.json", {}),
         ("https://www.reddit.com/r/gtaonline/search.json",
          {"q": "Weekly Bonuses Discounts", "restrict_sr": "on",
           "sort": "new", "limit": 10, "t": "month"}),
     ]
-
-    for attempt in range(3):  # retry up to 3 times
-        for url, params in urls:
+    for attempt in range(2):
+        for url, params in json_urls:
             try:
-                _time.sleep(3 + attempt * 5)  # increasing delay on retries
+                _time.sleep(5 + attempt * 10)
                 r = requests.get(url, params=params or None,
                                  headers=REDDIT_HEADERS, timeout=30)
-                if r.status_code == 429:
-                    print(f"Rate limited, waiting {10 + attempt * 10}s...")
-                    _time.sleep(10 + attempt * 10)
+                if r.status_code in (403, 429):
+                    print(f"Blocked ({r.status_code}) on attempt {attempt+1}")
                     continue
                 r.raise_for_status()
                 for post in r.json()["data"]["children"]:
@@ -69,7 +115,7 @@ def fetch_weekly_post():
                             "url": "https://reddit.com" + d.get("permalink", ""),
                         }
             except Exception as e:
-                print(f"Attempt {attempt+1} failed for {url}: {e}")
+                print(f"JSON attempt {attempt+1} failed: {e}")
                 continue
 
     return None
