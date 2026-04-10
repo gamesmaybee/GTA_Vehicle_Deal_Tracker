@@ -1,8 +1,8 @@
 """
 GTA Online Weekly Deals Scraper
-- Fetches the weekly sticky post from r/gtaonline
+- Fetches the latest weekly update article from RockstarINTEL
 - Parses discount vehicles, Luxury Autos, and Premium Deluxe Motorsport listings
-- Fetches vehicle stats and images from GTA Fandom wiki
+- Fetches vehicle stats and images from gta.wiki
 """
 
 import re
@@ -104,132 +104,20 @@ def fetch_weekly_post():
 
 
 def parse_date_range(title: str) -> str:
-    """Extract 'April 2nd to April 9th' from the title."""
-    m = re.search(r"[-–]\s*(.+?)(?:\s*\(|$)", title)
+    """Extract date range from title. Handles both formats:
+    - Reddit: 'Weekly Bonuses - April 2nd to April 9th (Not live...)'
+    - RockstarINTEL: 'GTA Online Event Week: New Police Content (April 9th-15th)'
+    """
+    # Reddit format: '- April 2nd to April 9th'
+    m = re.search(r"[-–]\s*((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[^(–-]+?)(?:\s*\(|$)", title, re.IGNORECASE)
     if m:
         return m.group(1).strip()
+    # RockstarINTEL format: '(April 9th-15th)' or '(April 9th - April 16th)'
+    m = re.search(r"\(([^)]*(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[^)]*)\)", title, re.IGNORECASE)
+    if m:
+        return m.group(1).strip().strip(")").strip()
     return title
 
-
-
-# ─── Post Parser ─────────────────────────────────────────────────────────────
-
-def _line_matches_header(line: str, header: str) -> bool:
-    """Match a section header line even if wrapped in markdown # / ** / links."""
-    # Strip leading #s, **, links, and non-breaking spaces then compare
-    cleaned = re.sub(r"^#+\s*", "", line.strip())          # remove leading #
-    cleaned = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", cleaned)  # strip links
-    cleaned = re.sub(r"\*+", "", cleaned)                   # strip bold markers
-    cleaned = cleaned.replace("\xa0", " ").strip().lower()
-    return cleaned.startswith(header.lower())
-
-
-def _is_section_break(line: str) -> bool:
-    """Return True if this line starts a new top-level section."""
-    stripped = line.strip()
-    if re.match(r"^#+\s+", stripped):
-        return True
-    # Bold-only lines used as sub-headers e.g. "**30% Off**"
-    if re.match(r"^\*{2}[^*]+\*{2}\s*$", stripped):
-        return True
-    return False
-
-
-def extract_section(body: str, header: str) -> list[dict]:
-    """Return bullet items under a given markdown section header as dicts with name + removed flag."""
-    lines = body.splitlines()
-    in_section = False
-    items = []
-    for line in lines:
-        stripped = line.strip()
-        if not in_section:
-            if _line_matches_header(stripped, header):
-                in_section = True
-            continue
-        # Stop at the next section header (but not sub-headers like **30% Off**)
-        if re.match(r"^#+\s+", stripped) and not _line_matches_header(stripped, header):
-            break
-        if stripped.startswith(("-", "*")):
-            item = re.sub(r"^[-*]\s*", "", stripped)
-            item = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", item)
-            item = re.sub(r"\*+", "", item)
-            item = item.replace("\xa0", " ").strip()
-            if item:
-                name, removed = strip_removed_tag(item)
-                items.append({"name": name, "removed": removed})
-    return items
-
-
-def _parse_discount_block(lines, start_idx):
-    """Parse bullet+percentage items from lines[start_idx] until next # section."""
-    items = []
-    current_pct = None
-    discount_re = re.compile(r"(\d+)%\s*off", re.IGNORECASE)
-    bullet_re = re.compile(r"^[-*]\s+(.+)")
-    for line in lines[start_idx:]:
-        stripped = line.strip()
-        cleaned = re.sub(r"^#+\s*", "", stripped)
-        cleaned = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", cleaned)
-        cleaned = re.sub(r"\*+", "", cleaned).replace("\xa0", " ").strip()
-        if re.match(r"^#+\s+", stripped):
-            break
-        bullet_match = bullet_re.match(stripped)
-        pct_match = discount_re.search(cleaned)
-        if pct_match and not bullet_match:
-            current_pct = int(pct_match.group(1))
-            continue
-        if bullet_match and current_pct:
-            raw_name = bullet_match.group(1)
-            raw_name = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", raw_name)
-            raw_name = re.sub(r"\*+", "", raw_name).replace("\xa0", " ").strip()
-            if raw_name:
-                name, removed = strip_removed_tag(raw_name)
-                items.append({"name": name, "discount": current_pct, "removed": removed})
-    return items
-
-
-def parse_all_discount_groups(body):
-    """Parse all discount sections, returning named groups.
-    Returns e.g.:
-      [{"group": "Discounts", "vehicles": [...]},
-       {"group": "Law Enforcement Vehicle Discounts", "vehicles": [...]}]
-    """
-    lines = body.splitlines()
-    groups = []
-    discount_header_re = re.compile(r"^#+\s+.*discounts?", re.IGNORECASE)
-    for i, line in enumerate(lines):
-        stripped = line.strip()
-        if not discount_header_re.match(stripped):
-            continue
-        group_name = re.sub(r"^#+\s*", "", stripped)
-        group_name = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", group_name)
-        group_name = re.sub(r"\*+", "", group_name).replace("\xa0", " ")
-        group_name = re.sub(r"\s*\(.*?\)\s*$", "", group_name).strip()
-        vehicles = _parse_discount_block(lines, i + 1)
-        if vehicles:
-            groups.append({"group": group_name, "vehicles": vehicles})
-    return groups
-
-
-def parse_discounts(body):
-    """Flat list of all discounted vehicles across all groups (backward compat)."""
-    items = []
-    for g in parse_all_discount_groups(body):
-        items.extend(g["vehicles"])
-    return items
-
-
-def parse_law_enforcement_discounts(body):
-    for g in parse_all_discount_groups(body):
-        if "law enforcement" in g["group"].lower():
-            return g["vehicles"]
-    return []
-
-
-
-def parse_showroom(body: str, header: str) -> list[dict]:
-    """Parse Luxury Autos or Premium Deluxe Motorsport sections."""
-    return extract_section(body, header)
 
 
 # ─── Fandom Wiki ─────────────────────────────────────────────────────────────
@@ -862,23 +750,14 @@ def enrich_vehicle(name: str, discount: int | None = None, removed: bool = False
 def get_weekly_deals() -> dict:
     post = fetch_weekly_post()
     if not post:
-        raise RuntimeError("Could not find weekly post on r/gtaonline")
+        raise RuntimeError("Could not find weekly post on RockstarINTEL")
 
     body = post["body"]
     date_range = parse_date_range(post["title"])
 
-    # Use appropriate parsers based on source
-    is_intel = post.get("source") == "rockstarintel"
-
-    if is_intel:
-        raw_luxury = intel_parse_showroom(body, "Luxury Autos")
-        raw_pdm = intel_parse_showroom(body, "Premium Deluxe Motorsport")
-        raw_groups = intel_parse_all_discount_groups(body)
-    else:
-        raw_luxury = parse_showroom(body, "Luxury Autos")
-        raw_pdm = parse_showroom(body, "Premium Deluxe Motorsports")
-        raw_groups = [g for g in parse_all_discount_groups(body)
-                      if "gun van" not in g["group"].lower()]
+    raw_luxury = intel_parse_showroom(body, "Luxury Autos")
+    raw_pdm = intel_parse_showroom(body, "Premium Deluxe Motorsport")
+    raw_groups = intel_parse_all_discount_groups(body)
     enriched_groups = []
     for group in raw_groups:
         vehicles = [v for v in group["vehicles"] if is_vehicle(v["name"])]
