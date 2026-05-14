@@ -1,157 +1,327 @@
 {
-  "date_range": "May 7th-13th",
-  "post_url": "https://rockstarintel.com/gta-online-event-week-nightclub-special-may-7th-13th/",
-  "post_title": "GTA Online Event Week: Nightclub Special (May 7th-13th)",
+  "date_range": "May 14th-20th",
+  "post_url": "https://rockstarintel.com/gta-online-event-week-motor-madness-special-may-14th-20th/",
+  "post_title": "GTA Online Event Week: Motor Madness Special (May 14th-20th)",
   "discount_groups": [
     {
       "group": "Discounts",
       "vehicles": [
         {
-          "name": "Canis Freecrawler",
-          "discount": 30,
+          "name": "LS Tuners Racing Suits",
+          "discount": 50,
           "removed": false,
-          "wiki_url": "https://gta.wiki/w/Freecrawler",
-          "image": "https://gta.wiki/images/thumb/Freecrawler-GTAO-front.png/600px-Freecrawler-GTAO-front.png?f7291",
-          "price": "$597,000",
+          "wiki_url": "",
+          "image": "",
+          "price": "",
+          "store": "",
+          "previously_available": false,
+          "stats": {}
+        },
+        {
+          "name": "HSW Performance Upgrades",
+          "discount": 50,
+          "removed": false,
+          "wiki_url": "",
+          "image": "",
+          "price": "",
+          "store": "",
+          "previously_available": false,
+          "stats": {}
+        },
+        {
+          "name": "Benny’s Conversion Upgrades",
+          "discount": 50,
+          "removed": false,
+          "wiki_url": "",
+          "image": "",
+          "price": "",
+          "store": "",
+          "previously_available": false,
+          "stats": {}
+        },
+        {
+          "name": "Turbo Tuning",
+          "discount": 50,
+          "removed": false,
+          "wiki_url": "",
+          "image": "",
+          "price": "",
+          "store": "",
+          "previously_available": false,
+          "stats": {}
+        },
+        {
+          "name": "Blue & Yellow Tire Smoke Customization",
+          "discount": 50,
+          "removed": false,
+          "wiki_url": "",
+          "image": "",
+          "price": "",
+          "store": "",
+          "previously_available": false,
+          "stats": {}
+        },
+        {
+          "name": "Salvage Yard Properties",
+          "discount": 40,
+          "removed": false,
+          "wiki_url": "",
+          "image": "",
+          "price": "",
+          "store": "",
+          "previously_available": false,
+          "stats": {}
+        },
+        {
+          "name": "Eclipse Blvd Garage",
+          "discount": 40,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/Garage",
+          "image": null,
+          "price": "",
+          "store": "",
+          "previously_available": false,
+          "stats": {}
+        },
+        {
+          "name": "Bravado Banshee GTS",
+          "discount": 40,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/Banshee_GTS",
+          "image": "https://gta.wiki/images/thumb/BansheeGTS-GTAOe-FrontQuarter.png/600px-BansheeGTS-GTAOe-FrontQuarter.png?036b9",
+          "price": "$1,989,500",
           "store": "Legendary Motorsport",
           "previously_available": false,
           "stats": {
-            "Top Speed": "84 / 135",
-            "Gears": "4",
-            "Drivetrain": "AWD",
-            "Mass": "2000 / 4409",
-            "Fuel Tank Size": "65"
+            "Max velocity": "182.7 / 113.274",
+            "Gears": "6",
+            "Drivetrain": "RWD",
+            "Mass": "1550 / 3410"
           }
         },
         {
-          "name": "Declasse Drift Tampa",
-          "discount": 30,
+          "name": "Canis Castigator",
+          "discount": 40,
           "removed": false,
-          "wiki_url": "https://gta.wiki/w/Drift_Tampa",
-          "image": "https://gta.wiki/images/thumb/DriftTampa-GTAOee-FrontQuarter.png/600px-DriftTampa-GTAOee-FrontQuarter.png?67180",
-          "price": "$995,000",
+          "wiki_url": "https://gta.wiki/w/Castigator",
+          "image": "https://gta.wiki/images/thumb/Castigator-GTAOe-FrontQuarter.png/600px-Castigator-GTAOe-FrontQuarter.png?f6cdc",
+          "price": "$1,650,000",
           "store": "Southern San Andreas Super Autos",
           "previously_available": false,
           "stats": {
-            "Maximum Velocity": "93 / 150",
-            "Gears": "4",
-            "Drivetrain": "AWD 25% FWD 75% RWD",
-            "Mass": "1100 / 2425",
+            "Max velocity": "159 / 98.58",
+            "Gears": "6",
+            "Drivetrain": "AWD (50% rear, 50% front)",
+            "Mass": "2050 / 4510"
+          }
+        },
+        {
+          "name": "Dewbauchee JB 700",
+          "discount": 40,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/JB_700",
+          "image": "https://gta.wiki/images/thumb/JB700W-GTAO-front.png/600px-JB700W-GTAO-front.png?e662c",
+          "price": "$350,000",
+          "store": "Legendary Motorsport",
+          "previously_available": true,
+          "stats": {
+            "Max velocity": "150 / 93",
+            "Gears": "5",
+            "Drivetrain": "RWD",
+            "Mass": "1600 / 3520"
+          }
+        },
+        {
+          "name": "Dewbauchee Rapid GT Cabrio",
+          "discount": 40,
+          "removed": false,
+          "wiki_url": "",
+          "image": "",
+          "price": "",
+          "store": "",
+          "previously_available": false,
+          "stats": {}
+        },
+        {
+          "name": "Grotti Itali RSX",
+          "discount": 40,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/Itali_RSX",
+          "image": "https://gta.wiki/images/thumb/ItaliRSX-GTAOee-FrontQuarter.png/600px-ItaliRSX-GTAOee-FrontQuarter.png?ad033",
+          "price": "$3,465,000",
+          "store": "Legendary Motorsport",
+          "previously_available": false,
+          "stats": {
+            "Maximum Velocity": "101.38 / 163.15",
+            "Gears": "8",
+            "Drivetrain": "AWD 50% FWD 50% RWD",
+            "Mass": "1600 / 3527",
             "Fuel Tank Size": "65"
           }
         },
         {
-          "name": "Grotti Itali GTO",
-          "discount": 30,
+          "name": "Karin 190z",
+          "discount": 40,
           "removed": false,
-          "wiki_url": "https://gta.wiki/w/Itali_GTO_(HD_Universe)",
-          "image": "https://gta.wiki/images/thumb/ItaliGTO-GTAOee-FrontQuarter.png/600px-ItaliGTO-GTAOee-FrontQuarter.png?ee989",
-          "price": "$1,965,000",
-          "store": "Legendary Motorsport",
-          "previously_available": false,
+          "wiki_url": "https://gta.wiki/w/190z",
+          "image": "https://gta.wiki/images/thumb/190z-GTAO-front.png/600px-190z-GTAO-front.png?30f5a",
+          "price": "$900,000",
+          "store": "no longer available",
+          "previously_available": true,
           "stats": {
-            "Max velocity": "161 / 99.82",
-            "Gears": "6",
-            "Drivetrain": "AWD (50% rear, 50% front)",
-            "Mass": "1520 / 3344"
-          }
-        },
-        {
-          "name": "Grotti Stinger GT",
-          "discount": 30,
-          "removed": false,
-          "wiki_url": "https://gta.wiki/w/Stinger_GT",
-          "image": "https://gta.wiki/images/thumb/StingerGT-GTAO-front.png/600px-StingerGT-GTAO-front.png?5a9b2",
-          "price": "$875,000",
-          "store": "Legendary Motorsport",
-          "previously_available": false,
-          "stats": {
-            "Max velocity": "145 / 89.9",
+            "Max velocity": "140 / 86.8",
             "Gears": "5",
             "Drivetrain": "RWD",
             "Mass": "1100 / 2420"
           }
         },
         {
-          "name": "Karin Boor",
-          "discount": 30,
+          "name": "Lampadati Furore GT",
+          "discount": 40,
           "removed": false,
-          "wiki_url": "https://gta.wiki/w/Boor",
-          "image": "https://gta.wiki/images/thumb/Boor-GTAOe-front.png/600px-Boor-GTAOe-front.png?c9c79",
-          "price": "$1,280,000",
-          "store": "Southern San Andreas Super Autos",
+          "wiki_url": "https://gta.wiki/w/Furore_GT",
+          "image": "https://gta.wiki/images/thumb/FuroreGT-GTAVee-FrontQuarter.png/600px-FuroreGT-GTAVee-FrontQuarter.png?fab68",
+          "price": "$448,000",
+          "store": "Legendary Motorsport",
+          "previously_available": true,
+          "stats": {
+            "Max velocity": "152 / 94.24",
+            "Gears": "6",
+            "Drivetrain": "RWD",
+            "Mass": "1350 / 2970"
+          }
+        },
+        {
+          "name": "Nagasaki Shotaro",
+          "discount": 40,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/Shotaro",
+          "image": "https://gta.wiki/images/thumb/Shotaro-GTAO-front.png/600px-Shotaro-GTAO-front.png?21700",
+          "price": "$2,225,000",
+          "store": "Legendary Motorsport",
           "previously_available": false,
           "stats": {
-            "Maximum Velocity": "92.58 / 149",
-            "Gears": "4",
-            "Drivetrain": "AWD 42.5% FWD 57.5% RWD",
-            "Mass": "930 / 2050.65",
+            "Maximum Velocity": "99.1 / 159.5",
+            "Gears": "6",
+            "Drivetrain": "RWD",
+            "Mass": "230 / 507",
             "Fuel Tank Size": "65"
           }
         },
         {
-          "name": "Pfister 811",
-          "discount": 30,
+          "name": "Överflöd Pipistrello",
+          "discount": 40,
           "removed": false,
-          "wiki_url": "https://gta.wiki/w/811",
-          "image": "https://gta.wiki/images/thumb/811-GTAOee-FrontQuarter.png/600px-811-GTAOee-FrontQuarter.png?792a9",
-          "price": "$1,135,000",
+          "wiki_url": "https://gta.wiki/w/Pipistrello",
+          "image": "https://gta.wiki/images/thumb/Pipistrello-GTAOe-FrontQuarter.png/600px-Pipistrello-GTAOe-FrontQuarter.png?4144b",
+          "price": "$2,950,000",
           "store": "Legendary Motorsport",
           "previously_available": false,
           "stats": {
-            "Max velocity": "159.3 / 98.766",
-            "Gears": "6",
-            "Drivetrain": "AWD (80% rear, 20% front)",
+            "Max velocity": "166 / 102.92",
+            "Gears": "1",
+            "Drivetrain": "AWD (67% rear, 33% front)",
             "Mass": "1600 / 3520"
           }
         },
         {
-          "name": "Übermacht Sentinel Classic",
-          "discount": 30,
+          "name": "Western Rat Bike",
+          "discount": 40,
           "removed": false,
-          "wiki_url": "https://gta.wiki/w/Sentinel_Classic",
-          "image": "https://gta.wiki/images/thumb/SentinelClassic-GTAOee-FrontQuarter.png/600px-SentinelClassic-GTAOee-FrontQuarter.png?efd38",
-          "price": "$650,000",
-          "store": "Southern San Andreas Super Autos",
-          "previously_available": false,
+          "wiki_url": "https://gta.wiki/w/Rat_Bike",
+          "image": "https://gta.wiki/images/thumb/RatBike-GTAO-front.png/600px-RatBike-GTAO-front.png?578ea",
+          "price": "$48,000",
+          "store": "no longer available",
+          "previously_available": true,
           "stats": {
-            "Maximum Velocity": "87 / 140",
+            "Maximum Velocity": "81 / 130",
             "Gears": "5",
             "Drivetrain": "RWD",
-            "Mass": "1100 / 2425",
-            "Fuel Tank Size": "60"
+            "Mass": "180 / 397",
+            "Fuel Tank Size": "65"
           }
         },
         {
-          "name": "Western Company Cargobob",
+          "name": "Bravado Gauntlet Classic",
           "discount": 30,
           "removed": false,
-          "wiki_url": "https://gta.wiki/w/Cargobob_(HD_Universe)",
-          "image": "https://gta.wiki/images/thumb/Cargobob4-GTAO-front.png/600px-Cargobob4-GTAO-front.png?99ba7",
-          "price": "$1,790,000",
-          "store": "Warstock Cache & Carry",
+          "wiki_url": "https://gta.wiki/w/Gauntlet_Classic",
+          "image": "https://gta.wiki/images/thumb/GauntletClassic-GTAO-front.png/600px-GauntletClassic-GTAO-front.png?e10be",
+          "price": "$615,000",
+          "store": "Southern San Andreas Super Autos & Benny's Original Motor Works",
           "previously_available": false,
           "stats": {
-            "Max velocity": "160 / 99.2",
-            "Gears": "1",
+            "Maximum Velocity": "88 / 142",
+            "Gears": "5",
             "Drivetrain": "RWD",
-            "Mass": "15000 / 33000"
+            "Mass": "1350 / 2976",
+            "Fuel Tank Size": "65"
           }
         },
         {
-          "name": "Willard Eudora",
+          "name": "Coil Brawler",
           "discount": 30,
           "removed": false,
-          "wiki_url": "https://gta.wiki/w/Eudora",
-          "image": "https://gta.wiki/images/thumb/Eudora-GTAOe-front.png/600px-Eudora-GTAOe-front.png?14d0d",
-          "price": "$1,250,000",
+          "wiki_url": "https://gta.wiki/w/Brawler",
+          "image": "https://gta.wiki/images/thumb/Brawler-GTAO-October2021Advert.jpg/600px-Brawler-GTAO-October2021Advert.jpg?511b7",
+          "price": "$715,000",
+          "store": "Legendary Motorsport",
+          "previously_available": false,
+          "stats": {
+            "Top Speed": "87 / 140",
+            "Gears": "5",
+            "Drivetrain": "AWD 9% FWD 91% RWD",
+            "Mass": "2100 / 4630",
+            "Fuel Tank Size": "45"
+          }
+        },
+        {
+          "name": "Declasse Impaler SZ",
+          "discount": 30,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/Impaler_SZ",
+          "image": "https://gta.wiki/images/thumb/ImpalerSZ-GTAOe-front.png/600px-ImpalerSZ-GTAOe-front.png?1a66e",
+          "price": "$1,280,000",
           "store": "Southern San Andreas Super Autos",
           "previously_available": false,
           "stats": {
-            "Maximum Velocity": "85.75 / 138",
-            "Gears": "3",
+            "Max velocity": "144 / 89.28",
+            "Gears": "4",
             "Drivetrain": "RWD",
-            "Mass": "2115 / 4663"
+            "Mass": "1830 / 4026"
+          }
+        },
+        {
+          "name": "Lampadati Novak",
+          "discount": 30,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/Novak",
+          "image": "https://gta.wiki/images/thumb/Novak-GTAO-front.png/600px-Novak-GTAO-front.png?5828e",
+          "price": "$608,000",
+          "store": "Legendary Motorsport",
+          "previously_available": false,
+          "stats": {
+            "Maximum Velocity": "95 / 153",
+            "Gears": "8",
+            "Drivetrain": "AWD 40% FWD 60% RWD",
+            "Mass": "2100 / 4630",
+            "Fuel Tank Size": "80"
+          }
+        },
+        {
+          "name": "Übermacht Rhinehart",
+          "discount": 30,
+          "removed": false,
+          "wiki_url": "https://gta.wiki/w/Rhinehart",
+          "image": "https://gta.wiki/images/thumb/Rhinehart-GTAOe-front.png/600px-Rhinehart-GTAOe-front.png?603d0",
+          "price": "$1,598,000",
+          "store": "Southern San Andreas Super Autos",
+          "previously_available": false,
+          "stats": {
+            "Max velocity": "157.2 / 97.464",
+            "Gears": "8",
+            "Drivetrain": "AWD (50% rear, 50% front)",
+            "Mass": "1660 / 3652"
           }
         }
       ]
@@ -159,209 +329,193 @@
   ],
   "discounts": [
     {
-      "name": "Canis Freecrawler",
-      "discount": 30,
+      "name": "LS Tuners Racing Suits",
+      "discount": 50,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Freecrawler",
-      "image": "https://gta.wiki/images/thumb/Freecrawler-GTAO-front.png/600px-Freecrawler-GTAO-front.png?f7291",
-      "price": "$597,000",
+      "wiki_url": "",
+      "image": "",
+      "price": "",
+      "store": "",
+      "previously_available": false,
+      "stats": {}
+    },
+    {
+      "name": "HSW Performance Upgrades",
+      "discount": 50,
+      "removed": false,
+      "wiki_url": "",
+      "image": "",
+      "price": "",
+      "store": "",
+      "previously_available": false,
+      "stats": {}
+    },
+    {
+      "name": "Benny’s Conversion Upgrades",
+      "discount": 50,
+      "removed": false,
+      "wiki_url": "",
+      "image": "",
+      "price": "",
+      "store": "",
+      "previously_available": false,
+      "stats": {}
+    },
+    {
+      "name": "Turbo Tuning",
+      "discount": 50,
+      "removed": false,
+      "wiki_url": "",
+      "image": "",
+      "price": "",
+      "store": "",
+      "previously_available": false,
+      "stats": {}
+    },
+    {
+      "name": "Blue & Yellow Tire Smoke Customization",
+      "discount": 50,
+      "removed": false,
+      "wiki_url": "",
+      "image": "",
+      "price": "",
+      "store": "",
+      "previously_available": false,
+      "stats": {}
+    },
+    {
+      "name": "Salvage Yard Properties",
+      "discount": 40,
+      "removed": false,
+      "wiki_url": "",
+      "image": "",
+      "price": "",
+      "store": "",
+      "previously_available": false,
+      "stats": {}
+    },
+    {
+      "name": "Eclipse Blvd Garage",
+      "discount": 40,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Garage",
+      "image": null,
+      "price": "",
+      "store": "",
+      "previously_available": false,
+      "stats": {}
+    },
+    {
+      "name": "Bravado Banshee GTS",
+      "discount": 40,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Banshee_GTS",
+      "image": "https://gta.wiki/images/thumb/BansheeGTS-GTAOe-FrontQuarter.png/600px-BansheeGTS-GTAOe-FrontQuarter.png?036b9",
+      "price": "$1,989,500",
       "store": "Legendary Motorsport",
       "previously_available": false,
       "stats": {
-        "Top Speed": "84 / 135",
-        "Gears": "4",
-        "Drivetrain": "AWD",
-        "Mass": "2000 / 4409",
-        "Fuel Tank Size": "65"
+        "Max velocity": "182.7 / 113.274",
+        "Gears": "6",
+        "Drivetrain": "RWD",
+        "Mass": "1550 / 3410"
       }
     },
     {
-      "name": "Declasse Drift Tampa",
-      "discount": 30,
+      "name": "Canis Castigator",
+      "discount": 40,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Drift_Tampa",
-      "image": "https://gta.wiki/images/thumb/DriftTampa-GTAOee-FrontQuarter.png/600px-DriftTampa-GTAOee-FrontQuarter.png?67180",
-      "price": "$995,000",
+      "wiki_url": "https://gta.wiki/w/Castigator",
+      "image": "https://gta.wiki/images/thumb/Castigator-GTAOe-FrontQuarter.png/600px-Castigator-GTAOe-FrontQuarter.png?f6cdc",
+      "price": "$1,650,000",
       "store": "Southern San Andreas Super Autos",
       "previously_available": false,
       "stats": {
-        "Maximum Velocity": "93 / 150",
-        "Gears": "4",
-        "Drivetrain": "AWD 25% FWD 75% RWD",
-        "Mass": "1100 / 2425",
+        "Max velocity": "159 / 98.58",
+        "Gears": "6",
+        "Drivetrain": "AWD (50% rear, 50% front)",
+        "Mass": "2050 / 4510"
+      }
+    },
+    {
+      "name": "Dewbauchee JB 700",
+      "discount": 40,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/JB_700",
+      "image": "https://gta.wiki/images/thumb/JB700W-GTAO-front.png/600px-JB700W-GTAO-front.png?e662c",
+      "price": "$350,000",
+      "store": "Legendary Motorsport",
+      "previously_available": true,
+      "stats": {
+        "Max velocity": "150 / 93",
+        "Gears": "5",
+        "Drivetrain": "RWD",
+        "Mass": "1600 / 3520"
+      }
+    },
+    {
+      "name": "Dewbauchee Rapid GT Cabrio",
+      "discount": 40,
+      "removed": false,
+      "wiki_url": "",
+      "image": "",
+      "price": "",
+      "store": "",
+      "previously_available": false,
+      "stats": {}
+    },
+    {
+      "name": "Grotti Itali RSX",
+      "discount": 40,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Itali_RSX",
+      "image": "https://gta.wiki/images/thumb/ItaliRSX-GTAOee-FrontQuarter.png/600px-ItaliRSX-GTAOee-FrontQuarter.png?ad033",
+      "price": "$3,465,000",
+      "store": "Legendary Motorsport",
+      "previously_available": false,
+      "stats": {
+        "Maximum Velocity": "101.38 / 163.15",
+        "Gears": "8",
+        "Drivetrain": "AWD 50% FWD 50% RWD",
+        "Mass": "1600 / 3527",
         "Fuel Tank Size": "65"
       }
     },
     {
-      "name": "Grotti Itali GTO",
-      "discount": 30,
+      "name": "Karin 190z",
+      "discount": 40,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Itali_GTO_(HD_Universe)",
-      "image": "https://gta.wiki/images/thumb/ItaliGTO-GTAOee-FrontQuarter.png/600px-ItaliGTO-GTAOee-FrontQuarter.png?ee989",
-      "price": "$1,965,000",
-      "store": "Legendary Motorsport",
-      "previously_available": false,
+      "wiki_url": "https://gta.wiki/w/190z",
+      "image": "https://gta.wiki/images/thumb/190z-GTAO-front.png/600px-190z-GTAO-front.png?30f5a",
+      "price": "$900,000",
+      "store": "no longer available",
+      "previously_available": true,
       "stats": {
-        "Max velocity": "161 / 99.82",
-        "Gears": "6",
-        "Drivetrain": "AWD (50% rear, 50% front)",
-        "Mass": "1520 / 3344"
-      }
-    },
-    {
-      "name": "Grotti Stinger GT",
-      "discount": 30,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Stinger_GT",
-      "image": "https://gta.wiki/images/thumb/StingerGT-GTAO-front.png/600px-StingerGT-GTAO-front.png?5a9b2",
-      "price": "$875,000",
-      "store": "Legendary Motorsport",
-      "previously_available": false,
-      "stats": {
-        "Max velocity": "145 / 89.9",
+        "Max velocity": "140 / 86.8",
         "Gears": "5",
         "Drivetrain": "RWD",
         "Mass": "1100 / 2420"
       }
     },
     {
-      "name": "Karin Boor",
-      "discount": 30,
+      "name": "Lampadati Furore GT",
+      "discount": 40,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Boor",
-      "image": "https://gta.wiki/images/thumb/Boor-GTAOe-front.png/600px-Boor-GTAOe-front.png?c9c79",
-      "price": "$1,280,000",
-      "store": "Southern San Andreas Super Autos",
-      "previously_available": false,
-      "stats": {
-        "Maximum Velocity": "92.58 / 149",
-        "Gears": "4",
-        "Drivetrain": "AWD 42.5% FWD 57.5% RWD",
-        "Mass": "930 / 2050.65",
-        "Fuel Tank Size": "65"
-      }
-    },
-    {
-      "name": "Pfister 811",
-      "discount": 30,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/811",
-      "image": "https://gta.wiki/images/thumb/811-GTAOee-FrontQuarter.png/600px-811-GTAOee-FrontQuarter.png?792a9",
-      "price": "$1,135,000",
+      "wiki_url": "https://gta.wiki/w/Furore_GT",
+      "image": "https://gta.wiki/images/thumb/FuroreGT-GTAVee-FrontQuarter.png/600px-FuroreGT-GTAVee-FrontQuarter.png?fab68",
+      "price": "$448,000",
       "store": "Legendary Motorsport",
-      "previously_available": false,
-      "stats": {
-        "Max velocity": "159.3 / 98.766",
-        "Gears": "6",
-        "Drivetrain": "AWD (80% rear, 20% front)",
-        "Mass": "1600 / 3520"
-      }
-    },
-    {
-      "name": "Übermacht Sentinel Classic",
-      "discount": 30,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Sentinel_Classic",
-      "image": "https://gta.wiki/images/thumb/SentinelClassic-GTAOee-FrontQuarter.png/600px-SentinelClassic-GTAOee-FrontQuarter.png?efd38",
-      "price": "$650,000",
-      "store": "Southern San Andreas Super Autos",
-      "previously_available": false,
-      "stats": {
-        "Maximum Velocity": "87 / 140",
-        "Gears": "5",
-        "Drivetrain": "RWD",
-        "Mass": "1100 / 2425",
-        "Fuel Tank Size": "60"
-      }
-    },
-    {
-      "name": "Western Company Cargobob",
-      "discount": 30,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Cargobob_(HD_Universe)",
-      "image": "https://gta.wiki/images/thumb/Cargobob4-GTAO-front.png/600px-Cargobob4-GTAO-front.png?99ba7",
-      "price": "$1,790,000",
-      "store": "Warstock Cache & Carry",
-      "previously_available": false,
-      "stats": {
-        "Max velocity": "160 / 99.2",
-        "Gears": "1",
-        "Drivetrain": "RWD",
-        "Mass": "15000 / 33000"
-      }
-    },
-    {
-      "name": "Willard Eudora",
-      "discount": 30,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Eudora",
-      "image": "https://gta.wiki/images/thumb/Eudora-GTAOe-front.png/600px-Eudora-GTAOe-front.png?14d0d",
-      "price": "$1,250,000",
-      "store": "Southern San Andreas Super Autos",
-      "previously_available": false,
-      "stats": {
-        "Maximum Velocity": "85.75 / 138",
-        "Gears": "3",
-        "Drivetrain": "RWD",
-        "Mass": "2115 / 4663"
-      }
-    }
-  ],
-  "luxury_autos": [
-    {
-      "name": "Dinka Chavos V6",
-      "discount": null,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Chavos_V6",
-      "image": "https://gta.wiki/images/thumb/ChavosV6-GTAOee-FrontQuarter.png/600px-ChavosV6-GTAOee-FrontQuarter.png?8f2cc",
-      "price": "$1,420,000",
-      "store": "Southern San Andreas Super Autos",
-      "previously_available": false,
-      "stats": {
-        "Max velocity": "146 / 90.52",
-        "Gears": "5",
-        "Drivetrain": "RWD",
-        "Mass": "1430 / 3146"
-      }
-    },
-    {
-      "name": "Pfister X-treme",
-      "discount": null,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/X-treme",
-      "image": "https://gta.wiki/images/thumb/Xtreme-GTAOee-FrontQuarter.png/600px-Xtreme-GTAOee-FrontQuarter.png?96712",
-      "price": "$2,885,000",
-      "store": "Legendary Motorsport",
-      "previously_available": false,
-      "stats": {
-        "Max velocity": "174 / 107.88",
-        "Gears": "1",
-        "Drivetrain": "AWD (81% rear, 19% front)",
-        "Mass": "1500 / 3300"
-      }
-    }
-  ],
-  "pdm": [
-    {
-      "name": "Motorsport: Dewbauchee Exemplar",
-      "discount": null,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Exemplar",
-      "image": "https://gta.wiki/images/thumb/Exemplar-GTAV-front.png/600px-Exemplar-GTAV-front.png?ceb2d",
-      "price": "$205,000",
-      "store": "Southern San Andreas Super Autos",
       "previously_available": true,
       "stats": {
-        "Top Speed": "90 / 145",
+        "Max velocity": "152 / 94.24",
         "Gears": "6",
         "Drivetrain": "RWD",
-        "Mass": "1800 / 3968",
-        "Fuel Tank Size": "65"
+        "Mass": "1350 / 2970"
       }
     },
     {
       "name": "Nagasaki Shotaro",
-      "discount": null,
+      "discount": 40,
       "removed": false,
       "wiki_url": "https://gta.wiki/w/Shotaro",
       "image": "https://gta.wiki/images/thumb/Shotaro-GTAO-front.png/600px-Shotaro-GTAO-front.png?21700",
@@ -377,53 +531,226 @@
       }
     },
     {
-      "name": "Vulcar Warrener",
-      "discount": null,
+      "name": "Överflöd Pipistrello",
+      "discount": 40,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Warrener",
-      "image": "https://gta.wiki/images/thumb/Warrener-GTAO-Grilles-StockGrille.png/600px-Warrener-GTAO-Grilles-StockGrille.png?53722",
-      "price": "$120,000",
-      "store": "Southern San Andreas Super Autos",
-      "previously_available": true,
+      "wiki_url": "https://gta.wiki/w/Pipistrello",
+      "image": "https://gta.wiki/images/thumb/Pipistrello-GTAOe-FrontQuarter.png/600px-Pipistrello-GTAOe-FrontQuarter.png?4144b",
+      "price": "$2,950,000",
+      "store": "Legendary Motorsport",
+      "previously_available": false,
       "stats": {
-        "Top Speed": "87 / 140",
-        "Gears": "5",
-        "Drivetrain": "RWD",
-        "Mass": "1300 / 2866",
-        "Fuel Tank Size": "65"
+        "Max velocity": "166 / 102.92",
+        "Gears": "1",
+        "Drivetrain": "AWD (67% rear, 33% front)",
+        "Mass": "1600 / 3520"
       }
     },
     {
-      "name": "Weeny Dynasty",
-      "discount": null,
+      "name": "Western Rat Bike",
+      "discount": 40,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Dynasty",
-      "image": "https://gta.wiki/images/thumb/Dynasty-GTAO-front.png/600px-Dynasty-GTAO-front.png?ffc7d",
-      "price": "$450,000",
+      "wiki_url": "https://gta.wiki/w/Rat_Bike",
+      "image": "https://gta.wiki/images/thumb/RatBike-GTAO-front.png/600px-RatBike-GTAO-front.png?578ea",
+      "price": "$48,000",
       "store": "no longer available",
       "previously_available": true,
       "stats": {
-        "Maximum Velocity": "73 / 118",
+        "Maximum Velocity": "81 / 130",
         "Gears": "5",
         "Drivetrain": "RWD",
-        "Mass": "1100 / 2425",
+        "Mass": "180 / 397",
         "Fuel Tank Size": "65"
       }
     },
     {
-      "name": "Western Daemon (Custom)",
+      "name": "Bravado Gauntlet Classic",
+      "discount": 30,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Gauntlet_Classic",
+      "image": "https://gta.wiki/images/thumb/GauntletClassic-GTAO-front.png/600px-GauntletClassic-GTAO-front.png?e10be",
+      "price": "$615,000",
+      "store": "Southern San Andreas Super Autos & Benny's Original Motor Works",
+      "previously_available": false,
+      "stats": {
+        "Maximum Velocity": "88 / 142",
+        "Gears": "5",
+        "Drivetrain": "RWD",
+        "Mass": "1350 / 2976",
+        "Fuel Tank Size": "65"
+      }
+    },
+    {
+      "name": "Coil Brawler",
+      "discount": 30,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Brawler",
+      "image": "https://gta.wiki/images/thumb/Brawler-GTAO-October2021Advert.jpg/600px-Brawler-GTAO-October2021Advert.jpg?511b7",
+      "price": "$715,000",
+      "store": "Legendary Motorsport",
+      "previously_available": false,
+      "stats": {
+        "Top Speed": "87 / 140",
+        "Gears": "5",
+        "Drivetrain": "AWD 9% FWD 91% RWD",
+        "Mass": "2100 / 4630",
+        "Fuel Tank Size": "45"
+      }
+    },
+    {
+      "name": "Declasse Impaler SZ",
+      "discount": 30,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Impaler_SZ",
+      "image": "https://gta.wiki/images/thumb/ImpalerSZ-GTAOe-front.png/600px-ImpalerSZ-GTAOe-front.png?1a66e",
+      "price": "$1,280,000",
+      "store": "Southern San Andreas Super Autos",
+      "previously_available": false,
+      "stats": {
+        "Max velocity": "144 / 89.28",
+        "Gears": "4",
+        "Drivetrain": "RWD",
+        "Mass": "1830 / 4026"
+      }
+    },
+    {
+      "name": "Lampadati Novak",
+      "discount": 30,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Novak",
+      "image": "https://gta.wiki/images/thumb/Novak-GTAO-front.png/600px-Novak-GTAO-front.png?5828e",
+      "price": "$608,000",
+      "store": "Legendary Motorsport",
+      "previously_available": false,
+      "stats": {
+        "Maximum Velocity": "95 / 153",
+        "Gears": "8",
+        "Drivetrain": "AWD 40% FWD 60% RWD",
+        "Mass": "2100 / 4630",
+        "Fuel Tank Size": "80"
+      }
+    },
+    {
+      "name": "Übermacht Rhinehart",
+      "discount": 30,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Rhinehart",
+      "image": "https://gta.wiki/images/thumb/Rhinehart-GTAOe-front.png/600px-Rhinehart-GTAOe-front.png?603d0",
+      "price": "$1,598,000",
+      "store": "Southern San Andreas Super Autos",
+      "previously_available": false,
+      "stats": {
+        "Max velocity": "157.2 / 97.464",
+        "Gears": "8",
+        "Drivetrain": "AWD (50% rear, 50% front)",
+        "Mass": "1660 / 3652"
+      }
+    }
+  ],
+  "luxury_autos": [
+    {
+      "name": "Übermacht Sentinel XS4",
       "discount": null,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Daemon",
-      "image": "https://gta.wiki/images/thumb/Daemon2-GTAO-front.png/600px-Daemon2-GTAO-front.png?9cb11",
+      "wiki_url": "https://gta.wiki/w/Sentinel_XS4",
+      "image": "https://gta.wiki/images/thumb/SentinelXS4-GTAOee-FrontQuarter.png/600px-SentinelXS4-GTAOee-FrontQuarter.png?0df7d",
+      "price": "$1,429,000",
+      "store": "Southern San Andreas Super Autos",
+      "previously_available": false,
+      "stats": {
+        "Max velocity": "160 / 99.2",
+        "Gears": "5",
+        "Drivetrain": "RWD",
+        "Mass": "1440 / 3168"
+      }
+    },
+    {
+      "name": "Vapid FMJ MK V wrapped in the new Water Like livery",
+      "discount": null,
+      "removed": false,
+      "wiki_url": "",
+      "image": "",
       "price": "",
       "store": "",
       "previously_available": false,
+      "stats": {}
+    }
+  ],
+  "pdm": [
+    {
+      "name": "Dewbauchee JB 700",
+      "discount": 40,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/JB_700",
+      "image": "https://gta.wiki/images/thumb/JB700W-GTAO-front.png/600px-JB700W-GTAO-front.png?e662c",
+      "price": "$350,000",
+      "store": "Legendary Motorsport",
+      "previously_available": true,
       "stats": {
-        "Max velocity": "135 / 83.7",
-        "Gears": "4",
+        "Max velocity": "150 / 93",
+        "Gears": "5",
         "Drivetrain": "RWD",
-        "Mass": "250 / 550"
+        "Mass": "1600 / 3520"
+      }
+    },
+    {
+      "name": "Dewbauchee Rapid GT Cabrio",
+      "discount": 40,
+      "removed": false,
+      "wiki_url": "",
+      "image": "",
+      "price": "",
+      "store": "",
+      "previously_available": false,
+      "stats": {}
+    },
+    {
+      "name": "Karin 190z",
+      "discount": 40,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/190z",
+      "image": "https://gta.wiki/images/thumb/190z-GTAO-front.png/600px-190z-GTAO-front.png?30f5a",
+      "price": "$900,000",
+      "store": "no longer available",
+      "previously_available": true,
+      "stats": {
+        "Max velocity": "140 / 86.8",
+        "Gears": "5",
+        "Drivetrain": "RWD",
+        "Mass": "1100 / 2420"
+      }
+    },
+    {
+      "name": "Lampadati Furore GT",
+      "discount": 40,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Furore_GT",
+      "image": "https://gta.wiki/images/thumb/FuroreGT-GTAVee-FrontQuarter.png/600px-FuroreGT-GTAVee-FrontQuarter.png?fab68",
+      "price": "$448,000",
+      "store": "Legendary Motorsport",
+      "previously_available": true,
+      "stats": {
+        "Max velocity": "152 / 94.24",
+        "Gears": "6",
+        "Drivetrain": "RWD",
+        "Mass": "1350 / 2970"
+      }
+    },
+    {
+      "name": "Western Rat Bike",
+      "discount": 40,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Rat_Bike",
+      "image": "https://gta.wiki/images/thumb/RatBike-GTAO-front.png/600px-RatBike-GTAO-front.png?578ea",
+      "price": "$48,000",
+      "store": "no longer available",
+      "previously_available": true,
+      "stats": {
+        "Maximum Velocity": "81 / 130",
+        "Gears": "5",
+        "Drivetrain": "RWD",
+        "Mass": "180 / 397",
+        "Fuel Tank Size": "65"
       }
     }
   ]
