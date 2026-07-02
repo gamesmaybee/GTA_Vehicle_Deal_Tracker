@@ -1,0 +1,668 @@
+Created By Broughy1322,,"Ordered by class, then race tier where applicable, then lap time. More info -> https://broughy.com/cartesting",,,,,,
+Class,Vehicle,Tier,Lap Time (m:ss.000),Lap Time Position,,Top Speed (mph),Top Speed Position,
+,,,,In Class,Overall,,In Class,Overall
+Commercial,Hauler Custom,-,1:18.434,1,513,101.25,3,476
+Commercial,Phantom Custom,-,1:19.283,2,525,103.5,2,450
+Commercial,Phantom Wedge,-,1:20.080,3,534,98.25,4,524
+Commercial,Cerberus,-,1:25.602,4,579,106.25,1,411
+Commercial,Terrorbyte,-,1:28.841,5,591,87.5,7,586
+Commercial,Benson,-,1:32.309,6,601,91.75,6,563
+Commercial,Pounder Custom,-,1:32.826,7,602,95.25,5,550
+Commercial,Phantom,-,1:34.595,8,603,83.25,12,606
+Commercial,Stockade,-,1:37.814,9,608,85.75,9,595
+Commercial,Packer,-,1:38.031,10,610,85.75,10,596
+Commercial,Mule Custom,-,1:40.017,11,616,76.5,13,621
+Commercial,Biff,-,1:41.835,12,621,85.25,11,597
+Commercial,Mule (Armored),-,1:43.770,13,625,72.5,15,626
+Commercial,Hauler,-,1:44.188,14,629,74.5,14,622
+Commercial,Pounder,-,1:46.940,15,638,86.75,8,590
+Commercial,Mule,-,1:50.294,16,643,71,16,633
+Compacts,Brioso R/A (HSW),S,1:05.383,1,209,132.5,1,39
+Compacts,Club,S,1:06.600,2,252,112.5,2,330
+Compacts,Brioso R/A,A,1:10.436,3,350,103.75,7,444
+Compacts,Blista Kanjo,B,1:13.473,4,426,108.75,3,379
+Compacts,Rhapsody,C,1:14.056,5,433,103,8,452
+Compacts,Panto,C,1:14.057,6,434,100.75,10,485
+Compacts,Weevil,D,1:15.642,7,467,102.5,9,458
+Compacts,Blista,D,1:15.993,8,473,105,5,432
+Compacts,Brioso 300 Widebody,E,1:16.442,9,484,96,12,542
+Compacts,Prairie,E,1:16.476,10,485,104,6,441
+Compacts,Issi,E,1:16.542,11,488,105.5,4,422
+Compacts,Asbo,E,1:17.010,12,495,96.5,11,537
+Compacts,Issi Classic,F,1:18.695,13,516,94.75,13,552
+Compacts,Dilettante,G,1:22.165,14,548,88.5,14,583
+Compacts,Brioso 300,G,1:23.950,15,566,86,15,593
+Compacts (NR),Issi (Arena),-,1:07.368,1,268,124.25,1,114
+Compacts (NR),Dilettante (Patrol),-,1:23.667,2,563,85.75,2,594
+Coupes,Euros X32 (HSW),S,1:03.496,1,128,131,2,47
+Coupes,FR36,S,1:04.214,2,162,121.5,3,159
+Coupes,Previon,A,1:04.731,3,180,115.25,12,284
+Coupes,Sentinel XS (HSW),A,1:05.478,4,213,136.5,1,28
+Coupes,Zion,B,1:06.512,5,245,118,7,236
+Coupes,Zion Cabrio,B,1:06.528,6,246,118,8,237
+Coupes,Felon,B,1:06.788,7,257,114.75,13,291
+Coupes,Euros X32,C,1:07.400,8,269,113,16,320
+Coupes,Exemplar,C,1:07.552,9,278,117.5,9,246
+Coupes,Jackal,C,1:07.632,10,280,114.5,15,296
+Coupes,Sentinel XS,D,1:09.119,11,313,116,10,276
+Coupes,Cognoscenti Cabrio,E,1:10.120,12,339,112.75,17,327
+Coupes,F620,E,1:10.270,13,344,118.25,5,232
+Coupes,Felon GT,F,1:10.654,14,353,111,19,352
+Coupes,Sentinel,F,1:10.787,15,360,112.5,18,335
+Coupes,Oracle,F,1:11.021,16,366,115.5,11,283
+Coupes,Oracle XS,G,1:11.822,17,387,114.75,14,294
+Coupes,Windsor,G,1:11.938,18,391,118.5,4,225
+Coupes,Kanjo SJ,G,1:12.322,19,402,107.25,20,398
+Coupes,Windsor Drop,G,1:12.359,20,405,118.25,6,234
+Coupes,Postlude,H,1:14.541,21,445,103,21,453
+Emergency,Buffalo STX Pursuit,-,1:02.145,1,92,128.75,3,56
+Emergency,Police Bike (2025),-,1:02.497,2,100,156.75,1,7
+Emergency,Coquette D10 Pursuit,-,1:02.796,3,105,133.75,2,37
+Emergency,Dominator FX Interceptor,-,1:03.664,4,131,124,4,115
+Emergency,Terminus Patrol,-,1:03.964,5,147,119.5,7,201
+Emergency,Gauntlet Interceptor,-,1:04.814,6,187,122,5,153
+Emergency,Buffalo Cruiser,-,1:05.165,7,197,116.5,10,261
+Emergency,Impaler SZ Cruiser,-,1:06.383,8,238,118.25,8,231
+Emergency,Impaler LX Cruiser,-,1:07.351,9,266,117,9,252
+Emergency,Caracara Pursuit,-,1:09.070,10,312,104.75,18,433
+Emergency,Police Bike (2013),-,1:09.553,11,324,100.5,25,487
+Emergency,Greenwood Cruiser,-,1:09.669,12,328,121.5,6,162
+Emergency,Outreach Faction,-,1:09.753,13,329,114.75,11,293
+Emergency,Stanier LE Cruiser,-,1:09.820,14,331,114.25,12,300
+Emergency,Dorado Cruiser,-,1:10.269,15,343,112.75,13,328
+Emergency,Police Cruiser (Interceptor),-,1:10.370,16,349,110,15,364
+Emergency,Unmarked Cruiser,-,1:11.572,17,382,111,14,354
+Emergency,FIB (Buffalo),-,1:13.106,18,419,107,16,401
+Emergency,Police Cruiser (Buffalo),-,1:13.371,19,423,106.5,17,407
+Emergency,Police Cruiser (Stanier),-,1:15.502,20,464,102.75,20,456
+Emergency,Park Ranger,-,1:16.293,21,481,102,22,468
+Emergency,Sheriff Cruiser,-,1:16.343,22,483,102.25,21,464
+Emergency,Lifeguard,-,1:18.238,23,509,103,19,454
+Emergency,Sheriff SUV,-,1:19.345,24,527,96.5,28,538
+Emergency,FIB (SUV),-,1:19.413,25,528,96.5,29,539
+Emergency,Police Roadcruiser,-,1:19.867,26,533,101.5,24,474
+Emergency,Burrito (Bail Enforcement),-,1:22.876,27,556,102,23,470
+Emergency,Ambulance,-,1:23.483,28,560,98,26,527
+Emergency,Police Rancher,-,1:25.337,29,578,89.5,32,582
+Emergency,Police Transporter,-,1:28.472,30,588,91,31,570
+Emergency,Fire Truck,-,1:29.340,31,595,96,30,543
+Emergency,RCV,-,1:30.007,32,597,96.75,27,536
+Emergency,Police Riot,-,1:39.132,33,612,86.25,33,592
+Emergency,Prison Bus,-,1:56.617,34,651,65.25,34,644
+Industrial,Guardian,-,1:17.044,1,497,100.75,1,486
+Industrial,Flatbed,-,1:36.096,2,605,77,5,619
+Industrial,Custom Flatbed,-,1:36.129,3,606,77,6,620
+Industrial,Mixer (3-Axle),-,1:42.669,4,622,85.25,2,598
+Industrial,Rubble,-,1:42.953,5,623,78,4,618
+Industrial,Mixer (4-Axle),-,1:43.971,6,627,82.25,3,608
+Industrial,Tipper (2-Axle),-,1:44.237,7,630,71,8,631
+Industrial,Tipper (3-Axle),-,1:46.787,8,637,74,7,625
+Industrial,Dump,-,3:03.133,9,658,32.25,9,658
+Industrial,Dock Handler,-,3:05.852,10,659,32,10,659
+Industrial,Cutter,-,3:08.049,11,660,31.25,11,660
+Industrial,Dozer,-,8:38.251,12,665,11,12,665
+Military,Barrage,-,1:12.339,1,403,108.5,2,382
+Military,Scarab,-,1:24.150,2,568,74.25,6,623
+Military,Crusader,-,1:24.735,3,571,90.5,3,577
+Military,APC,-,1:28.872,4,592,63,8,645
+Military,Barracks Semi,-,1:37.163,5,607,83.25,5,607
+Military,Thruster,-,1:39.550,6,614,127,1,76
+Military,Barracks,-,1:41.101,7,619,84.25,4,599
+Military,Chernobog,-,1:48.491,8,640,70.75,7,634
+Military,Half-Track,-,1:51.061,9,644,58,10,650
+Military,Vetir,-,1:51.178,10,645,63,9,646
+Military,TM-02 Khanjali,-,2:19.189,11,654,42.25,11,654
+Military,Rhino Tank,-,2:23.910,12,655,40.75,12,655
+Military,Invade and Persuade Tank,-,3:38.443,13,663,26.75,13,663
+Muscle,Vigero ZX (HSW),S,1:02.062,1,87,158,2,5
+Muscle,Vigero ZX Convertible (HSW),S,1:02.079,2,88,158,3,6
+Muscle,Buffalo EVX (HSW),S,1:02.546,3,101,144.75,4,18
+Muscle,Dominator GT,S,1:02.880,4,107,123,14,129
+Muscle,Buffalo STX,S,1:03.147,5,118,126,8,85
+Muscle,Dominator FX,S,1:03.880,6,143,122,15,152
+Muscle,Dominator ASP,A,1:05.182,7,198,118.75,22,220
+Muscle,Vigero ZX,A,1:05.208,8,200,125,10,107
+Muscle,Vigero ZX Convertible,A,1:05.299,9,204,125,11,108
+Muscle,Weevil Custom,A,1:05.365,10,207,137.5,6,26
+Muscle,Arbiter GT (HSW),A,1:05.399,11,210,142,5,21
+Muscle,Yosemite,A,1:05.532,12,215,115,33,286
+Muscle,Buffalo EVX,A,1:06.132,13,229,119,21,214
+Muscle,Dominator GTT,B,1:06.306,14,237,115,34,287
+Muscle,Clique,B,1:06.399,15,240,116.25,27,267
+Muscle,Drift Yosemite,B,1:06.600,16,253,107.5,63,395
+Muscle,Sabre Turbo Custom,B,1:06.750,17,254,121.25,16,167
+Muscle,Pisswasser Dominator,B,1:06.767,18,256,125,12,109
+Muscle,Ruiner ZZ-8,B,1:06.817,19,259,116.25,28,268
+Muscle,Impaler SZ,B,1:07.101,20,263,117,25,251
+Muscle,Tampa GT (HSW),B,1:07.451,22,272,166,1,3
+Muscle,Greenwood,C,1:07.434,21,270,119.5,19,205
+Muscle,Impaler,C,1:07.902,23,290,115.75,30,277
+Muscle,Dominator GTX,C,1:07.951,24,291,108.5,61,380
+Muscle,Impaler LX,C,1:07.969,25,292,115.5,31,281
+Muscle,Dominator,C,1:08.118,26,294,120.75,17,177
+Muscle,Gauntlet Hellfire,C,1:09.019,29,309,125,13,110
+Muscle,Dukes,D,1:08.619,27,299,112.75,43,326
+Muscle,Blade,D,1:08.634,28,300,110.5,54,358
+Muscle,Coquette BlackFin,D,1:09.135,30,314,115,35,289
+Muscle,Ruiner,D,1:09.136,31,315,119.5,20,206
+Muscle,Sabre Turbo,D,1:09.452,32,321,111.25,49,349
+Muscle,Duke O'Death,D,1:09.519,33,323,114.5,36,297
+Muscle,Vamos,E,1:09.753,34,330,110.75,52,356
+Muscle,Tulip,E,1:09.904,35,334,112.25,46,337
+Muscle,Arbiter GT,E,1:10.054,36,338,111.5,48,346
+Muscle,Beater Dukes,E,1:10.153,37,341,112.5,44,333
+Muscle,Hermes,E,1:10.270,38,345,115.5,32,282
+Muscle,Tampa GT,E,1:10.303,39,346,130.5,7,52
+Muscle,Slamvan Custom,E,1:10.354,40,348,118,24,240
+Muscle,Gauntlet Classic Custom,E,1:10.537,41,351,125.25,9,100
+Muscle,Tampa,F,1:10.688,42,356,105.75,65,416
+Muscle,Tahoma Coupe,F,1:10.738,43,357,112.25,47,338
+Muscle,Burger Shot Stallion,F,1:10.754,44,358,113.75,40,304
+Muscle,Redwood Gauntlet,F,1:10.854,45,361,116.25,29,270
+Muscle,Tulip M-100,F,1:10.938,47,365,116.75,26,258
+Muscle,Deviant,G,1:10.904,46,364,108,62,391
+Muscle,Stallion,G,1:11.055,48,367,110.75,53,357
+Muscle,Phoenix,G,1:11.104,49,368,114,38,302
+Muscle,Hustler,G,1:11.454,50,376,120.5,18,183
+Muscle,Gauntlet,G,1:11.505,51,379,114,39,303
+Muscle,Gauntlet Classic,G,1:11.589,52,383,109.5,55,367
+Muscle,Buccaneer,H,1:12.055,53,393,113.25,41,312
+Muscle,Buccaneer Custom,H,1:12.105,54,394,113.25,42,313
+Muscle,Vigero,H,1:12.155,55,397,112.5,45,336
+Muscle,Nightshade,H,1:12.489,56,407,105.25,68,428
+Muscle,Faction Custom,H,1:12.989,57,417,111.25,50,350
+Muscle,Peyote Gasser,H,1:12.991,58,418,118.5,23,226
+Muscle,Ellie,H,1:13.172,59,421,105.5,66,418
+Muscle,Lurcher,H,1:13.757,60,430,114.5,37,298
+Muscle,Faction Custom Donk,I,1:14.608,61,447,98.25,77,523
+Muscle,Virgo Classic Custom,I,1:14.808,62,451,104.5,69,435
+Muscle,Faction,I,1:14.908,63,454,111.25,51,351
+Muscle,Picador,I,1:15.059,64,458,102.25,71,462
+Muscle,Moonbeam Custom,I,1:15.458,65,463,102.25,72,463
+Muscle,Brigham,J,1:15.559,66,465,105.5,67,421
+Muscle,Manana Custom,J,1:15.726,67,469,109,58,375
+Muscle,Eudora,J,1:16.776,68,493,109,59,376
+Muscle,Virgo,K,1:17.624,69,502,97.5,78,530
+Muscle,Broadway,K,1:17.978,70,504,100,75,491
+Muscle,Chino,L,1:18.028,71,507,94,81,558
+Muscle,Hotknife,L,1:18.362,72,510,109.5,56,368
+Muscle,Lost Slamvan,L,1:18.462,73,514,109.5,57,369
+Muscle,Chino Custom,L,1:18.545,74,515,95.25,80,547
+Muscle,Clique Wagon,M,1:19.296,75,526,91,82,569
+Muscle,Moonbeam,M,1:19.729,76,532,102.25,73,465
+Muscle,Virgo Classic,N,1:20.264,77,536,97,79,533
+Muscle,Voodoo Custom,N,1:20.748,78,538,101,74,483
+Muscle,Voodoo,N,1:21.882,79,546,99.5,76,500
+Muscle,Rat-Truck,O,1:22.649,80,553,106,64,415
+Muscle,Rat-Loader,O,1:23.734,81,564,103,70,455
+Muscle,Slamvan,O,1:23.800,82,565,109,60,378
+Muscle (NR),Impaler (Arena),-,1:04.398,1,170,129,3,55
+Muscle (NR),Dominator (Arena),-,1:04.882,2,189,134,2,36
+Muscle (NR),Imperator,-,1:05.916,3,223,135,1,34
+Muscle (NR),Weaponized Tampa,-,1:09.986,4,335,112,6,342
+Muscle (NR),Ruiner 2000,-,1:11.371,5,375,119,5,217
+Muscle (NR),Slamvan (Arena),-,1:14.758,6,450,120,4,194
+Off-Road,MonstroCiti (HSW),S,1:00.327,1,44,135.75,2,32
+Off-Road,Firebolt ASP (HSW),S,1:00.828,2,61,139.25,1,23
+Off-Road,Draugur,A,1:02.095,3,89,111.75,10,343
+Off-Road,Vagrant,A,1:03.596,4,129,120.75,3,175
+Off-Road,Terminus,A,1:04.197,5,161,119,5,213
+Off-Road,Kamacho,B,1:04.864,6,188,116.5,6,260
+Off-Road,Street Blazer,B,1:04.914,7,190,100,30,488
+Off-Road,Firebolt ASP,C,1:05.515,8,214,113.5,7,307
+Off-Road,Ratel,C,1:05.984,9,224,113,8,318
+Off-Road,MonstroCiti,C,1:06.183,10,234,109.75,11,365
+Off-Road,Desert Raid,D,1:06.549,11,248,106.75,16,405
+Off-Road,Trophy Truck,D,1:06.561,12,249,106.75,17,406
+Off-Road,Nightshark,D,1:06.750,13,255,105.25,19,425
+Off-Road,Blazer,E,1:07.734,14,283,99.25,34,504
+Off-Road,Hot Rod Blazer,E,1:07.744,15,285,99.25,35,505
+Off-Road,Bifta,E,1:07.885,16,287,107.75,13,393
+Off-Road,Dune Buggy,F,1:09.002,17,308,101,26,478
+Off-Road,Brawler,F,1:09.252,18,318,119.25,4,210
+Off-Road,Walton L35,F,1:09.337,19,320,105.25,20,426
+Off-Road,Caracara 4x4,F,1:09.570,20,325,103.25,25,451
+Off-Road,Yosemite 1500,F,1:09.586,21,326,106.25,18,410
+Off-Road,Everon,F,1:09.637,22,327,107,14,399
+Off-Road,Outlaw,G,1:10.036,23,337,91,40,567
+Off-Road,Hellion,G,1:10.220,24,342,104,24,439
+Off-Road,Boor,G,1:10.754,25,360,112.5,9,334
+Off-Road,Yosemite Rancher,H,1:11.138,26,369,105,21,431
+Off-Road,Walton L35 Stock,H,1:11.204,27,371,108.25,12,388
+Off-Road,Riata,H,1:11.488,28,378,104.25,22,437
+Off-Road,Freecrawler,H,1:11.695,29,385,99,36,507
+Off-Road,Insurgent,I,1:12.607,30,408,98.75,37,508
+Off-Road,Bodhi,I,1:12.956,31,414,99.5,33,495
+Off-Road,Injection,I,1:13.156,32,420,107,15,402
+Off-Road,Dubsta 6x6,J,1:15.125,33,459,104.25,23,438
+Off-Road,Mesa (Merryweather),J,1:15.409,34,462,101,27,479
+Off-Road,Patriot Mil-Spec,K,1:16.043,35,474,96,39,541
+Off-Road,Rusty Rebel,K,1:16.076,36,476,101,28,480
+Off-Road,Rebel,K,1:16.142,37,478,101,29,481
+Off-Road,Marshall,L,1:16.559,38,490,81.25,44,609
+Off-Road,Liberator,L,1:16.594,39,491,81.25,45,610
+Off-Road,Sandking SWB,L,1:17.060,40,498,99.75,31,493
+Off-Road,Sandking XL,M,1:17.994,41,505,99.75,32,494
+Off-Road,Kalahari,M,1:18.363,42,511,90.75,41,572
+Off-Road,Verus,N,1:20.597,43,537,84,42,600
+Off-Road,Rancher XL,N,1:21.198,44,541,96.75,38,534
+Off-Road,Blazer Lifeguard,N,1:22.288,45,549,83.75,43,602
+Off-Road,Duneloader,O,1:30.874,46,598,79.5,46,612
+Off-Road,Winky,O,1:32.158,47,600,72,47,628
+Off-Road,Zhaba,O,1:37.998,48,609,62.25,48,647
+Off-Road (NR),Blazer Aqua,-,1:05.283,1,203,99,9,506
+Off-Road (NR),Sasquatch,-,1:05.366,2,208,116.5,2,263
+Off-Road (NR),Ramp Buggy,-,1:05.448,3,212,113.25,3,309
+Off-Road (NR),Brutus,-,1:08.601,4,298,120.25,1,187
+Off-Road (NR),Ramp Buggy (Spoiler),-,1:10.317,5,347,106,5,412
+Off-Road (NR),Insurgent Pick-Up Custom,-,1:11.906,6,390,98.5,10,513
+Off-Road (NR),Caracara,-,1:12.703,7,411,100.75,7,484
+Off-Road (NR),Menacer,-,1:13.440,8,425,94,12,556
+Off-Road (NR),Dune FAV,-,1:13.740,9,429,99.5,8,496
+Off-Road (NR),Technical Aqua,-,1:14.341,10,441,93.25,13,560
+Off-Road (NR),Technical Custom,-,1:14.390,11,442,101.5,6,472
+Off-Road (NR),Insurgent Pick-Up,-,1:16.993,12,494,92.5,14,562
+Off-Road (NR),Technical,-,1:18.028,13,506,94.5,11,553
+Off-Road (NR),Bruiser,-,1:18.762,14,518,109,4,377
+Off-Road (NR),Space Docker,-,1:23.139,15,557,87.75,15,584
+Off-Road (NR),RC Bandito,-,1:39.616,16,615,59.5,16,648
+Open Wheel,BR8,S,0:54.555,1,1,121,1,168
+Open Wheel,PR4,A,0:56.356,2,8,116.5,4,259
+Open Wheel,DR1,A,0:56.473,3,9,118.5,2,222
+Open Wheel,R88,A,0:56.540,4,10,117.5,3,244
+Sedans,Chavos V6,S,1:04.564,1,174,115.5,8,279
+Sedans,Cinquemila,S,1:04.581,2,175,120.5,6,179
+Sedans,Tailgater S,S,1:04.732,3,182,116,7,274
+Sedans,Rhinehart,S,1:04.748,4,183,123,4,130
+Sedans,Schafter V12 (Armored),S,1:04.749,5,184,125,3,106
+Sedans,Minimus,S,1:04.998,6,193,115,9,285
+Sedans,Sentinel XS4,A,1:06.416,7,241,127.25,2,72
+Sedans,Vorschlaghammer,A,1:07.000,8,261,122.75,5,135
+Sedans,Asterope GZ,A,1:07.234,9,265,113.25,12,311
+Sedans,Hardy,A,1:07.498,10,276,128.25,1,59
+Sedans,Schafter,B,1:08.669,11,301,111.5,15,345
+Sedans,Glendale Custom,B,1:08.685,12,302,111.25,16,348
+Sedans,Schafter LWB (Armored),B,1:09.035,13,311,108,22,390
+Sedans,Deity,B,1:09.236,14,317,115,10,290
+Sedans,Tailgater,C,1:10.872,15,362,105,29,430
+Sedans,Fugitive,D,1:11.655,16,384,108.25,21,389
+Sedans,Primo Custom,D,1:11.705,17,386,103.5,32,448
+Sedans,Primo,D,1:11.972,18,392,103.5,33,449
+Sedans,Intruder,D,1:12.256,19,399,107.25,24,397
+Sedans,Warrener,E,1:12.306,20,401,104,31,440
+Sedans,Washington,E,1:12.439,21,406,108.5,20,384
+Sedans,Warrener HKR,E,1:12.823,22,412,107,25,400
+Sedans,Asterope,E,1:12.873,23,413,105.25,28,429
+Sedans,Cognoscenti 55,E,1:12.957,24,415,113.25,13,314
+Sedans,Cognoscenti 55 (Armored),E,1:13.223,25,422,113,14,322
+Sedans,Stanier,E,1:13.540,26,427,109,19,374
+Sedans,Glendale,F,1:14.074,27,435,107.5,23,396
+Sedans,Stratum,F,1:14.191,28,437,105.5,27,419
+Sedans,Premier,F,1:14.391,29,443,104.75,30,434
+Sedans,Surge,G,1:14.643,30,448,94,34,557
+Sedans,Asea,G,1:14.708,31,449,106.5,26,408
+Sedans,Super Diamond,G,1:14.908,32,452,113.75,11,305
+Sedans,Cognoscenti,H,1:15.959,33,472,110.5,17,360
+Sedans,Cognoscenti (Armored),H,1:16.057,34,475,110.25,18,361
+Sedans,Stafford,I,1:21.348,35,543,93.5,35,559
+Sedans,Ingot,J,1:23.667,36,562,90.25,38,579
+Sedans,Romero Hearse,J,1:24.318,37,569,89.75,39,581
+Sedans,Emperor,K,1:25.251,38,576,90.75,36,573
+Sedans,Emperor Beater,K,1:25.272,39,577,90.75,37,574
+Sedans,Regina,L,1:31.274,40,599,86.25,40,591
+Sedans (NR),Turreted Limo,-,1:19.429,1,529,90,2,580
+Sedans (NR),Stretch,-,1:26.268,2,582,95,1,551
+Service,Taxi Custom,-,1:10.130,1,340,110,1,363
+Service,Vivanite (KnoWay),-,1:12.655,2,410,101.5,3,471
+Service,Dune,-,1:14.992,3,456,91.5,4,564
+Service,Taxi,-,1:15.776,4,471,102.5,2,460
+Service,Wastelander,-,1:16.143,5,479,91,5,568
+Service,Brickade 6x6,-,1:25.783,6,580,90.5,6,578
+Service,Brickade,-,1:27.570,7,585,83.75,8,603
+Service,Tour Bus,-,1:44.653,8,631,66,10,640
+Service,Rental Shuttle Bus,-,1:44.688,9,632,66,11,641
+Service,Trashmaster,-,1:45.238,10,633,84,7,601
+Service,Airport Bus,-,1:52.511,11,646,66,12,642
+Service,Bus,-,1:52.564,12,647,66,13,643
+Service,Dashound,-,1:56.199,13,650,71.75,9,629
+Service,Festival Bus,-,2:06.477,14,652,59.5,14,649
+Sports,Niobe (HSW),S,0:55.389,1,4,159.5,3,4
+Sports,La Coureuse (HSW),S,0:56.139,2,7,142.5,6,19
+Sports,Banshee GTS (HSW),S,0:57.574,3,12,172.5,1,1
+Sports,Stinger TT (HSW),A,0:59.292,4,28,168.5,2,2
+Sports,Itali GTO,A,0:59.359,5,30,128,17,61
+Sports,S95 (HSW),A,0:59.559,6,34,156.5,4,8
+Sports,Niobe,A,0:59.726,7,38,127.25,20,70
+Sports,Paragon S,B,1:00.443,8,46,127.5,19,66
+Sports,Banshee GTS,B,1:00.621,9,50,138,7,25
+Sports,Pariah,B,1:00.644,10,52,136,8,31
+Sports,Banshee (HSW),B,1:00.677,11,53,152.75,5,11
+Sports,La Coureuse,B,1:00.811,12,58,114.5,92,295
+Sports,Itali RSX,B,1:00.844,13,62,134.5,9,35
+Sports,Envisage,B,1:00.860,14,64,122,41,148
+Sports,Coquette D5,B,1:00.861,15,65,130.75,14,49
+Sports,Neo,C,1:00.977,16,67,125.25,27,97
+Sports,Imorgon,C,1:01.060,17,68,106.75,108,404
+Sports,Paragon R,C,1:01.361,18,74,123,34,128
+Sports,Jugular,C,1:01.371,19,75,125,29,104
+Sports,Rapid GT X,C,1:01.395,20,77,132.25,10,40
+Sports,Comet SR,C,1:01.778,21,82,122,42,149
+Sports,Corsita,C,1:01.812,22,83,131.25,13,45
+Sports,Issi Sport,C,1:01.961,23,85,112.5,102,329
+Sports,Sentinel GTS,C,1:02.045,24,86,132.25,11,41
+Sports,Sultan Classic,D,1:02.145,25,94,117,78,249
+Sports,Elegy RH8,D,1:02.279,26,95,118.75,69,218
+Sports,LSCM Jester RR,D,1:02.379,27,96,118.25,72,227
+Sports,Jester (Racecar),D,1:02.396,28,98,120.25,55,184
+Sports,10F Widebody,D,1:02.546,29,102,128,18,63
+Sports,Stinger TT,D,1:02.829,32,106,132,12,42
+Sports,Sultan RS Classic,E,1:02.747,30,103,117.5,75,245
+Sports,Vectre,E,1:02.762,31,104,116,86,272
+Sports,Feltzer,E,1:02.913,33,108,120.25,56,185
+Sports,Calico GTF,E,1:02.963,34,110,121,48,169
+Sports,Jester,E,1:02.980,35,111,119.5,62,200
+Sports,Growler,E,1:02.996,36,112,122,43,151
+Sports,9F Cabrio,E,1:03.002,37,113,121.25,46,165
+Sports,9F,E,1:03.056,38,115,121.25,47,166
+Sports,8F Drafter,E,1:03.096,39,116,117.75,74,243
+Sports,10F,E,1:03.180,40,119,126,22,86
+Sports,Neon,E,1:03.196,41,121,114,94,301
+Sports,Elegy Retro Custom,E,1:03.212,42,122,115.5,88,278
+Sports,Massacro (Racecar),E,1:03.213,43,123,122.75,35,133
+Sports,Massacro,E,1:03.364,44,125,122.75,36,134
+Sports,Schlagen GT,E,1:03.462,45,127,125.5,26,96
+Sports,Coquette D10,E,1:03.797,47,136,130.5,15,51
+Sports,Raiden,F,1:03.697,46,133,113.25,96,308
+Sports,Penumbra FF,F,1:03.798,48,137,113,98,316
+Sports,Comet,F,1:03.846,49,138,119.75,60,195
+Sports,300R,F,1:03.847,50,140,120,57,188
+Sports,Seven-70,F,1:03.881,51,144,124,31,116
+Sports,Jester RR,F,1:04.031,52,149,126,23,89
+Sports,Bestia GTS,F,1:04.035,53,150,119,67,212
+Sports,Euros,F,1:04.040,54,151,117.25,76,247
+Sports,Specter Custom,F,1:04.047,55,152,121,49,171
+Sports,Specter,F,1:04.082,56,155,121,50,172
+Sports,Flash GT,F,1:04.097,57,156,116,87,273
+Sports,V-STR,F,1:04.114,58,157,125.25,28,99
+Sports,Revolter,F,1:04.115,59,158,116.75,81,256
+Sports,Komoda,F,1:04.165,60,160,123.5,33,123
+Sports,Sentinel Classic Widebody,F,1:04.248,62,165,127.25,21,71
+Sports,Comet S2 Cabrio,F,1:04.298,63,167,129.25,16,54
+Sports,Cypher,G,1:04.231,61,164,113.5,95,306
+Sports,Surano,G,1:04.380,64,169,121,51,173
+Sports,Omnis e-GT,G,1:04.431,65,171,111.5,104,344
+Sports,SM722,G,1:04.481,66,172,123.75,32,120
+Sports,Verlierer,G,1:04.582,67,176,122.25,40,146
+Sports,Schafter V12,G,1:04.598,68,177,126,24,90
+Sports,Comet Retro Custom,G,1:04.615,69,178,121.5,44,160
+Sports,Comet S2,G,1:04.715,70,179,122.5,37,141
+Sports,Sentinel Classic,G,1:04.732,71,181,117.25,77,248
+Sports,Locust,H,1:04.981,72,191,119.5,63,202
+Sports,Sultan,H,1:04.982,73,192,116.25,84,265
+Sports,Banshee,H,1:05.131,74,194,118.5,70,223
+Sports,S95,H,1:05.265,75,201,116.25,85,266
+Sports,Carbonizzare,H,1:05.282,76,202,120,58,190
+Sports,Alpha,H,1:05.315,77,205,118.5,71,224
+Sports,Coquette,H,1:05.416,78,211,120,59,191
+Sports,Remus,I,1:05.699,79,218,115.5,89,280
+Sports,Jester Classic,I,1:05.749,80,221,119.75,61,197
+Sports,Tropos Rallye,I,1:05.766,81,222,119.5,64,203
+Sports,RT3000,I,1:06.033,82,226,119.25,66,209
+Sports,Lynx,I,1:06.082,83,228,121.5,45,161
+Sports,Panthere,I,1:06.133,84,230,122.5,38,142
+Sports,Comet Safari,I,1:06.149,85,231,119,68,215
+Sports,Kuruma,J,1:06.150,86,232,113,99,319
+Sports,Hotring Hellfire,J,1:06.266,87,235,124.25,30,113
+Sports,Hotring Sabre,J,1:06.300,88,236,122.5,39,143
+Sports,Omnis,J,1:06.399,89,239,113.25,97,310
+Sports,GB200,J,1:06.443,90,242,114.25,93,299
+Sports,Hotring Everon,J,1:06.487,91,243,125.75,25,93
+Sports,Sprunk Buffalo,J,1:06.800,92,258,115,90,288
+Sports,ZR350,J,1:06.967,93,260,116.75,82,257
+Sports,Drift Tampa,K,1:07.467,94,273,114.75,91,292
+Sports,Rapid GT Cabrio,K,1:07.468,95,274,120.5,53,181
+Sports,Rapid GT,K,1:07.475,96,275,120.5,54,182
+Sports,Buffalo S,K,1:07.601,97,279,113,100,321
+Sports,Khamelion,K,1:07.668,98,281,102,113,466
+Sports,Kuruma (Armored),K,1:07.701,99,282,109.75,106,366
+Sports,Furore GT,K,1:07.735,100,284,120.75,52,176
+Sports,Ruston,K,1:07.784,101,286,116.5,83,264
+Sports,Fusilade,K,1:07.902,102,288,117,79,253
+Sports,Buffalo,K,1:08.135,103,296,112.75,101,325
+Sports,Sugoi,L,1:08.786,104,303,118,73,239
+Sports,Schafter LWB,L,1:08.869,105,304,109.25,107,370
+Sports,Futo GTX,M,1:10.020,106,336,112.5,103,332
+Sports,Schwartzer,M,1:10.671,107,356,117,80,255
+Sports,Raptor,N,1:11.271,108,373,103.75,110,445
+Sports,Futo,N,1:11.322,109,374,119.5,65,207
+Sports,Penumbra,N,1:11.823,110,388,105.25,109,427
+Sports,Streiter,N,1:11.872,111,389,110.5,105,359
+Sports,Blista Compact,O,1:14.208,112,438,103.75,111,446
+Sports,Go Go Monkey Blista,O,1:14.217,113,439,103.75,112,447
+Sports (NR),Paragon R (Armored),-,1:01.426,1,78,122.5,2,139
+Sports (NR),ZR380,-,1:02.112,2,91,142,1,20
+Sports (NR),Veto Modern,-,1:11.204,3,372,83.5,3,604
+Sports (NR),Veto Classic,-,1:14.925,4,455,79,4,614
+Sports Classics,Turismo Classic (HSW),S,0:59.960,1,40,151.5,2,12
+Sports Classics,Astrale (HSW),S,1:00.294,2,43,148.5,3,15
+Sports Classics,Stirling GT (HSW),S,1:00.627,3,51,156.25,1,9
+Sports Classics,Uranus LozSpeed,A,1:03.230,4,124,118.25,21,228
+Sports Classics,LSCM Cheetah Classic,A,1:03.413,5,126,119,18,211
+Sports Classics,Itali Classic,A,1:03.648,6,130,121.75,9,156
+Sports Classics,Astrale,A,1:03.697,7,133,126,5,87
+Sports Classics,Turismo Classic,A,1:03.847,8,139,121,12,170
+Sports Classics,Cheetah Classic,A,1:04.082,9,155,120,15,189
+Sports Classics,Ardent,A,1:04.265,10,166,118.75,19,219
+Sports Classics,GT750,B,1:04.764,11,185,120.5,13,180
+Sports Classics,Rapid GT Classic,B,1:05.148,12,195,119.75,17,196
+Sports Classics,Retinue Mk II,B,1:05.165,13,196,120.25,14,186
+Sports Classics,Torero,B,1:05.182,14,199,116.5,26,262
+Sports Classics,Stirling GT,C,1:05.715,15,219,113,28,317
+Sports Classics,Infernus Classic,C,1:06.049,16,227,118.75,20,221
+Sports Classics,Swinger,C,1:06.183,17,233,117,25,250
+Sports Classics,Viseris,C,1:06.533,18,247,124,6,117
+Sports Classics,Coquette D1,D,1:07.050,19,262,123.75,7,121
+Sports Classics,Savestra,D,1:07.167,20,264,118,23,238
+Sports Classics,Zion Classic,D,1:07.501,21,277,112.75,29,324
+Sports Classics,Retinue,D,1:07.935,22,290,116,27,275
+Sports Classics,Z-Type,E,1:08.936,23,305,127,4,75
+Sports Classics,Pigalle,E,1:08.969,24,306,121.75,10,157
+Sports Classics,190z,F,1:09.887,25,332,110,34,362
+Sports Classics,Casco,F,1:09.903,26,333,121.5,11,163
+Sports Classics,Monroe,G,1:10.587,27,352,123.25,8,126
+Sports Classics,Coquette Classic,G,1:10.671,28,354,118.25,22,233
+Sports Classics,Mamba,H,1:11.454,29,377,118,24,241
+Sports Classics,JB 700,H,1:11.571,30,381,120,16,193
+Sports Classics,Michelli GT,I,1:12.138,31,395,106,37,413
+Sports Classics,GT500,I,1:12.139,32,396,111.5,32,347
+Sports Classics,Stinger GT,I,1:12.289,33,400,112.25,30,339
+Sports Classics,Cheburek,I,1:12.339,34,403,108.5,35,382
+Sports Classics,Stinger,I,1:12.622,35,409,112.25,31,340
+Sports Classics,Roosevelt Valor,J,1:14.925,36,454,98.75,40,509
+Sports Classics,Peyote Custom,J,1:15.610,37,466,111,33,355
+Sports Classics,Franken Stange,K,1:16.126,38,477,107,36,403
+Sports Classics,Nebula Turbo,K,1:16.260,39,480,102.5,38,461
+Sports Classics,Roosevelt,K,1:16.497,40,486,98.75,41,510
+Sports Classics,Tornado Rat Rod,L,1:17.510,41,501,99.5,39,497
+Sports Classics,Fagaloa,L,1:18.395,42,512,87,50,587
+Sports Classics,Manana,M,1:22.432,43,550,98.5,42,516
+Sports Classics,Tornado Custom,N,1:23.166,44,558,98.5,43,517
+Sports Classics,Dynasty,N,1:23.301,45,559,93.25,49,561
+Sports Classics,Peyote,N,1:23.517,46,561,98.5,44,518
+Sports Classics,Tornado,O,1:25.084,47,572,98.5,45,519
+Sports Classics,Tornado Cabrio,O,1:25.088,48,573,98.5,46,520
+Sports Classics,Tornado Beater,O,1:25.096,49,574,98.5,47,521
+Sports Classics,Tornado Mariachi,O,1:25.099,50,575,98.5,48,522
+Sports Classics (NR),Toreador,-,0:56.624,1,11,135.25,1,33
+Sports Classics (NR),Deluxo,-,1:06.500,2,244,127.25,2,73
+Sports Classics (NR),Stromberg,-,1:07.351,3,267,112.75,4,323
+Sports Classics (NR),JB 700W,-,1:11.554,4,380,120,3,192
+Supers,FMJ MK V (HSW),S,0:54.704,1,2,155.75,1,10
+Supers,Weaponized Ignus (HSW),S,0:55.222,2,3,145,4,17
+Supers,Cyclone II (HSW),S,0:55.823,3,5,141,5,22
+Supers,Emerus,A,0:57.624,4,13,126.75,21,77
+Supers,FMJ MK V,A,0:57.774,5,14,133.5,7,38
+Supers,Turismo Omaggio,A,0:57.775,6,16,122.5,44,136
+Supers,Weaponized Ignus,A,0:57.824,7,17,125,33,101
+Supers,Krieger,A,0:57.924,8,18,128,14,60
+Supers,Deveste Eight (HSW),A,0:58.209,9,19,151,3,14
+Supers,Pipistrello,B,0:58.541,10,20,117.75,63,242
+Supers,LM87,B,0:58.658,11,21,127.5,16,65
+Supers,Ignus,B,0:58.742,12,22,125,34,102
+Supers,Vagner,B,0:58.892,13,23,126.75,22,78
+Supers,Thrax,B,0:58.893,14,24,123.75,38,118
+Supers,S80RR,B,0:58.959,15,25,123,43,127
+Supers,RE-7B,B,0:59.076,16,26,123.5,40,122
+Supers,Virtue,B,0:59.293,17,29,119.5,59,199
+Supers,XA-21,C,0:59.459,18,31,122.5,45,137
+Supers,X-treme,C,0:59.526,19,32,127.25,19,69
+Supers,Suzume,C,0:59.543,20,33,126.5,23,79
+Supers,Torero XO,C,0:59.577,21,35,131.5,8,43
+Supers,Tigon,C,0:59.643,22,36,125.5,30,94
+Supers,Cyclone II,C,0:59.660,23,37,119.25,60,208
+Supers,Autarch,C,0:59.776,24,39,126,28,84
+Supers,Deveste Eight,D,1:00.010,25,41,131.25,9,44
+Supers,Tempesta,D,1:00.243,26,42,121.5,54,158
+Supers,Visione,D,1:00.411,27,45,124.75,37,112
+Supers,Entity MT (HSW),D,1:00.494,28,47,151.25,2,13
+Supers,ETR1,D,1:00.593,29,48,121.25,55,164
+Supers,Furia,E,1:00.594,30,49,121.75,52,154
+Supers,X80 Proto,E,1:00.677,31,54,128.25,13,57
+Supers,Tezeract,E,1:00.678,32,55,125.75,29,91
+Supers,T20,E,1:00.778,33,56,122.5,46,138
+Supers,Osiris,E,1:00.794,34,57,122,50,147
+Supers,Zorrusso,E,1:00.815,35,59,125,35,103
+Supers,Nero Custom,E,1:00.827,36,60,127,20,74
+Supers,Tyrant,E,1:00.860,37,63,126.5,24,80
+Supers,Zentorno,E,1:00.878,38,66,122.25,48,144
+Supers,Luiva,E,1:01.094,39,69,136.25,6,29
+Supers,Tyrus,E,1:01.210,40,70,123.25,41,124
+Supers,Itali GTB,F,1:01.311,41,71,125.25,32,98
+Supers,Cyclone,F,1:01.312,42,72,116,64,271
+Supers,Zeno,F,1:01.328,43,73,128,15,62
+Supers,Nero,F,1:01.394,44,76,126.25,25,81
+Supers,FMJ,F,1:01.428,45,79,125.5,31,95
+Supers,Turismo R,F,1:01.578,46,80,122.5,47,140
+Supers,Entity XF,F,1:01.678,47,81,122.25,49,145
+Supers,Penetrator,G,1:01.862,48,84,123.25,42,125
+Supers,Reaper,G,1:02.112,49,91,122,51,150
+Supers,Itali GTB Custom,G,1:02.145,50,93,127.5,17,67
+Supers,Cheetah,G,1:02.396,51,97,120.75,56,174
+Supers,Infernus,G,1:02.462,52,99,118,62,235
+Supers,811,H,1:02.946,53,109,130.75,11,50
+Supers,SC1,H,1:03.030,54,114,121.75,53,155
+Supers,GP1,H,1:03.097,55,117,123.75,39,119
+Supers,Entity MT,H,1:03.196,56,120,131.25,10,46
+Supers,Vacca,I,1:03.864,57,142,120.5,57,178
+Supers,Banshee 900R,I,1:03.930,58,146,130.25,12,53
+Supers,Sultan RS,I,1:04.030,59,148,118.25,61,229
+Supers,Entity XXR,I,1:04.081,60,153,127.5,18,68
+Supers,Adder,I,1:04.365,61,168,126.25,26,82
+Supers,Champion,I,1:04.532,62,173,125,36,105
+Supers,Voltic,J,1:05.315,63,206,106.25,65,409
+Supers,Taipan,J,1:05.699,64,217,126.25,27,83
+Supers,Bullet,K,1:07.450,65,271,119.75,58,198
+Supers (NR),Vigilante,-,0:55.872,1,6,146.75,1,16
+Supers (NR),Scramjet,-,0:57.775,2,15,130.75,2,48
+Supers (NR),Rocket Voltic,-,0:59.209,3,27,124.75,3,111
+SUVs,Vivanite (HSW),S,1:03.714,1,134,128,5,64
+SUVs,Astron Custom (HSW),S,1:03.797,2,135,136.25,3,30
+SUVs,Castigator,S,1:03.864,3,141,126,6,88
+SUVs,Woodlander (HSW),S,1:03.913,4,145,136.5,2,27
+SUVs,Everon RS,S,1:04.147,5,159,125.75,7,92
+SUVs,Baller ST-D,S,1:04.214,6,163,118.25,12,230
+SUVs,Toros,S,1:04.765,7,186,128.25,4,58
+SUVs,Novak,A,1:05.683,8,216,123,8,131
+SUVs,Issi Rally (HSW),A,1:05.749,9,220,138.5,1,24
+SUVs,Astron,A,1:05.999,10,225,119.5,10,204
+SUVs,Rebla GTS,A,1:06.565,11,250,123,9,132
+SUVs,Astron Custom,A,1:06.567,12,251,119,11,216
+SUVs,Jubilee,B,1:08.101,13,293,116.25,14,269
+SUVs,Baller ST,B,1:08.118,14,295,112,17,341
+SUVs,Vivanite,B,1:08.452,15,297,105.5,29,417
+SUVs,I-Wagen,C,1:08.985,16,307,94,52,555
+SUVs,Woodlander,C,1:09.035,17,310,112.5,16,331
+SUVs,Issi Rally,C,1:09.219,18,316,117,13,254
+SUVs,Contender,C,1:09.270,19,319,109,20,372
+SUVs,Cavalcade XL,C,1:09.470,20,322,104.25,32,436
+SUVs,XLS (Armored),D,1:10.888,21,363,108.5,22,381
+SUVs,Dorado,D,1:11.188,22,370,111,18,353
+SUVs,Huntley S,E,1:12.239,23,398,109,21,373
+SUVs,Aleutian,E,1:12.989,24,416,113.25,15,315
+SUVs,Baller LE,E,1:13.374,25,424,109.25,19,371
+SUVs,Baller,F,1:13.712,26,428,108.5,23,385
+SUVs,Baller LE (Armored),F,1:13.796,27,431,108.5,24,386
+SUVs,Baller LE LWB,F,1:13.874,28,432,108.5,25,387
+SUVs,Granger 3600LX,F,1:14.124,29,436,97.5,48,529
+SUVs,Baller LE LWB (Armored),F,1:14.292,30,440,108,26,392
+SUVs,XLS,G,1:14.541,31,444,106,28,414
+SUVs,Radius,G,1:14.601,32,446,105.5,30,420
+SUVs,Rocoto,G,1:15.041,33,457,107.75,27,394
+SUVs,Serrano,H,1:15.375,34,460,101.5,38,473
+SUVs,Dubsta,H,1:15.409,35,461,102,36,467
+SUVs,Granger,H,1:15.643,36,468,102.75,34,457
+SUVs,Squaddie,H,1:15.743,37,470,102.5,35,459
+SUVs,Seminole Frontier,I,1:16.326,38,482,100,41,489
+SUVs,Landstalker XL,I,1:16.526,39,487,101,40,482
+SUVs,Dubsta 2,I,1:16.543,40,489,102,37,469
+SUVs,Landstalker,J,1:17.160,41,499,100,42,490
+SUVs,FQ2,J,1:17.411,42,500,104,33,442
+SUVs,Habanero,J,1:17.711,43,503,105.5,31,424
+SUVs,Gresley,J,1:18.094,44,508,101.25,39,475
+SUVs,Baller (Old),K,1:18.863,45,519,100,43,492
+SUVs,BeeJay XL,K,1:19.012,46,521,97.5,49,531
+SUVs,Cavalcade,K,1:19.109,47,522,98.5,45,514
+SUVs,Cavalcade (Old),K,1:19.125,48,523,98.5,46,515
+SUVs,Mesa,L,1:19.613,49,531,95.5,51,544
+SUVs,Seminole,L,1:20.263,50,535,97.75,47,528
+SUVs,Patriot,M,1:21.866,51,545,98.75,44,512
+SUVs,Patriot Stretch,M,1:24.050,52,567,96.75,50,535
+Utility,Sadler,S,1:18.945,1,520,99.5,1,498
+Utility,Keitora,A,1:25.936,2,581,87,4,588
+Utility,Slamtruck,A,1:28.956,4,593,99.5,2,503
+Utility,Caddy,B,1:39.115,7,611,66.75,11,638
+Utility,Fieldmaster,C,2:51.472,17,657,33,17,657
+Utility,Airtug,D,3:22.636,18,661,29.25,18,661
+Utility,Lawn Mower,E,6:28.204,20,664,14.75,20,664
+Utility,Tow Truck (Small),-,1:28.741,3,590,87,5,589
+Utility,Tow Truck (Salvage Yard),-,1:29.861,5,596,91.5,3,565
+Utility,Tow Truck (Large),-,1:35.811,6,604,83.5,6,605
+Utility,Caddy (Civilian),-,1:39.161,8,613,66.75,12,639
+Utility,Utility Truck (Pickup),-,1:40.101,9,617,78.25,8,615
+Utility,Utility Truck (Cargo),-,1:41.652,10,620,78.25,9,616
+Utility,Utility Truck (Cherry Picker),-,1:43.480,11,624,78.25,10,617
+Utility,Scrap Truck,-,1:44.038,12,628,79.75,7,611
+Utility,Ripley,-,1:54.014,13,648,56.25,13,651
+Utility,Docktug,-,1:55.887,14,649,56,14,652
+Utility,Caddy (Bunker),-,2:07.770,15,653,48,15,653
+Utility,Forklift,-,2:43.408,16,656,35.75,16,656
+Utility,Tractor,-,3:22.991,19,662,28.75,19,662
+Vans,Gang Burrito,S,1:16.710,1,492,105.5,1,423
+Vans,Rumpo Custom,S,1:17.026,2,496,98.75,7,511
+Vans,Speedo Custom,A,1:18.746,3,517,104,2,443
+Vans,Minivan Custom,A,1:19.263,4,524,95.25,14,548
+Vans,Bison,A,1:19.529,5,530,99.5,4,499
+Vans,Youga Classic 4x4,B,1:20.796,6,540,95.5,12,545
+Vans,Pony (SOTW),B,1:21.231,7,542,98,9,526
+Vans,Bugstars Burrito,C,1:21.848,8,544,98.25,8,525
+Vans,Speedo,C,1:21.965,9,547,101.25,3,477
+Vans,Youga,D,1:22.516,10,551,96.5,11,540
+Vans,Minivan,D,1:22.632,11,552,95.25,15,549
+Vans,Rumpo,D,1:22.766,12,554,99.5,5,501
+Vans,Paradise,D,1:22.799,13,555,99.5,6,502
+Vans,Bobcat XL,E,1:24.551,14,570,95.5,13,546
+Vans,Clown Van,F,1:26.353,15,583,94.25,16,554
+Vans,Pony,F,1:26.603,16,584,91.25,17,566
+Vans,Youga Custom,G,1:28.638,17,589,97.25,10,532
+Vans,Youga Classic,G,1:29.289,18,594,91,18,571
+Vans,Journey II,H,1:40.184,19,618,79.25,19,613
+Vans,Camper,I,1:43.887,20,626,72.5,21,627
+Vans,Surfer Custom,J,1:45.438,21,634,69.75,24,635
+Vans,Journey,J,1:45.839,22,635,74.25,20,624
+Vans,Taco Van,K,1:46.607,23,636,71,23,632
+Vans,Boxville,K,1:47.324,24,639,71.5,22,630
+Vans,Surfer,K,1:48.676,25,641,67.25,25,636
+Vans,Surfer Beater,K,1:48.692,26,642,67.25,26,637
+Vans (NR),Armored Boxville,-,1:20.764,1,539,87.5,3,585
+Vans (NR),Burrito,-,1:28.154,2,586,90.75,1,575
+Vans (NR),Gang Burrito (Lost),-,1:28.189,3,587,90.75,2,576

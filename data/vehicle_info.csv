@@ -1,0 +1,836 @@
+Created By Broughy1322,,"This sheet contains a variety of useful information about all vehicles in GTA 5, such as prices, numbers of seats, where they can be bought, etc. This does not focus on vehicle performance and is primarily for information.",,,,,,,,,,,,,,,,,,,
+Class,Vehicle,Key Attributes,,,Performance Improvements,,,,Acquiring,,,Storing & Upgrading,,Race Availability,,,Added To GTA,,,Model IDs,Notes
+,,Drivetrain,Seats,Manufacturer,Spoiler,Off-Roads,Suspension,Boost,Source,Cost,Where/Last Available,Storage Location,Upgrade Location,Regular,Transform,Random,Date,Year,DLC,,
+Boats,Avisa,RWD,4,Kraken,,,,,Submarine,"1,545,000",Listed Source,Submarine,-,,,,15/12,2020,Cayo Perico Heist,avisa,
+Boats,Dinghy (2 Seats),RWD,2,Nagasaki,,,,,-,-,-,-,-,✔,✔,✔,17/09,2013,-,dinghy2,Only available in Sea races
+Boats,Dinghy (4 Seats),RWD,4,Nagasaki,,,,,DockTease,"166,250",Main Page,Pegasus,-,,✔,✔,17/09,2013,-,"dinghy, dinghy3, dinghy4",
+Boats,Jetmax,RWD,2,Shitzu,,,,,DockTease,"299,000",Main Page,Pegasus,-,✔,,,17/09,2013,-,jetmax,
+Boats,Kosatka,RWD,1,RUNE,,,,,Warstock,"2,200,000",Main Page,Submarine,-,,,,15/12,2020,Cayo Perico Heist,kosatka,
+Boats,Kraken,RWD,1,Kraken,,,,,DockTease,"1,325,000",Main Page,Pegasus,-,,,,18/11,2014,Enhanced Edition,submersible2,
+Boats,Kurtz 31 Patrol Boat,RWD,4,-,,,,,Warstock,"1,840,000",Main Page,Pegasus,-,,,,15/12,2020,Cayo Perico Heist,patrolboat,
+Boats,Longfin,RWD,4,Shitzu,,,,,DockTease,"2,125,000",Main Page,Pegasus,-,✔,✔,✔,15/12,2020,Cayo Perico Heist,longfin,
+Boats,Marquis,RWD,4,Dinka,,,,,DockTease,"413,990",Main Page,Pegasus,-,,✔,✔,17/09,2013,-,marquis,
+Boats,Police Predator,RWD,4,-,,,,,Warstock,"3,780,000",Main Page,Pegasus,-,,✔,,17/09,2013,-,predator,Made available to purchase online with Agents Of Sabotage update
+Boats,Seashark,RWD,2,Speedophile,,,,,DockTease,"16,889",Main Page,Pegasus,-,✔,✔,✔,17/09,2013,-,"seashark, seashark2, seashark3",
+Boats,Speeder,RWD,4,Pegassi,,,,,DockTease,"325,000",Main Page,Pegasus,-,✔,✔,✔,19/11,2013,Beach Bum,"speeder, speeder2",
+Boats,Squalo,RWD,2,Shitzu,,,,,DockTease,"196,621",Main Page,Pegasus,-,✔,,,17/09,2013,-,squalo,
+Boats,Submersible,RWD,1,-,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,submersible,
+Boats,Suntrap,RWD,4,Shitzu,,,,,DockTease,"25,160",Main Page,Pegasus,-,✔,✔,✔,17/09,2013,-,suntrap,
+Boats,Toro,RWD,4,Lampadati,,,,,DockTease,"1,750,000",Main Page,Pegasus,-,✔,✔,✔,08/07,2015,Ill-Gotten Gains Part 2,"toro, toro2",
+Boats,Tropic,RWD,4,Shitzu,,,,,DockTease,"22,000",Main Page,Pegasus,-,✔,✔,✔,17/09,2013,-,"tropic, tropic2",
+Boats,Tug,RWD,1,Buckingham,,,,,DockTease,"1,250,000",Main Page,Pegasus,-,,✔,✔,07/06,2016,Finance and Felony,tug,
+Boats,Weaponized Dinghy,RWD,5,Nagasaki,,,,,Warstock,"1,850,000",Main Page,Pegasus,-,,,,25/02,2021,Cayo Perico Heist,dinghy5,
+Commercial,Benson,AWD,2,Vapid,,,,,Warstock,"685,000",Main Page,Pegasus,-,✔,✔,✔,17/09,2013,-,"benson, benson2",Cluckin' Bell variant purchasable as of Chop Shop update with identical performance to regular version
+Commercial,Biff,RWD,2,HVY,,,,,-,-,-,-,-,,,,17/09,2013,-,biff,
+Commercial,Cerberus,RWD,2,MTL,,,,✔,ArenaWar,"3,870,300",Arena Ready Tab,Arena,Property,,,✔,11/12,2018,Arena War,"cerberus, cerberus2, cerberus3",
+Commercial,Hauler,RWD,2,Jobuilt,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,hauler,
+Commercial,Hauler Custom,RWD,2,Jobuilt,,,,,MOC,"1,400,000",Listed Source,Bunker,Property,,,,13/06,2017,Gunrunning,hauler2,Only available with a Mobile Operations Center
+Commercial,Mule,RWD,6,Maibatsu,,,,,Warstock,"27,000",Main Page,Pegasus,-,,✔,✔,17/09,2013,-,"mule, mule2",
+Commercial,Mule (Armored),RWD,6,Maibatsu,,,,,Warstock,"43,225",Main Page,Pegasus,-,✔,✔,✔,10/03,2015,Heists,"mule3, mule5",
+Commercial,Mule Custom,RWD,4,Maibatsu,,,,,Warstock,"95,760",Main Page,Nightclub,Property,,✔,✔,24/07,2018,After Hours,mule4,
+Commercial,Packer,RWD,2,MTL,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,packer,
+Commercial,Phantom,RWD,2,Jobuilt,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,"phantom, phantom4",
+Commercial,Phantom Custom,RWD,5,Jobuilt,,,,,MOC,"1,225,000",Listed Source,Bunker,Property,,,,13/06,2017,Gunrunning,phantom3,Only available with a Mobile Operations Center
+Commercial,Phantom Wedge,RWD,5,Jobuilt,,,,,Warstock,"2,553,600",Main Page,Warehouse,-,,✔,✔,13/12,2016,Import/Export,phantom2,
+Commercial,Pounder,RWD,2,MTL,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,pounder,
+Commercial,Pounder Custom,RWD,8,MTL,✔,,,,Warstock,"320,530",Main Page,Nightclub,Property,,✔,✔,24/07,2018,After Hours,pounder2,Barbed wire roof adds traction like a spoiler
+Commercial,Stockade,RWD,4,Brute,,,,,Warstock,"1,850,000",Main Page,Pegasus,-,,✔,✔,17/09,2013,-,"stockade, stockade3, stockade4",Bobcat Security variant purchasable as of Money Fronts update with identical performance to regular version
+Commercial,Terrorbyte,RWD,4,Benefactor,,,,,Warstock,"1,375,000",Main Page,Nightclub,Property,,,,14/08,2018,After Hours,terbyte,
+Compacts,Asbo,FWD,2,Maxwell,✔,,✔,,SSASA,"408,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/12,2019,Diamond Casino Heist,asbo,
+Compacts,Blista,FWD,2,Dinka,,,,,Traffic,0,Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,blista,
+Compacts,Blista Kanjo,FWD,2,Dinka,✔,,✔,,SSASA,"580,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/02,2020,Diamond Casino Heist,kanjo,
+Compacts,Brioso 300,RWD,2,Grotti,✔,,,,SSASA,"610,000",2 Door Tab,Garage,LSC,✔,✔,✔,22/12,2020,Cayo Perico Heist,brioso2,Hood modification adds traction like a spoiler
+Compacts,Brioso 300 Widebody,RWD,2,Grotti,✔,,,,Upgrade,"1,195,000",Benny's Workshop,Garage,LSC,✔,✔,✔,25/08,2022,Criminal Enterprises,brioso3,Acquired by upgrading Brioso 300 in Benny's
+Compacts,Brioso R/A,AWD,2,Grotti,✔,,,,SSASA,"155,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/07,2016,Cunning Stunts,brioso,
+Compacts,Brioso R/A (HSW),AWD,2,Grotti,✔,,,,Upgrade,"1,252,500",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,28/04,2022,Expanded & Enhanced Edition,brioso_hsw,Acquired by upgrading Brioso R/A at Hao's Special Works
+Compacts,Club,FWD,2,BF,✔,,✔,,SSASA,"1,280,000",2 Door Tab,Garage,LSC,✔,✔,✔,11/08,2020,Los Santos Summer Special,club,
+Compacts,Dilettante,FWD,4,Karin,,,,,SSASA,"25,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,dilettante,
+Compacts,Dilettante (Patrol),FWD,4,Karin,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,dilettante2,
+Compacts,Issi,FWD,2,Weeny,,,,,SSASA,"18,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,issi2,
+Compacts,Issi (Arena),RWD,2,Weeny,✔,✔,,✔,Upgrade,"1,449,000",Arena Workshop,Garage,LSC & Property,,,✔,11/12,2018,Arena War,"issi4, issi5, issi6",Acquired by upgrading Issi Classic in Arena Workshop
+Compacts,Issi Classic,FWD,2,Weeny,✔,✔,,,SSASA,"360,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/04,2018,SSA Super Sport Series,issi3,
+Compacts,Panto,RWD,2,Benefactor,✔,,,,SSASA,"85,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/06,2014,I'm Not A Hipster,panto,
+Compacts,Prairie,FWD,2,Bollokan,✔,,,,SSASA,"25,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,prairie,
+Compacts,Rhapsody,RWD,2,Declasse,✔,,,,SSASA,"140,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/06,2014,I'm Not A Hipster,rhapsody,
+Compacts,Weevil,RWD,2,BF,✔,,✔,,SSASA,"870,000",2 Door Tab,Garage,LSC,✔,✔,✔,22/12,2020,Cayo Perico Heist,weevil,
+Coupes,Cognoscenti Cabrio,RWD,2,Enus,,,,,L.Motorsport,"185,000",14 May 2026,Garage,LSC,✔,,,17/09,2013,-,cogcabrio,
+Coupes,Euros X32,RWD,2,Annis,✔,,✔,,L.Motorsport,"1,499,000",2 Door Tab,Garage,LSC,✔,✔,✔,25/06,2024,Bottom Dollar Bounties,eurosx32,
+Coupes,Euros X32 (HSW),RWD,2,Annis,✔,,✔,,Upgrade,"2,699,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,25/06,2024,Bottom Dollar Bounties,eurosx32_hsw,Acquired by upgrading Euros X32 at Hao's Special Works
+Coupes,Exemplar,RWD,4,Dewbauchee,,,,,L.Motorsport,"205,000",14 May 2026,Garage,LSC,✔,,,17/09,2013,-,exemplar,
+Coupes,F620,RWD,2,Ocelot,,,,,SSASA,"80,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,f620,
+Coupes,Felon,RWD,4,Lampadati,✔,,,,SSASA,"90,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,felon,
+Coupes,Felon GT,RWD,2,Lampadati,,,,,SSASA,"95,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,felon2,
+Coupes,FR36,RWD,2,Fathom,✔,,✔,,SSASA,"1,610,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/12,2023,Chop Shop,fr36,
+Coupes,Jackal,RWD,4,Ocelot,✔,,,,SSASA,"60,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,jackal,
+Coupes,Kanjo SJ,FWD,2,Dinka,✔,,✔,,SSASA,"1,370,000",2 Door Tab,Garage,LSC,✔,✔,✔,22/09,2022,Criminal Enterprises,kanjosj,
+Coupes,Oracle,RWD,4,Ubermacht,,,,,SSASA,"80,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,oracle2,
+Coupes,Oracle XS,RWD,4,Ubermacht,,,,,SSASA,"82,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,oracle,
+Coupes,Postlude,FWD,2,Dinka,✔,,✔,,SSASA,"1,310,000",2 Door Tab,Garage,LSC,✔,✔,✔,22/09,2022,Criminal Enterprises,postlude,
+Coupes,Previon,RWD,2,Karin,✔,,✔,,SSASA,"1,490,000",2 Door Tab,Garage,LSC,✔,✔,✔,09/09,2021,Los Santos Tuners,previon,
+Coupes,Sentinel,RWD,2,Ubermacht,✔,,,,SSASA,"95,000",2 Door Tab,Garage,LSC,✔,,,17/09,2013,-,sentinel2,
+Coupes,Sentinel XS,RWD,2,Ubermacht,✔,,,,SSASA,"60,000",2 Door Tab,Garage,LSC,✔,,✔,17/09,2013,-,sentinel,
+Coupes,Sentinel XS (HSW),RWD,2,Ubermacht,✔,,,,Upgrade,"1,434,000",LSCM Workshop,Garage,LSC & LSCM,✔,,✔,15/03,2022,Expanded & Enhanced Edition,sentinel_hsw,Acquired by upgrading Sentinel XS at Hao's Special Works
+Coupes,Windsor,RWD,2,Enus,,,,,L.Motorsport,"845,000",2 Door Tab,Garage,LSC,✔,✔,✔,10/06,2015,Ill-Gotten Gains Part 1,windsor,
+Coupes,Windsor Drop,RWD,4,Enus,,,,,L.Motorsport,"900,000",4 Door Tab,Garage,LSC,✔,✔,✔,07/06,2016,Finance and Felony,windsor2,
+Coupes,Zion,RWD,2,Ubermacht,✔,,,,SSASA,"60,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,zion,
+Coupes,Zion Cabrio,RWD,2,Ubermacht,✔,,,,SSASA,"65,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,zion2,
+Cycles,BMX,RWD,1,-,,,,,P and M,800,Main Page,Garage,-,✔,✔,✔,17/09,2013,-,bmx,
+Cycles,Cruiser,RWD,1,-,,,,,P and M,800,Main Page,Garage,-,✔,✔,✔,17/09,2013,-,cruiser,
+Cycles,Fixter,RWD,1,-,,,,,-,-,-,-,-,,,,17/09,2013,-,fixter,Only available in single player
+Cycles,Inductor,RWD,1,Coil,,,,✔,P and M,"50,000",Main Page,Garage,-,✔,✔,✔,20/07,2023,San Andreas Mercenaries,"inductor, inductor2",Junk Energy Inductor version also available - identical performance and stats
+Cycles,Race Bike,RWD,1,-,,,,,P and M,"10,000",Main Page,Garage,-,✔,✔,✔,17/09,2013,-,"tribike, tribike2, tribike3",All race bikes are identical
+Cycles,Scorcher,RWD,1,-,,,,,P and M,"2,000",Main Page,Garage,-,✔,✔,✔,17/09,2013,-,scorcher,
+Drift,Chavos V6 (Drift),AWD,4,Dinka,,,,,Upgrade,"1,620,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,14/08,2025,Money Fronts,driftchavosv6,Acquired by adding drift modification in LSCM to the Chavos V6. Identical performance to stock version from race lobby.
+Drift,Cheburek (Drift),AWD,4,RUNE,,,,,Upgrade,"345,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,06/02,2025,Agents Of Sabotage,driftcheburek,Acquired by adding drift modification in LSCM to the Cheburek. Identical performance to stock version from race lobby.
+Drift,Cypher (Drift),AWD,2,Ubermacht,,,,,Upgrade,"1,750,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,25/06,2024,Bottom Dollar Bounties,driftcypher,Acquired by adding drift modification in LSCM to the Cypher. Identical performance to stock version from race lobby.
+Drift,Dominator FX (Drift),AWD,2,Vapid,,,,,Upgrade,"1,750,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,14/08,2025,Money Fronts,driftdominator10,Acquired by adding drift modification in LSCM to the Dominator FX. Identical performance to stock version from race lobby.
+Drift,Dominator GT (Drift),AWD,2,Vapid,,,,,Upgrade,"2,395,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,26/02,2026,A Safehouse in the Hills,driftdominator9,
+Drift,Drift Tampa (Drift),AWD,2,Declasse,,,,,Upgrade,"1,195,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,12/12,2023,Chop Shop,drifttampa,Acquired by adding drift modification in LSCM to the Drift Tampa. Identical performance to stock version from race lobby.
+Drift,Drift Walton L35,AWD,2,Declasse,,,,,SSASA,"1,403,750",2 Door Tab,Garage,LSC & LSCM,✔,✔,✔,14/08,2025,Money Fronts,driftl352,Drift modification applied as standard and cannot be removed. Identical performance to stock version from race lobby.
+Drift,Drift Yosemite (Drift),AWD,2,Declasse,,,,,Upgrade,"1,508,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,12/12,2023,Chop Shop,driftyosemite,Acquired by adding drift modification in LSCM to the Drift Yosemite. Identical performance to stock version from race lobby.
+Drift,Euros (Drift),AWD,2,Annis,,,,,Upgrade,"2,000,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,12/12,2023,Chop Shop,drifteuros,Acquired by adding drift modification in LSCM to the Euros. Identical performance to stock version from race lobby.
+Drift,FR36 (Drift),AWD,2,Fathom,,,,,Upgrade,"1,810,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,12/12,2023,Chop Shop,driftfr36,Acquired by adding drift modification in LSCM to the FR36. Identical performance to stock version from race lobby.
+Drift,Futo (Drift),AWD,2,Karin,,,,,Upgrade,"209,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,06/02,2025,Agents Of Sabotage,driftfuto2,Acquired by adding drift modification in LSCM to the Futo. Identical performance to stock version from race lobby.
+Drift,Futo GTX (Drift),AWD,2,Karin,,,,,Upgrade,"1,790,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,12/12,2023,Chop Shop,driftfuto,Acquired by adding drift modification in LSCM to the Futo GTX. Identical performance to stock version from race lobby.
+Drift,Gauntlet Hellfire (Drift),AWD,2,Bravado,,,,,Upgrade,"945,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,14/08,2025,Money Fronts,driftgauntlet4,Acquired by adding drift modification in LSCM to the Gauntlet Hellfire. Identical performance to stock version from race lobby.
+Drift,Hardy (Drift),AWD,4,Anis,,,,,Upgrade,"1,580,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,14/08,2025,Money Fronts,drifthardy,Acquired by adding drift modification in LSCM to the Hardy. Identical performance to stock version from race lobby.
+Drift,Jester Classic (Drift),AWD,2,Dinka,,,,,Upgrade,"990,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,06/02,2025,Agents Of Sabotage,driftjester3,Acquired by adding drift modification in LSCM to the Jester Classic. Identical performance to stock version from race lobby.
+Drift,Jester RR (Drift),AWD,2,Dinka,,,,,Upgrade,"2,170,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,12/12,2023,Chop Shop,driftjester,Acquired by adding drift modification in LSCM to the Jester RR. Identical performance to stock version from race lobby.
+Drift,Keitora (Drift),AWD,2,Shitzu,,,,,Upgrade,"1,010,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,26/02,2026,A Safehouse in the Hills,driftkeitora,
+Drift,Nebula Turbo (Drift),AWD,2,Vulcar,,,,,Upgrade,"997,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,25/06,2024,Bottom Dollar Bounties,driftnebula,Acquired by adding drift modification in LSCM to the Nebula Turbo. Identical performance to stock version from race lobby.
+Drift,Remus (Drift),AWD,2,Annis,,,,,Upgrade,"1,570,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,12/12,2023,Chop Shop,driftremus,Acquired by adding drift modification in LSCM to the Remus. Identical performance to stock version from race lobby.
+Drift,RT3000 (Drift),AWD,2,Dinka,,,,,Upgrade,"1,915,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,26/02,2026,A Safehouse in the Hills,driftrt3000,
+Drift,Sentinel Classic Widebody (Drift),AWD,2,Ubermacht,,,,,Upgrade,"1,550,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,25/06,2024,Bottom Dollar Bounties,driftsentinel,Acquired by adding drift modification in LSCM to the Sentinel Classic Widebody. Identical performance to stock version from race lobby.
+Drift,Sentinel XS (Drift),AWD,2,Ubermacht,,,,,Upgrade,"295,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,26/02,2026,A Safehouse in the Hills,driftsentinel2,
+Drift,Vorschlaghammer (Drift),AWD,4,Benefactor,,,,,Upgrade,"1,990,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,01/08,2024,Bottom Dollar Bounties,driftvorschlag,Acquired by adding drift modification in LSCM to the Vorschlaghammer. Identical performance to stock version from race lobby.
+Drift,ZR350 (Drift),AWD,2,Annis,,,,,Upgrade,"1,815,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,12/12,2023,Chop Shop,driftzr350,Acquired by adding drift modification in LSCM to the ZR350. Identical performance to stock version from race lobby.
+Emergency,Ambulance,AWD,4,Brute,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,ambulance,
+Emergency,Buffalo Cruiser,RWD,4,Bravado,✔,,✔,,Warstock,"4,435,000",Main Page,Garage,Property,,,,02/04,2026,A Safehouse in the Hills,polbuffalo,
+Emergency,Buffalo STX Pursuit,RWD,4,Bravado,✔,,✔,,Warstock,"5,370,000",Main Page,Garage,Property,,,,02/04,2026,A Safehouse in the Hills,polbuffalo6,
+Emergency,Burrito (Bail Enforcement),RWD,6,Declasse,,,,,Property,0,Listed Source,Bail Office,Property,,,,25/06,2024,Bottom Dollar Bounties,policet3,
+Emergency,Caracara Pursuit,AWD,4,Vapid,✔,,✔,,Warstock,"5,335,000",Main Page,Garage,Property,,,,10/12,2024,Agents Of Sabotage,polcaracara,
+Emergency,Coquette D10 Pursuit,RWD,2,Invetero,✔,,✔,,Warstock,"5,620,000",Main Page,Garage,Property,,,,19/12,2024,Agents Of Sabotage,polcoquette4,
+Emergency,Dominator FX Interceptor,RWD,2,Vapid,✔,,✔,,Warstock,"4,950,000",Main Page,Garage,Property,,✔,,11/07,2024,Bottom Dollar Bounties,poldominator10,
+Emergency,Dorado Cruiser,AWD,4,Bravado,✔,,,,Warstock,"5,005,000",Main Page,Garage,Property,,,,25/06,2024,Bottom Dollar Bounties,poldorado,
+Emergency,FIB (Buffalo),RWD,4,Bravado,,,,,-,-,-,-,-,,✔,,17/09,2013,-,fbi,
+Emergency,FIB (SUV),AWD,8,Declasse,,,,,-,-,-,-,-,,✔,,17/09,2013,-,fbi2,
+Emergency,Fire Truck,RWD,8,MTL,,,,,Warstock,"1,457,000",Main Page,Pegasus,-,,✔,✔,17/09,2013,-,firetruk,
+Emergency,Gauntlet Interceptor,RWD,2,Bravado,✔,,,,Warstock,"5,420,000",Main Page,Garage,Property,,,,07/03,2024,Chop Shop,polgauntlet,
+Emergency,Greenwood Cruiser,RWD,4,Bravado,,,✔,,Warstock,"3,946,000",Main Page,Garage,Property,,,,25/06,2024,Bottom Dollar Bounties,polgreenwood,
+Emergency,Impaler LX Cruiser,RWD,4,Declasse,✔,✔,,,Warstock,"4,800,000",Main Page,Garage,Property,,,,11/07,2024,Bottom Dollar Bounties,polimpaler6,
+Emergency,Impaler SZ Cruiser,RWD,4,Declasse,✔,,,,Warstock,"4,720,000",Main Page,Garage,Property,,,,25/06,2024,Bottom Dollar Bounties,polimpaler5,
+Emergency,Lifeguard,RWD,4,Declasse,,,,,Warstock,"865,000",28 May 2026,Garage,MOC,,,,17/09,2013,-,lguard,
+Emergency,Outreach Faction,RWD,2,Willard,,,,,Warstock,"4,150,000",Main Page,Garage,Property,,,,19/12,2024,Agents Of Sabotage,polfaction2,
+Emergency,Park Ranger,AWD,8,Declasse,,,,,Warstock,"2,100,000",Main Page,Garage,Property,✔,,,17/09,2013,-,pranger,Made available to purchase online with Chop Shop update
+Emergency,Police Bike (2013),RWD,1,Western,,,,,-,-,-,-,-,,✔,,17/09,2013,-,policeb,
+Emergency,Police Bike (2025),RWD,1,Western,,,,,Warstock,"4,960,000",Main Page,Garage & Clubhouse,Property,,,,17/06,2025,Money Fronts,policeb2,
+Emergency,Police Cruiser (Buffalo),RWD,4,Bravado,,,,,-,-,-,-,-,,,,17/09,2013,-,police2,Only available in single player
+Emergency,Police Cruiser (Interceptor),RWD,4,Vapid,,✔,,,-,-,-,-,-,,✔,,17/09,2013,-,police3,
+Emergency,Police Cruiser (Stanier),RWD,4,Vapid,,,,,-,-,-,-,-,,,,17/09,2013,-,police,
+Emergency,Police Rancher,AWD,4,Declasse,,,,,-,-,-,-,-,,,,17/09,2013,-,policeold1,Only available in single player
+Emergency,Police Riot,RWD,8,Brute,,,,,Warstock,"3,280,000",Main Page,Pegasus,-,,✔,,17/09,2013,-,riot,Made available to purchase online with Chop Shop update
+Emergency,Police Roadcruiser,RWD,4,Albany,,,,,-,-,-,-,-,,,,17/09,2013,-,policeold2,Only available in single player
+Emergency,Police Transporter,RWD,4,Declasse,,,,,-,-,-,-,-,,,,17/09,2013,-,policet,
+Emergency,Prison Bus,RWD,11,Vapid,,,,,Warstock,"731,000",Main Page,Pegasus,-,,✔,,17/09,2013,-,pbus,
+Emergency,RCV,RWD,6,-,,,,,Warstock,"3,125,500",Main Page,Facility,Property,,✔,,12/12,2017,Doomsday Heist,riot2,
+Emergency,Sheriff Cruiser,RWD,4,Vapid,,,,,-,-,-,-,-,,✔,,17/09,2013,-,sheriff,
+Emergency,Sheriff SUV,AWD,8,Declasse,,,,,-,-,-,-,-,,✔,,17/09,2013,-,sheriff2,
+Emergency,Stanier LE Cruiser,RWD,4,Vapid,,,,,Warstock,"4,690,000",Main Page,Garage,Property,,,,12/12,2023,Chop Shop,police5,
+Emergency,Terminus Patrol,AWD,4,Canis,,,,,Warstock,"5,125,000",Main Page,Garage,Property,,,,10/12,2024,Agents Of Sabotage,polterminus,
+Emergency,Unmarked Cruiser,RWD,4,Vapid,,,,,Warstock,"3,950,000",Main Page,Garage,Property,,✔,,17/09,2013,-,police4,Made available to purchase online with Chop Shop update
+Helicopters,Akula,RWD,4,Buckingham,,,,,Warstock,"4,500,000",Main Page,Hangar,Property,,✔,✔,12/12,2017,Doomsday Heist,akula,
+Helicopters,Annihilator,RWD,6,Western,,,,,Elitas,"1,825,000",Main Page,Hangar & Pegasus,-,✔,✔,,17/09,2013,-,annihilator,
+Helicopters,Annihilator Stealth,RWD,6,Western,,,,,Warstock,"3,870,000",Main Page,Hangar,Property,,,,15/12,2020,Cayo Perico Heist,annihilator2,
+Helicopters,Buzzard,RWD,4,Nagasaki,,,,,Warstock,"1,750,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,17/09,2013,-,"buzzard, buzzard2",
+Helicopters,Cargobob,RWD,10,Western,,,,,Warstock,"1,790,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,17/09,2013,-,"cargobob, cargobob2, cargobob3, cargobob4",Jetsam version identical
+Helicopters,Conada,RWD,4,Buckingham,,,,,Elitas,"2,450,000",Main Page,Hangar,Property,✔,✔,✔,26/07,2022,Criminal Enterprises,conada,
+Helicopters,DH-7 Iron Mule,RWD,16,Buckingham,,,,,Warstock,"2,345,000",Main Page,Hangar,Property,✔,✔,,04/03,2025,Agents Of Sabotage,cargobob5,
+Helicopters,FH-1 Hunter,RWD,2,-,,,,,Warstock,"4,123,000",Main Page,Hangar,Property,✔,✔,✔,21/11,2017,Smuggler's Run,hunter,
+Helicopters,Frogger,RWD,4,Maibatsu,,,,,Elitas,"1,300,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,17/09,2013,-,"frogger, frogger2",
+Helicopters,Havok,RWD,1,Nagasaki,,,,,Elitas,"2,300,900",Main Page,Hangar,Property,✔,✔,✔,29/08,2017,Smuggler's Run,havok,
+Helicopters,Maverick,RWD,4,Buckingham,,,,,Elitas,"780,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,17/09,2013,-,"maverick, maverick2",
+Helicopters,Police Maverick,RWD,4,Buckingham,,,,,-,-,-,-,-,✔,✔,,17/09,2013,-,polmav,
+Helicopters,Savage,RWD,4,-,,,,,Warstock,"2,593,500",Main Page,Hangar & Pegasus,-,✔,✔,✔,10/03,2015,Heists,savage,
+Helicopters,Sea Sparrow,RWD,2,-,,,,,Elitas,"1,815,000",Main Page,Hangar,Property,✔,✔,✔,17/04,2018,SSA Super Sport Series,seasparrow,
+Helicopters,Skylift,RWD,2,HVY,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,skylift,Only available in single player
+Helicopters,Sparrow,RWD,2,-,,,,,Submarine,"1,815,000",Listed Source,Submarine,-,,,,15/12,2020,Cayo Perico Heist,seasparrow2,
+Helicopters,SuperVolito,RWD,4,Buckingham,,,,,Elitas,"1,667,800",Main Page,Hangar & Pegasus,-,✔,✔,✔,15/12,2015,Executives & Other Criminals,"supervolito, supervolito2",Carbon version identical
+Helicopters,Swift,RWD,4,Buckingham,,,,,Elitas,"1,500,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,19/08,2014,San Andreas Flight School,swift,
+Helicopters,Swift Deluxe,RWD,4,Buckingham,,,,,Elitas,"5,150,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,10/06,2015,Ill-Gotten Gains Part 1,swift2,
+Helicopters,Valkyrie,RWD,4,Buckingham,,,,,Warstock,"3,790,500",Main Page,Hangar & Pegasus,-,✔,✔,✔,10/03,2015,Heists,"valkyrie, valkyrie2",
+Helicopters,Volatus,RWD,4,Buckingham,,,,,Elitas,"2,295,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,07/06,2016,Finance and Felony,volatus,
+Helicopters,Weaponized Conada,RWD,2,Buckingham,,,,,Warstock,"3,385,000",Main Page,Hangar,Property,✔,✔,✔,10/08,2023,San Andreas Mercenaries,conada2,
+Industrial,Custom Flatbed,AWD,6,MTL,,,,,-,-,-,-,-,,✔,✔,17/06,2025,Money Fronts,flatbed2,
+Industrial,Cutter,AWD,1,HVY,,,,,-,-,-,-,-,,,,17/09,2013,-,cutter,Only available in single player
+Industrial,Dock Handler,FWD,1,HVY,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,handler,
+Industrial,Dozer,AWD,1,HVY,,,,,Unlock,0,Arena Levels,Pegasus,-,,✔,✔,17/09,2013,-,bulldozer,Unlocked at Arena Sponsorship Tier 50
+Industrial,Dump,RWD,1,HVY,,✔,,,Warstock,"1,000,000",Main Page,Pegasus,-,,✔,✔,17/09,2013,-,dump,
+Industrial,Flatbed,AWD,2,MTL,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,flatbed,
+Industrial,Guardian,AWD,6,Vapid,,✔,,,SSASA,"375,000",4 Door Tab,Garage,LSC,✔,✔,✔,10/03,2015,Heists,guardian,
+Industrial,Mixer (3-Axle),RWD,2,HVY,,,,,Unlock,0,Arena Levels,Pegasus,-,,✔,✔,17/09,2013,-,mixer,Unlocked at Arena Sponsorship Tier 300
+Industrial,Mixer (4-Axle),RWD,2,HVY,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,mixer2,
+Industrial,Rubble,RWD,2,Jobuilt,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,rubble,
+Industrial,Tipper (2-Axle),RWD,2,Brute,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,tiptruck,
+Industrial,Tipper (3-Axle),RWD,2,Brute,,,,,-,-,-,-,-,,,,17/09,2013,-,tiptruck2,
+Military,APC,AWD,4,HVY,,✔,,,Warstock,"3,092,250",Main Page,Garage,MOC,,✔,✔,13/06,2017,Gunrunning,apc,
+Military,Barracks,RWD,10,HVY,,,,,Warstock,"450,000",Main Page,Pegasus,-,,✔,✔,17/09,2013,-,"barracks, barracks3",
+Military,Barracks Semi,RWD,2,HVY,,,,,Unlock,0,Arena Levels,Pegasus,-,,✔,✔,17/09,2013,-,barracks2,Unlocked at Arena Sponsorship Tier 200
+Military,Barrage,AWD,4,HVY,✔,,,,Warstock,"2,121,350",Main Page,Garage,MOC,,✔,✔,12/12,2017,Doomsday Heist,barrage,Rear Turret upgrade adds traction like a spoiler
+Military,Chernobog,AWD,2,HVY,,,,,Warstock,"1,500,000",Main Page,Facility,Property,,✔,✔,12/12,2017,Doomsday Heist,chernobog,
+Military,Crusader,AWD,4,Canis,,,,,Warstock,"225,000",Main Page,Pegasus,-,✔,✔,✔,17/09,2013,-,crusader,
+Military,Half-Track,RWD,3,Bravado,,,,,Warstock,"2,254,350",Main Page,Garage,MOC,,✔,✔,13/06,2017,Gunrunning,halftrack,
+Military,Invade and Persuade Tank,AWD,1,-,,,,,Warstock,"2,275,000",Main Page,Pegasus,LSC,,,,25/12,2019,Diamond Casino Heist,minitank,
+Military,Rhino Tank,AWD,1,-,,,,,Warstock,"1,500,000",Main Page,Pegasus,-,,✔,✔,17/09,2013,-,rhino,
+Military,Scarab,AWD,4,HVY,,,,✔,ArenaWar,"3,076,290",Arena Ready Tab,Garage,LSC & Property,,,✔,11/12,2018,Arena War,"scarab, scarab2, scarab3",
+Military,Thruster,RWD,1,Mammoth,,,,,Warstock,"2,500,000",Main Page,Facility,Property,,✔,,12/12,2017,Doomsday Heist,thruster,
+Military,TM-02 Khanjali,AWD,4,-,,,,,Warstock,"3,850,350",Main Page,Facility,Property,,✔,✔,12/12,2017,Doomsday Heist,khanjali,
+Military,Vetir,RWD,10,-,,,,,Warstock,"1,630,000",Main Page,Pegasus,-,,,,28/01,2021,Cayo Perico Heist,vetir,
+Motorcycles,Akuma,RWD,2,Dinka,,,,,SSASA,"9,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,17/09,2013,-,akuma,
+Motorcycles,Avarus,RWD,1,LCC,✔,,,,SSASA,"116,000",18 June 2026,Garage & Clubhouse,LSC,✔,✔,✔,04/10,2016,Bikers,avarus,Belt drive cover modification adds traction like a spoiler
+Motorcycles,Bagger,RWD,2,Western,,,,,SSASA,"16,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,17/09,2013,-,bagger,
+Motorcycles,Bati 801,RWD,2,Pegassi,,,,,SSASA,"15,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,17/09,2013,-,"bati, bati2",
+Motorcycles,BF400,RWD,2,Nagasaki,,✔,,,SSASA,"95,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,12/07,2016,Cunning Stunts,bf400,
+Motorcycles,Carbon RS,RWD,2,Nagasaki,,,,,L.Motorsport,"40,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,,,17/09,2013,-,carbonrs,
+Motorcycles,Chimera,RWD,1,Nagasaki,✔,✔,,,SSASA,"210,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,04/10,2016,Bikers,chimera,Belt drive cover modification adds traction like a spoiler
+Motorcycles,Cliffhanger,RWD,2,Western,,✔,,,SSASA,"225,000",4 June 2026,Garage & Clubhouse,LSC,✔,✔,✔,19/07,2016,Cunning Stunts,cliffhanger,
+Motorcycles,Daemon,RWD,2,Western,✔,,,,SSASA,"145,000",14 May 2026,Garage & Clubhouse,LSC,✔,✔,✔,11/10,2016,Bikers,daemon2,Belt drive cover modification adds traction like a spoiler
+Motorcycles,Daemon (Lost),RWD,2,Western,✔,,,,Traffic,0,Traffic Spawn,Garage & Clubhouse,LSC,✔,✔,✔,17/09,2013,-,daemon,Rear seat modification adds traction like a spoiler
+Motorcycles,Deathbike,RWD,1,Western,,✔,,✔,Upgrade,"1,389,000",Arena Workshop,Garage & Clubhouse,LSC & Property,,,✔,11/12,2018,Arena War,"deathbike, deathbike2, deathbike3",Acquired by upgrading Gargoyle in Arena Workshop
+Motorcycles,Defiler,RWD,1,Shitzu,✔,,,,SSASA,"412,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,04/10,2016,Bikers,defiler,Headlight modification adds traction like a spoiler
+Motorcycles,Diabolus,RWD,1,Principe,,,,,Benny's,"169,000",Main Page,Garage & Clubhouse,LSC,✔,✔,✔,13/12,2016,Import/Export,diablous,
+Motorcycles,Diabolus Custom,RWD,1,Principe,✔,,,,Upgrade,"414,000",Benny's Workshop,Garage & Clubhouse,LSC,✔,✔,✔,13/12,2016,Import/Export,diablous2,Acquired by upgrading Diabolus in Benny's. Headlight modification adds traction like a spoiler
+Motorcycles,Double-T,RWD,2,Dinka,,,,,SSASA,"12,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,,,17/09,2013,-,double,
+Motorcycles,Enduro,RWD,2,Dinka,,✔,,,SSASA,"48,000",11 June 2026,Garage & Clubhouse,LSC,✔,✔,✔,10/03,2015,Heists,enduro,
+Motorcycles,Esskey,RWD,2,Pegassi,✔,✔,,,SSASA,"264,000",2 July 2026,Garage & Clubhouse,LSC,✔,✔,✔,15/11,2016,Bikers,esskey,Headlight modification adds traction like a spoiler
+Motorcycles,Faggio,RWD,2,Pegassi,,,,,SSASA,"5,000",Traffic Spawn,Garage & Clubhouse,LSC,✔,✔,✔,17/09,2013,-,faggio2,
+Motorcycles,Faggio Mod,RWD,2,Pegassi,✔,,,,SSASA,"55,000",31 August 2023,Garage & Clubhouse,LSC,✔,✔,✔,04/10,2016,Bikers,faggio3,Front antenna modification adds traction like a spoiler
+Motorcycles,Faggio Sport,RWD,2,Pegassi,,,,,SSASA,"47,500",4 July 2024,Garage & Clubhouse,LSC,✔,✔,✔,04/10,2016,Bikers,faggio,
+Motorcycles,FCR 1000,RWD,1,Pegassi,,,,,Benny's,"135,000",Main Page,Garage & Clubhouse,LSC,✔,✔,✔,02/01,2017,Import/Export,fcr,
+Motorcycles,FCR 1000 Custom,RWD,1,Pegassi,✔,,,,Upgrade,"331,000",Benny's Workshop,Garage & Clubhouse,LSC,✔,✔,✔,02/01,2017,Import/Export,fcr2,Acquired by upgrading FCR 1000 in Benny's. Fairing modification adds traction like a spoiler
+Motorcycles,Gargoyle,RWD,2,Western,,✔,,,SSASA,"120,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,12/07,2016,Cunning Stunts,gargoyle,
+Motorcycles,Hakuchou,RWD,2,Shitzu,,,,,SSASA,"82,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,02/10,2014,Last Team Standing,hakuchou,
+Motorcycles,Hakuchou Drag,RWD,2,Shitzu,,,,,L.Motorsport,"976,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,04/10,2016,Bikers,hakuchou2,
+Motorcycles,Hakuchou Drag (HSW),RWD,2,Shitzu,,,,,Upgrade,"2,426,000",LSCM Workshop,Garage & Clubhouse,LSC & LSCM,✔,✔,✔,15/03,2022,Expanded & Enhanced Edition,hakuchou2_hsw,Acquired by upgrading Hakuchou Drag at Hao's Special Works
+Motorcycles,Hexer,RWD,2,LCC,,,,,SSASA,"15,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,17/09,2013,-,hexer,
+Motorcycles,Innovation,RWD,2,LCC,,,,,SSASA,"92,500",19 February 2026,Garage & Clubhouse,LSC,✔,✔,✔,02/10,2014,Last Team Standing,innovation,
+Motorcycles,Lectro,RWD,2,Principe,,,,✔,L.Motorsport,"997,500",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,10/03,2015,Heists,lectro,
+Motorcycles,Manchez,RWD,2,Maibatsu,,✔,,,SSASA,"67,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,04/10,2016,Bikers,manchez,
+Motorcycles,Manchez Scout,RWD,1,Maibatsu,✔,✔,,,Warstock,"225,000",Main Page,Garage & Clubhouse,LSC,✔,✔,✔,14/01,2021,Cayo Perico Heist,manchez2,Top box modification adds traction like a spoiler
+Motorcycles,Manchez Scout C,RWD,1,Maibatsu,,✔,,,Property,0,Listed Source,Freakshop,Property,,,,13/12,2022,Los Santos Drug Wars,manchez3,Only available with purchase of Acid Lab (Bricade 6x6)
+Motorcycles,Nemesis,RWD,2,Principe,,,,,SSASA,"12,000",Traffic Spawn,Garage & Clubhouse,LSC,✔,✔,✔,17/09,2013,-,nemesis,
+Motorcycles,Nightblade,RWD,2,Western,,,,,SSASA,"100,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,04/10,2016,Bikers,nightblade,
+Motorcycles,Oppressor,RWD,1,Pegassi,✔,✔,,✔,Warstock,"2,750,000",Main Page,Garage & Clubhouse,MOC,,✔,✔,13/06,2017,Gunrunning,oppressor,1:00 lap time without boost. Can fly. Fairing modification adds traction like a spoiler
+Motorcycles,Oppressor Mk II,RWD,1,Pegassi,,✔,,✔,Warstock,"8,000,000",Main Page,Garage & Clubhouse,MOC,,✔,,14/08,2018,After Hours,oppressor2,Disgraceful
+Motorcycles,PCJ 600,RWD,2,Shitzu,,,,,SSASA,"9,000",Traffic Spawn,Garage & Clubhouse,LSC,✔,,,17/09,2013,-,pcj,
+Motorcycles,Pizza Boy,RWD,1,Pegassi,,,,,SSASA,"195,000",Motorcycles Tab,Garage,LSC,✔,✔,✔,25/07,2024,Bottom Dollar Bounties,pizzaboy,
+Motorcycles,Powersurge,RWD,1,Western,✔,,,,L.Motorsport,"1,605,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,29/12,2022,Los Santos Drug Wars,powersurge,Bodywork modification adds traction like a spoiler
+Motorcycles,Rampant Rocket,RWD,1,Western,,✔,,,L.Motorsport,"925,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,31/10,2019,Diamond Casino & Resort,rrocket,
+Motorcycles,Rat Bike,RWD,2,Western,✔,,,,SSASA,"48,000",28 May 2026,Garage & Clubhouse,LSC,✔,✔,✔,04/10,2016,Bikers,ratbike,Belt drive covers add traction like a spoiler
+Motorcycles,Reever,RWD,1,Western,✔,,,,L.Motorsport,"1,900,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,03/02,2022,The Contract,reever,Backrest option adds traction like a spoiler
+Motorcycles,Ruffian,RWD,2,Pegassi,,,,,SSASA,"10,000",Traffic Spawn,Garage & Clubhouse,LSC,✔,,,17/09,2013,-,ruffian,
+Motorcycles,Sanchez,RWD,2,Maibatsu,,✔,,,SSASA,"7,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,17/09,2013,-,"sanchez, sanchez2",Sanchez 1 & 2 have identical performance and stats
+Motorcycles,Sanctus,RWD,1,LCC,✔,,,,SSASA,"1,995,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,,,25/10,2016,Bikers,sanctus,Belt drive cover modification adds traction like a spoiler
+Motorcycles,Shinobi,RWD,1,Nagasaki,,,,,L.Motorsport,"2,480,500",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,13/01,2022,The Contract,shinobi,
+Motorcycles,Shotaro,RWD,1,Nagasaki,,,,,L.Motorsport,"2,225,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,08/11,2016,Bikers,shotaro,
+Motorcycles,Sovereign,RWD,1,Western,,,,,SSASA,"120,000",10 July 2025,Garage & Clubhouse,LSC,✔,✔,✔,01/07,2014,Independence Day,sovereign,
+Motorcycles,Stryder,RWD,2,Nagasaki,,,,,L.Motorsport,"670,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,05/03,2020,Diamond Casino Heist,stryder,
+Motorcycles,Thrust,RWD,2,Dinka,,,,,L.Motorsport,"75,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,13/05,2014,High Life,thrust,
+Motorcycles,Vader,RWD,2,Shitzu,,,,,SSASA,"9,000",Traffic Spawn,Garage & Clubhouse,LSC,✔,✔,✔,17/09,2013,-,vader,
+Motorcycles,Vindicator,RWD,2,Dinka,,,,✔,L.Motorsport,"630,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,08/07,2015,Ill-Gotten Gains Part 2,vindicator,
+Motorcycles,Vortex,RWD,1,Pegassi,✔,,,,SSASA,"356,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,25/10,2016,Bikers,vortex,Headlight modification adds traction like a spoiler
+Motorcycles,Wolfsbane,RWD,2,Western,✔,,,,SSASA,"95,000",4 June 2026,Garage & Clubhouse,LSC,✔,✔,✔,04/10,2016,Bikers,wolfsbane,Belt drive cover modification adds traction like a spoiler
+Motorcycles,Zombie Bobber,RWD,1,Western,✔,,,,SSASA,"99,000",14 May 2026,Garage & Clubhouse,LSC,✔,✔,✔,04/10,2016,Bikers,zombiea,Belt drive cover modification adds traction like a spoiler
+Motorcycles,Zombie Chopper,RWD,2,Western,✔,,,,SSASA,"122,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,04/10,2016,Bikers,zombieb,Belt drive cover modification adds traction like a spoiler
+Muscle,Arbiter GT,RWD,2,Imponte,✔,,,,SSASA,"1,580,000",2 Door Tab,Garage,LSC,✔,✔,✔,15/03,2022,Expanded & Enhanced Edition,arbitergt,
+Muscle,Arbiter GT (HSW),RWD,2,Imponte,✔,,,,Upgrade,"1,936,250",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,15/03,2022,Expanded & Enhanced Edition,arbitergt_hsw,Acquired by upgrading Arbiter GT at Hao's Special Works
+Muscle,Beater Dukes,RWD,2,Imponte,✔,,,,SSASA,"378,000",2 Door Tab,Garage,LSC,✔,✔,✔,11/08,2020,Los Santos Summer Special,dukes3,
+Muscle,Blade,RWD,2,Vapid,✔,,,,SSASA,"160,000",2 July 2026,Garage,LSC,✔,✔,✔,17/06,2014,I'm Not A Hipster,blade,
+Muscle,Brigham,RWD,4,Albany,✔,,✔,,SSASA,"999,400",4 Door Tab,Garage,LSC,✔,✔,✔,12/10,2023,San Andreas Mercenaries,brigham,Roof accessories modification adds traction like a spoiler
+Muscle,Broadway,RWD,2,Classique,,,,,L.Motorsport,"925,000",2 Door Tab,Garage,LSC,✔,✔,✔,09/02,2023,Los Santos Drug Wars,broadway,
+Muscle,Buccaneer,RWD,2,Albany,,,,,Benny's,"29,000",Main Page,Garage,LSC,✔,✔,✔,17/09,2013,-,buccaneer,
+Muscle,Buccaneer Custom,RWD,2,Albany,,,,,Upgrade,"419,000",Benny's Workshop,Garage,LSC,✔,✔,✔,20/10,2015,Lowriders,buccaneer2,Acquired by upgrading Buccaneer in Benny's
+Muscle,Buffalo EVX,AWD,2,Bravado,✔,,✔,,L.Motorsport,"2,140,000",2 Door Tab,Garage,LSC & Property,✔,✔,✔,22/06,2023,San Andreas Mercenaries,buffalo5,
+Muscle,Buffalo EVX (HSW),AWD,2,Bravado,✔,,✔,,Upgrade,"3,555,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,22/06,2023,San Andreas Mercenaries,buffalo5_hsw,Acquired by upgrading Buffalo EVX at Hao's Special Works
+Muscle,Buffalo STX,RWD,4,Bravado,✔,,✔,,SSASA,"2,150,000",4 Door Tab,Garage,LSC & Property,✔,✔,✔,15/12,2021,The Contract,buffalo4,
+Muscle,Burger Shot Stallion,RWD,2,Declasse,,,,,SSASA,"277,000",2 Door Tab,Garage,LSC,✔,✔,✔,18/11,2014,Enhanced Edition,stalion2,
+Muscle,Chino,RWD,2,Vapid,,,,,L.Motorsport,"225,000",2 Door Tab,Garage,LSC,✔,✔,✔,08/07,2015,Ill-Gotten Gains Part 2,chino,
+Muscle,Chino Custom,RWD,2,Vapid,,,,,Upgrade,"405,000",Benny's Workshop,Garage,LSC,✔,✔,✔,20/10,2015,Lowriders,chino2,Acquired by upgrading Chino in Benny's
+Muscle,Clique,RWD,2,Vapid,✔,✔,,,L.Motorsport,"909,000",11 June 2026,Garage,LSC,✔,✔,✔,25/12,2018,Arena War,clique,
+Muscle,Clique Wagon,RWD,2,Vapid,,,✔,,SSASA,"1,205,000",2 Door Tab,Garage,LSC,✔,✔,✔,13/06,2023,San Andreas Mercenaries,clique2,
+Muscle,Coquette BlackFin,RWD,2,Invetero,✔,,,,L.Motorsport,"695,000",11 June 2026,Garage,LSC,✔,✔,✔,08/07,2015,Ill-Gotten Gains Part 2,coquette3,
+Muscle,Deviant,RWD,2,Schyster,✔,,,,L.Motorsport,"512,000",2 Door Tab,Garage,LSC,✔,✔,✔,07/02,2019,Arena War,deviant,
+Muscle,Dominator,RWD,2,Vapid,✔,,,,SSASA,"35,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,dominator,
+Muscle,Dominator (Arena),RWD,2,Vapid,✔,,,✔,Upgrade,"1,167,000",Arena Workshop,Garage,LSC & Property,,,✔,11/12,2018,Arena War,"dominator4, dominator5, dominator6",Acquired by upgrading Dominator in Arena Workshop. Future Shock version has no spoiler & goes 2.5s slower than listed lap time
+Muscle,Dominator ASP,RWD,2,Vapid,DF=1.5,,✔,,SSASA,"1,775,000",2 Door Tab,Garage,LSC,✔,✔,✔,05/08,2021,Los Santos Tuners,dominator7,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Muscle,Dominator FX,RWD,2,Vapid,✔,,✔,,SSASA,"1,550,000",2 Door Tab,Garage,LSC,✔,✔,✔,25/07,2024,Bottom Dollar Bounties,dominator10,
+Muscle,Dominator GT,RWD,2,Vapid,✔,,✔,,SSASA,"2,195,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/12,2023,Chop Shop,dominator9,
+Muscle,Dominator GTT,RWD,2,Vapid,✔,,✔,,SSASA,"1,220,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/07,2021,Los Santos Tuners,dominator8,
+Muscle,Dominator GTX,RWD,2,Vapid,✔,✔,,,SSASA,"725,000",2 Door Tab,Garage,LSC,✔,✔,✔,08/05,2018,SSA Super Sport Series,dominator3,
+Muscle,Drift Yosemite,RWD,2,Declasse,✔,,,,SSASA,"1,308,000",2 Door Tab,Garage,LSC,✔,✔,✔,06/02,2020,Diamond Casino Heist,yosemite2,
+Muscle,Duke O'Death,RWD,2,Imponte,,,,,Warstock,"665,000",Main Page,Garage,LSC,✔,✔,✔,18/11,2014,Enhanced Edition,dukes2,
+Muscle,Dukes,RWD,2,Imponte,✔,,,,SSASA,"62,000",2 Door Tab,Garage,LSC,✔,✔,✔,18/11,2014,Enhanced Edition,dukes,
+Muscle,Ellie,RWD,2,Vapid,,,,,SSASA,"565,000",2 Door Tab,Garage,LSC,✔,✔,✔,27/03,2018,SSA Super Sport Series,ellie,
+Muscle,Eudora,RWD,4,Willard,✔,,,,SSASA,"1,250,000",4 Door Tab,Garage,LSC,✔,✔,✔,16/03,2023,Los Santos Drug Wars,eudora,Roof rack modifications adds traction like a spoiler
+Muscle,Faction,RWD,2,Willard,,,,,Benny's,"36,000",Main Page,Garage,LSC,✔,✔,✔,20/10,2015,Lowriders,faction,
+Muscle,Faction Custom,RWD,2,Willard,,,,,Upgrade,"371,000",Benny's Workshop,Garage,LSC,✔,✔,✔,20/10,2015,Lowriders,faction2,Acquired by upgrading Faction in Benny's
+Muscle,Faction Custom Donk,RWD,2,Willard,,,,,Upgrade,"731,000",Benny's Workshop,Garage,LSC,✔,✔,✔,15/03,2016,Lowriders: Custom Classics,faction3,Acquired by upgrading Faction in Benny's
+Muscle,Gauntlet,RWD,2,Bravado,,,,,SSASA,"32,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,gauntlet,
+Muscle,Gauntlet Classic,RWD,2,Bravado,✔,,,,SSASA,"615,000",2 Door Tab,Garage,LSC,✔,✔,✔,08/08,2019,Diamond Casino & Resort,gauntlet3,
+Muscle,Gauntlet Classic Custom,RWD,2,Bravado,✔,,,,Upgrade,"815,000",Benny's Workshop,Garage,LSC,✔,,✔,11/08,2020,Los Santos Summer Special,gauntlet5,Acquired by upgrading Gauntlet Classic in Benny's
+Muscle,Gauntlet Hellfire,RWD,2,Bravado,✔,,,,SSASA,"745,000",2 Door Tab,Garage,LSC,✔,✔,✔,05/09,2019,Diamond Casino & Resort,gauntlet4,
+Muscle,Greenwood,RWD,4,Bravado,✔,,✔,,SSASA,"1,465,000",4 Door Tab,Garage,LSC & Property,✔,✔,✔,26/07,2022,Criminal Enterprises,greenwood,
+Muscle,Hermes,RWD,2,Albany,,,,,SSASA,"535,000",2 Door Tab,Garage,LSC,✔,✔,✔,25/12,2017,Doomsday Heist,hermes,
+Muscle,Hotknife,RWD,2,Vapid,,,,,L.Motorsport,"90,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,hotknife,
+Muscle,Hustler,RWD,2,Vapid,,,,,L.Motorsport,"625,000",11 June 2026,Garage,LSC,✔,✔,✔,13/02,2018,Doomsday Heist,hustler,
+Muscle,Impaler,RWD,2,Declasse,✔,✔,,,SSASA,"331,835",2 Door Tab,Garage,LSC,✔,✔,✔,11/12,2018,Arena War,impaler,
+Muscle,Impaler (Arena),RWD,2,Declasse,✔,✔,,✔,Upgrade,"1,541,335",Arena Workshop,Garage,LSC & Property,,,✔,11/12,2018,Arena War,"impaler2, impaler3, impaler4",Acquired by upgrading Impaler in Arena Workshop. Trunk modification adds traction like a spoiler
+Muscle,Impaler LX,RWD,2,Declasse,✔,✔,,,SSASA,"1,465,000",4 Door Tab,Garage,LSC,✔,✔,✔,12/12,2023,Chop Shop,impaler6,
+Muscle,Impaler SZ,RWD,4,Declasse,✔,,,,SSASA,"1,280,000",4 Door Tab,Garage,LSC,✔,✔,✔,22/02,2024,Chop Shop,impaler5,
+Muscle,Imperator,RWD,2,Vapid,,,,✔,ArenaWar,"2,284,940",Arena Ready Tab,Garage,LSC & Property,,,✔,11/12,2018,Arena War,"imperator, imperator2, imperator3",
+Muscle,Lost Slamvan,RWD,4,Vapid,,,,,Casino,0,Lucky Wheel,Garage,LSC,✔,,,10/03,2015,Heists,slamvan2,Can only be won as a mystery prize on the Lucky Wheel in the Casino with a 1/19460 chance
+Muscle,Lurcher,RWD,2,Albany,,,,,SSASA,"650,000",2 Door Tab,Garage,LSC,✔,,,29/10,2015,Halloween Surprise,lurcher,
+Muscle,Manana Custom,RWD,2,Albany,,,,,Upgrade,"935,000",Benny's Workshop,Garage,LSC,✔,✔,✔,11/08,2020,Los Santos Summer Special,manana2,Acquired by upgrading Manana in Benny's
+Muscle,Moonbeam,RWD,4,Declasse,,,,,Benny's,"32,500",Main Page,Garage,LSC,✔,✔,✔,20/10,2015,Lowriders,moonbeam,
+Muscle,Moonbeam Custom,RWD,4,Declasse,✔,,,,Upgrade,"402,500",Benny's Workshop,Garage,LSC,✔,✔,✔,20/10,2015,Lowriders,moonbeam2,Acquired by upgrading Moonbeam in Benny's. Tailgate spare wheel modification adds traction like a spoiler
+Muscle,Nightshade,RWD,2,Imponte,✔,✔,,,L.Motorsport,"585,000",2 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,nightshade,
+Muscle,Peyote Gasser,RWD,2,Vapid,,,,,SSASA,"805,000",2 Door Tab,Garage,LSC,✔,✔,✔,28/11,2019,Diamond Casino & Resort,peyote2,
+Muscle,Phoenix,RWD,2,Imponte,✔,,,,Traffic,0,Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,phoenix,
+Muscle,Picador,AWD,2,Cheval,✔,,,,SSASA,"9,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,picador,
+Muscle,Pisswasser Dominator,RWD,2,Vapid,✔,,,,SSASA,"315,000",2 Door Tab,Garage,LSC,✔,✔,✔,18/11,2014,Enhanced Edition,dominator2,
+Muscle,Rat-Loader,RWD,2,Bravado,,,,,SSASA,"6,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,ratloader,
+Muscle,Rat-Truck,RWD,2,Bravado,,,,,SSASA,"37,500",2 Door Tab,Garage,LSC,✔,✔,✔,18/12,2014,Festive Surprise 2014,ratloader2,
+Muscle,Redwood Gauntlet,RWD,2,Bravado,,,,,SSASA,"230,000",2 Door Tab,Garage,LSC,✔,✔,✔,18/11,2014,Enhanced Edition,gauntlet2,
+Muscle,Ruiner,RWD,2,Imponte,✔,,,,SSASA,"10,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,"ruiner, ruiner3",
+Muscle,Ruiner 2000,RWD,2,Imponte,,,,,Warstock,"3,750,000",Main Page,Warehouse,LSC,,✔,✔,13/12,2016,Import/Export,ruiner2,
+Muscle,Ruiner ZZ-8,RWD,2,Imponte,✔,,✔,,SSASA,"1,320,000",2 Door Tab,Garage,LSC,✔,✔,✔,18/08,2022,Criminal Enterprises,ruiner4,
+Muscle,Sabre Turbo,RWD,2,Declasse,✔,,,,Benny's,"15,000",Main Page,Garage,LSC,✔,,,17/09,2013,-,sabregt,
+Muscle,Sabre Turbo Custom,RWD,2,Declasse,✔,,,,Upgrade,"505,000",Benny's Workshop,Garage,LSC,✔,✔,✔,19/04,2016,Lowriders: Custom Classics,sabregt2,Acquired by upgrading Sabre Turbo in Benny's
+Muscle,Slamvan,RWD,2,Vapid,,,,,SSASA,"49,500",2 Door Tab,Garage,LSC,✔,✔,✔,18/12,2014,Festive Surprise 2014,slamvan,
+Muscle,Slamvan (Arena),RWD,2,Vapid,,✔,,✔,Upgrade,"1,371,375",Arena Workshop,Garage,LSC & Property,,,✔,11/12,2018,Arena War,"slamvan4, slamvan5, slamvan6",Acquired by upgrading Slamvan in Arena Workshop. Nightmare version has spoiler & goes 2.4s quicker than listed lap time
+Muscle,Slamvan Custom,RWD,2,Vapid,✔,,,,Upgrade,"464,500",Benny's Workshop,Garage,LSC,✔,✔,✔,15/03,2016,Lowriders: Custom Classics,slamvan3,Acquired by upgrading Slamvan in Benny's
+Muscle,Stallion,RWD,2,Declasse,,,,,SSASA,"71,000",2 Door Tab,Garage,LSC,✔,✔,✔,18/11,2014,Enhanced Edition,stalion,
+Muscle,Tahoma Coupe,RWD,2,Declasse,,,✔,,SSASA,"950,000",2 Door Tab,Garage,LSC,✔,✔,✔,16/12,2022,Los Santos Drug Wars,tahoma,
+Muscle,Tampa,RWD,2,Declasse,✔,,,,SSASA,"375,000",2 Door Tab,Garage,LSC,✔,,,23/12,2015,Festive Surprise 2015,tampa,
+Muscle,Tampa GT,RWD,2,Declasse,✔,,✔,,SSASA,"1,311,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/06,2025,Money Fronts,tampa4,
+Muscle,Tampa GT (HSW),RWD,2,Declasse,✔,,✔,,Upgrade,"2,711,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,17/06,2025,Money Fronts,tampa4_hsw,
+Muscle,Tulip,RWD,4,Declasse,✔,✔,,,SSASA,"718,000",2 July 2026,Garage,LSC,✔,✔,✔,15/01,2019,Arena War,tulip,
+Muscle,Tulip M-100,RWD,2,Declasse,DF=1.1,,,,SSASA,"894,800",2 Door Tab,Garage,LSC,✔,✔,✔,13/12,2022,Los Santos Drug Wars,tulip2,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Muscle,Vamos,RWD,2,Declasse,✔,,,,SSASA,"596,000",25 June 2026,Garage,LSC,✔,✔,✔,14/02,2019,Arena War,vamos,
+Muscle,Vigero,RWD,2,Declasse,✔,,,,SSASA,"21,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,vigero,
+Muscle,Vigero ZX,RWD,2,Declasse,DF=2,,,,SSASA,"1,947,000",2 Door Tab,Garage,LSC,✔,✔,✔,01/09,2022,Criminal Enterprises,vigero2,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Muscle,Vigero ZX (HSW),RWD,2,Declasse,DF=2,,,,Upgrade,"2,497,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,01/09,2022,Criminal Enterprises,vigero2_hsw,"Acquired by upgrading Vigero ZX at Hao's Special Works. Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Muscle,Vigero ZX Convertible,RWD,2,Declasse,DF=2,,,,SSASA,"2,295,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/12,2023,Chop Shop,vigero3,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Muscle,Vigero ZX Convertible (HSW),RWD,2,Declasse,DF=2,,,,Upgrade,"2,845,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,12/12,2023,Chop Shop,vigero3_hsw,"Acquired by upgrading Vigero ZX Convertible at Hao's Special Works. Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Muscle,Virgo,RWD,2,Albany,,,,,L.Motorsport,"195,000",2 Door Tab,Garage,LSC,✔,✔,✔,10/06,2015,Ill-Gotten Gains Part 1,virgo,
+Muscle,Virgo Classic,RWD,2,Dundreary,,,,,Benny's,"165,000",Main Page,Garage,LSC,✔,✔,✔,15/03,2016,Lowriders: Custom Classics,virgo3,
+Muscle,Virgo Classic Custom,RWD,2,Dundreary,,,,,Upgrade,"405,000",Benny's Workshop,Garage,LSC,✔,✔,✔,15/03,2016,Lowriders: Custom Classics,virgo2,Acquired by upgrading Virgo Classic in Benny's
+Muscle,Voodoo,RWD,2,Declasse,,,,,Benny's,"5,500",Main Page,Garage,LSC,✔,✔,✔,17/09,2013,-,voodoo2,
+Muscle,Voodoo Custom,RWD,2,Declasse,,,,,Upgrade,"425,500",Benny's Workshop,Garage,LSC,✔,✔,✔,20/10,2015,Lowriders,voodoo,Acquired by upgrading Voodoo in Benny's
+Muscle,Weaponized Tampa,AWD,2,Declasse,,,,,Warstock,"2,108,050",Main Page,Garage,MOC,,✔,✔,13/06,2017,Gunrunning,tampa3,
+Muscle,Weevil Custom,RWD,2,BF,✔,,✔,,Upgrade,"1,850,000",Benny's Workshop,Garage,LSC,✔,✔,✔,27/10,2022,Criminal Enterprises,weevil2,Acquired by upgrading Weevil in Benny's
+Muscle,Yosemite,RWD,2,Declasse,✔,,,,SSASA,"485,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/12,2017,Doomsday Heist,yosemite,
+Off-Road,Bifta,RWD,2,BF,✔,,,,SSASA,"75,000",11 June 2026,Garage,LSC,✔,✔,✔,19/11,2013,Beach Bum,bifta,
+Off-Road,Blazer,AWD,1,Nagasaki,,,,,SSASA,"8,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,17/09,2013,-,blazer,
+Off-Road,Blazer Aqua,AWD,1,Nagasaki,,,,,Warstock,"953,360",Main Page,Warehouse,LSC,,✔,✔,13/12,2016,Import/Export,blazer5,
+Off-Road,Blazer Lifeguard,AWD,1,Nagasaki,,,,,Warstock,"62,000",Special Spawn,Garage & Clubhouse,LSC,✔,,,17/09,2013,-,blazer2,
+Off-Road,Bodhi,AWD,4,Canis,,,,,SSASA,"25,000",Off-Road Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,bodhi2,
+Off-Road,Boor,AWD,2,Karin,,,✔,,SSASA,"1,280,000",2 Door Tab,Garage,LSC,✔,✔,✔,13/04,2023,Los Santos Drug Wars,boor,
+Off-Road,Brawler,AWD,2,Coil,,,,,L.Motorsport,"715,000",2 Door Tab,Garage,LSC,✔,✔,✔,08/07,2015,Ill-Gotten Gains Part 2,brawler,
+Off-Road,Bruiser,RWD,4,Benefactor,✔,,,✔,Upgrade,"1,809,000",Arena Workshop,Garage,LSC & Property,,,✔,11/12,2018,Arena War,"bruiser, bruiser2, bruiser3",Acquired by upgrading Glendale in Arena Workshop. Spare wheel modification adds traction like a spoiler
+Off-Road,Brutus,AWD,2,Declasse,,,,✔,ArenaWar,"2,666,650",Arena Ready Tab,Garage,LSC & Property,,,✔,11/12,2018,Arena War,"brutus, brutus2, brutus3",
+Off-Road,Caracara,AWD,5,Vapid,,,,,Warstock,"1,775,000",Main Page,Garage,LSC & MOC,,✔,✔,03/04,2018,SSA Super Sport Series,caracara,
+Off-Road,Caracara 4x4,AWD,4,Vapid,✔,,,,SSASA,"875,000",Off-Road Tab,Garage,LSC,✔,✔,✔,23/07,2019,Diamond Casino & Resort,caracara2,Rack modification adds traction like a spoiler
+Off-Road,Desert Raid,AWD,2,Vapid,,,,,SSASA,"695,000",Off-Road Tab,Garage,LSC,✔,✔,✔,12/07,2016,Cunning Stunts,trophytruck2,
+Off-Road,Draugur,AWD,4,Declasse,✔,,✔,,SSASA,"1,870,000",Off-Road Tab,Garage,LSC,✔,✔,✔,11/08,2022,Criminal Enterprises,draugur,
+Off-Road,Dubsta 6x6,AWD,6,Benefactor,,✔,,,Warstock,"249,000",Main Page,Garage,LSC,✔,✔,✔,17/06,2014,I'm Not A Hipster,dubsta3,
+Off-Road,Dune Buggy,RWD,2,BF,,,,,SSASA,"20,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,dune,
+Off-Road,Dune FAV,RWD,2,BF,,,,,Warstock,"1,130,500",Main Page,Garage,MOC,,✔,✔,13/06,2017,Gunrunning,dune3,
+Off-Road,Duneloader,RWD,2,Bravado,,,,,Traffic,0,Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,dloader,
+Off-Road,Everon,AWD,4,Karin,✔,,,,SSASA,"1,475,000",Luxury Tab,Garage,LSC,✔,✔,✔,12/12,2019,Diamond Casino Heist,everon,
+Off-Road,Firebolt ASP,RWD,2,Vapid,✔,,✔,,SSASA,"1,894,500",2 Door Tab,Garage,LSC,✔,✔,✔,19/12,2024,Agents Of Sabotage,firebolt,
+Off-Road,Firebolt ASP (HSW),RWD,2,Vapid,✔,,✔,,Upgrade,"3,394,500",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,19/12,2024,Agents Of Sabotage,firebolt_hsw,
+Off-Road,Freecrawler,AWD,4,Canis,,,,,L.Motorsport,"597,000",4 Door Tab,Garage,LSC,✔,✔,✔,04/09,2018,After Hours,freecrawler,
+Off-Road,Hellion,AWD,2,Annis,✔,,,,SSASA,"835,000",Off-Road Tab,Garage,LSC,✔,✔,✔,03/10,2019,Diamond Casino & Resort,hellion,Window plate modification adds traction like a spoiler
+Off-Road,Hot Rod Blazer,AWD,1,Nagasaki,,,,,SSASA,"69,000",19 March 2026,Garage & Clubhouse,LSC,✔,,,17/09,2013,-,blazer3,
+Off-Road,Injection,RWD,2,BF,,,,,SSASA,"16,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,bfinjection,
+Off-Road,Insurgent,AWD,6,HVY,,✔,,,Warstock,"897,750",Main Page,Garage,LSC,✔,✔,✔,10/03,2015,Heists,insurgent2,
+Off-Road,Insurgent Pick-Up,AWD,9,HVY,,✔,,,Warstock,"1,795,500",Main Page,Pegasus,-,,✔,✔,10/03,2015,Heists,insurgent,
+Off-Road,Insurgent Pick-Up Custom,AWD,9,HVY,,✔,,,Upgrade,"1,997,500",MOC Workshop,Garage,MOC,,,,01/08,2017,Gunrunning,insurgent3,Acquired by upgrading Insurgent Pick-Up in MOC
+Off-Road,Kalahari,AWD,2,Canis,,,,,SSASA,"40,000",25 June 2026,Garage,LSC,✔,✔,✔,19/11,2013,Beach Bum,kalahari,
+Off-Road,Kamacho,AWD,4,Canis,✔,,,,SSASA,"345,000",Off-Road Tab,Garage,LSC,✔,✔,✔,06/02,2018,Doomsday Heist,kamacho,Roll Cage modification adds traction like a spoiler
+Off-Road,Liberator,AWD,2,Vapid,,,,,Warstock,"742,014",10 July 2025,Pegasus,-,✔,✔,✔,01/07,2014,Independence Day,monster,
+Off-Road,Marshall,AWD,2,Cheval,,,,,Warstock,"500,000",Main Page,Pegasus,-,✔,✔,✔,18/11,2014,Enhanced Edition,marshall,
+Off-Road,Menacer,AWD,5,HVY,,✔,,,Warstock,"1,775,000",Main Page,Garage,MOC,✔,✔,✔,28/08,2018,After Hours,menacer,
+Off-Road,Mesa (Merryweather),AWD,4,Canis,,,,,Warstock,"87,000",Main Page,Garage,LSC,✔,✔,✔,17/09,2013,-,mesa3,
+Off-Road,MonstroCiti,AWD,2,Maibatsu,DF=1.5,,✔,,SSASA,"1,485,000",2 Door Tab,Garage,LSC & Property,✔,✔,✔,13/06,2023,San Andreas Mercenaries,monstrociti,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Off-Road,MonstroCiti (HSW),AWD,2,Maibatsu,DF=1.5,,✔,,Upgrade,"2,594,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,13/06,2023,San Andreas Mercenaries,monstrociti_hsw,"Acquired by upgrading MonstroCiti at Hao's Special Works. Has ""downforce"" handling line by default but a non-stock spoiler is still needed. Window panel modification adds traction like a spoiler"
+Off-Road,Nightshark,AWD,4,HVY,,✔,,,Warstock,"1,245,000",Main Page,Garage,MOC,✔,✔,✔,08/08,2017,Gunrunning,nightshark,
+Off-Road,Outlaw,AWD,2,Nagasaki,,,,,SSASA,"1,268,000",Off-Road Tab,Garage,LSC,✔,✔,✔,23/01,2020,Diamond Casino Heist,outlaw,
+Off-Road,Patriot Mil-Spec,AWD,4,Mammoth,✔,,✔,,SSASA,"1,710,000",Off-Road Tab,Garage,LSC & Property,✔,✔,✔,30/12,2021,The Contract,patriot3,Tailgate option adds traction like a spoiler
+Off-Road,Ramp Buggy,RWD,2,BF,DF=2,✔,,,Warstock,"3,192,000",Main Page,Warehouse,LSC,,✔,✔,13/12,2016,Import/Export,dune5,"Has ""downforce"" handling line by default"
+Off-Road,Ramp Buggy (Spoiler),RWD,2,BF,DF=2,✔,,,-,-,-,-,-,,,,13/12,2016,Import/Export,dune4,"Has ""downforce"" handling line by default. Only available in missions."
+Off-Road,Rancher XL,AWD,4,Declasse,,,,,SSASA,"9,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,"rancherxl, rancherxl2",
+Off-Road,Ratel,RWD,2,Vapid,✔,,,,SSASA,"1,873,000",2 Door Tab,Garage,LSC,✔,✔,✔,13/06,2023,San Andreas Mercenaries,ratel,
+Off-Road,RC Bandito,AWD,0,-,,,,,SSASA,"1,590,000",Special Tab,Arena,-,,,,29/01,2019,Arena War,rcbandito,
+Off-Road,Rebel,AWD,2,Karin,,,,,SSASA,"22,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,rebel2,
+Off-Road,Riata,AWD,2,Vapid,,,,,SSASA,"380,000",18 June 2026,Garage,LSC,✔,✔,✔,12/12,2017,Doomsday Heist,riata,
+Off-Road,Rusty Rebel,AWD,2,Karin,,,,,SSASA,"3,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,rebel,
+Off-Road,Sandking SWB,AWD,2,Vapid,,✔,,,SSASA,"38,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,sandking2,
+Off-Road,Sandking XL,AWD,4,Vapid,,✔,,,SSASA,"45,000",Off-Road Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,sandking,
+Off-Road,Sasquatch,AWD,2,Bravado,,✔,,✔,Upgrade,"1,568,375",Arena Workshop,Garage,LSC & Property,,,✔,11/12,2018,Arena War,"monster3, monster4, monster5",Acquired by upgrading Rat-Truck in Arena Workshop
+Off-Road,Space Docker,RWD,2,BF,,,,,Unlock,0,Arena Levels,Pegasus,-,,,,17/09,2013,-,dune2,Unlocked at Arena Sponsorship Tier 500
+Off-Road,Street Blazer,AWD,1,Nagasaki,✔,✔,,,SSASA,"81,000",Motorcycles Tab,Garage & Clubhouse,LSC,✔,✔,✔,04/10,2016,Bikers,blazer4,
+Off-Road,Technical,AWD,3,Karin,,,,,Warstock,"1,263,500",Main Page,Pegasus,-,,✔,✔,10/03,2015,Heists,technical,
+Off-Road,Technical Aqua,AWD,3,Karin,,,,,Warstock,"1,489,600",Main Page,Warehouse,LSC,,✔,✔,13/12,2016,Import/Export,technical2,
+Off-Road,Technical Custom,AWD,3,Karin,,,,,Upgrade,"1,406,000",MOC Workshop,Garage,MOC,,,,18/07,2017,Gunrunning,technical3,Acquired by upgrading Technical in MOC
+Off-Road,Terminus,AWD,4,Canis,,,,,SSASA,"1,877,500",4 Door Tab,Garage,LSC & Property,✔,✔,✔,07/03,2024,Chop Shop,terminus,
+Off-Road,Trophy Truck,AWD,2,Vapid,,,,,SSASA,"550,000",Off-Road Tab,Garage,LSC,✔,✔,✔,12/07,2016,Cunning Stunts,trophytruck,
+Off-Road,Vagrant,RWD,2,Maxwell,,,,,SSASA,"1,228,400",Off-Road Tab,Garage,LSC,✔,✔,✔,12/12,2019,Diamond Casino Heist,vagrant,
+Off-Road,Verus,AWD,2,Dinka,✔,,,,Warstock,"192,000",14 May 2026,Garage,LSC,✔,✔,✔,18/02,2021,Cayo Perico Heist,verus,Saddle bags modification adds traction like a spoiler
+Off-Road,Walton L35,AWD,2,Declasse,,,✔,,SSASA,"1,670,000",2 Door Tab,Garage,LSC,✔,✔,✔,13/06,2023,San Andreas Mercenaries,l35,
+Off-Road,Walton L35 Stock,AWD,2,Declasse,,,✔,,SSASA,"1,303,700",2 Door Tab,Garage,LSC,✔,✔,✔,26/06,2025,Money Fronts,l352,
+Off-Road,Winky,AWD,3,Vapid,,,✔,,Warstock,"1,100,000",Main Page,Garage,LSC,✔,✔,✔,15/12,2020,Cayo Perico Heist,winky,
+Off-Road,Yosemite 1500,AWD,2,Declasse,✔,,,,SSASA,"1,205,000",2 Door Tab,Garage,LSC,✔,✔,✔,25/06,2024,Bottom Dollar Bounties,yosemite1500,
+Off-Road,Yosemite Rancher,AWD,2,Declasse,,,,,Upgrade,"700,000",Benny's Workshop,Garage,LSC,✔,,,11/08,2020,Los Santos Summer Special,yosemite3,Acquired by upgrading Yosemite in Benny's
+Off-Road,Zhaba,AWD,4,RUNE,,,,,Warstock,"1,900,000",Main Page,Garage,LSC,✔,✔,✔,02/01,2020,Diamond Casino Heist,zhaba,
+Open Wheel,BR8,RWD,1,Benefactor,DF=5.25,,,✔,L.Motorsport,"3,400,000",Special Tab,Garage,LSC,✔,✔,✔,11/08,2020,Los Santos Summer Special,openwheel1,Front and rear wing options increase or decrease downforce to varying degrees
+Open Wheel,DR1,RWD,1,Declasse,DF=4,,,✔,L.Motorsport,"2,997,000",Special Tab,Garage,LSC,✔,✔,✔,11/08,2020,Los Santos Summer Special,openwheel2,Front and rear wing options increase or decrease downforce to varying degrees
+Open Wheel,PR4,RWD,1,Progen,DF=5,,,✔,L.Motorsport,"3,515,000",Special Tab,Garage,LSC,✔,✔,✔,20/02,2020,Diamond Casino Heist,formula,Front and rear wing options increase or decrease downforce to varying degrees
+Open Wheel,R88,RWD,1,Ocelot,DF=4.75,,,✔,L.Motorsport,"3,115,000",Special Tab,Garage,LSC,✔,✔,✔,27/02,2020,Diamond Casino Heist,formula2,Front and rear wing options increase or decrease downforce to varying degrees
+Planes,Alpha-Z1,FWD,1,Buckingham,,,,,Elitas,"2,121,350",Main Page,Hangar,Property,✔,✔,✔,29/08,2017,Smuggler's Run,alphaz1,
+Planes,Avenger,RWD,30,Mammoth,,,,,Warstock,"4,787,500",Main Page,Facility,Property,,✔,✔,12/12,2017,Doomsday Heist,"avenger, avenger3",
+Planes,B-11 Strikeforce,FWD,1,-,,,,,Warstock,"3,800,000",Main Page,Hangar,Property,✔,✔,✔,07/08,2018,After Hours,strikeforce,
+Planes,Besra,FWD,1,Western,,,,,Elitas,"1,150,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,19/08,2014,San Andreas Flight School,besra,
+Planes,Blimp (Atomic),RWD,1,-,,,,,-,-,-,-,-,,,,17/09,2013,-,blimp,Only available in single player
+Planes,Blimp (Nightclub),RWD,4,-,,,,,Elitas,"1,190,350",Main Page,Pegasus,-,,,,31/07,2018,After Hours,blimp3,
+Planes,Blimp (Xero),RWD,1,-,,,,,-,-,-,-,-,,,,18/11,2014,Enhanced Edition,blimp2,Only available in single player
+Planes,Cargoplane,RWD,1,-,,,,,-,-,-,-,-,,,,17/09,2013,-,"cargoplane, cargoplane2",Only available in single player
+Planes,Cuban 800,RWD,2,Western,,,,,Elitas,"240,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,17/09,2013,-,cuban800,
+Planes,Dodo,RWD,4,Mammoth,,,,,Elitas,"500,000",Main Page,Hangar & Pegasus,-,,✔,✔,18/11,2014,Enhanced Edition,dodo,
+Planes,Duster,RWD,2,Western,,,,,Elitas,"275,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,17/09,2013,-,duster,
+Planes,Duster 300-H,RWD,1,Western,,,,,Elitas,"1,020,000",Main Page,Hangar,Property,✔,✔,✔,04/03,2025,Agents Of Sabotage,duster2,
+Planes,F-160 Raiju,RWD,1,Mammoth,,,,,Warstock,"6,855,000",Main Page,Hangar,Property,✔,✔,✔,13/06,2023,San Andreas Mercenaries,raiju,
+Planes,Howard NX-25,FWD,1,Buckingham,,,,,Elitas,"1,296,750",Main Page,Hangar,Property,✔,✔,✔,26/09,2017,Smuggler's Run,howard,
+Planes,Hydra,RWD,1,Mammoth,,,,,Warstock,"3,990,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,10/03,2015,Heists,hydra,
+Planes,Jet,RWD,1,-,,,,,-,-,-,-,-,,,,17/09,2013,-,jet,Only available in single player
+Planes,LF-22 Starling,FWD,1,-,,,,,Warstock,"3,657,500",Main Page,Hangar,Property,,✔,✔,29/08,2017,Smuggler's Run,starling,
+Planes,Luxor,FWD,10,Buckingham,,,,,Elitas,"1,625,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,17/09,2013,-,luxor,
+Planes,Luxor Deluxe,FWD,8,Buckingham,,,,,Elitas,"10,000,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,10/06,2015,Ill-Gotten Gains Part 1,luxor2,
+Planes,Mallard,FWD,1,Western,,,,,Elitas,"250,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,17/09,2013,-,stunt,
+Planes,Mammatus,RWD,4,Jobuilt,,,,,Elitas,"300,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,17/09,2013,-,mammatus,
+Planes,Miljet,FWD,16,Buckingham,,,,,Elitas,"1,700,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,19/08,2014,San Andreas Flight School,miljet,
+Planes,Mogul,RWD,3,Mammoth,,,,,Warstock,"2,275,300",Main Page,Hangar,Property,✔,✔,✔,03/10,2017,Smuggler's Run,mogul,
+Planes,Nimbus,AWD,8,Buckingham,,,,,Elitas,"1,900,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,07/06,2016,Finance and Felony,nimbus,
+Planes,P-45 Nokota,FWD,1,-,,,,,Warstock,"2,653,350",Main Page,Hangar,Property,✔,✔,✔,07/11,2017,Smuggler's Run,nokota,
+Planes,P-996 Lazer,FWD,1,Jobuilt,,,,,Warstock,"6,500,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,17/09,2013,-,lazer,
+Planes,Pyro,FWD,2,Buckingham,,,,,Warstock,"4,455,500",Main Page,Hangar,Property,✔,✔,✔,10/10,2017,Smuggler's Run,pyro,
+Planes,RM-10 Bombushka,RWD,6,-,,,,,Warstock,"4,750,000",Main Page,Hangar,Property,,✔,,19/09,2017,Smuggler's Run,bombushka,
+Planes,RO-86 Alkonost,RWD,2,-,,,,,Warstock,"4,350,000",Main Page,Hangar,Property,,,,15/12,2020,Cayo Perico Heist,alkonost,
+Planes,Rogue,FWD,2,Western,,,,,Warstock,"1,596,000",Main Page,Hangar,Property,✔,✔,✔,29/08,2017,Smuggler's Run,rogue,
+Planes,Seabreeze,FWD,2,Western,,,,,Elitas,"1,130,500",Main Page,Hangar,Property,✔,✔,✔,28/10,2017,Smuggler's Run,seabreeze,
+Planes,Shamal,FWD,10,Buckingham,,,,,Elitas,"1,150,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,17/09,2013,-,shamal,
+Planes,Streamer216,RWD,4,Mammoth,,,,,Warstock,"2,238,000",Main Page,Hangar,Property,✔,✔,✔,13/06,2023,San Andreas Mercenaries,streamer216,
+Planes,Titan,RWD,10,Eberhard,,,,,Elitas,"2,000,000",Main Page,Hangar & Pegasus,-,,✔,,17/09,2013,-,titan,
+Planes,Titan 250 D,RWD,16,Eberhard,,,,,Warstock,"4,870,000",Main Page,Hangar,Property,,✔,,04/03,2025,Agents Of Sabotage,titan2,
+Planes,Tula,RWD,5,Mammoth,,,,,Warstock,"4,100,000",Main Page,Hangar,Property,✔,✔,✔,29/08,2017,Smuggler's Run,tula,
+Planes,Ultralight,FWD,1,Nagasaki,,,,,Elitas,"665,000",Main Page,Hangar,Property,✔,✔,✔,29/08,2017,Smuggler's Run,microlight,
+Planes,V-65 Molotok,FWD,1,-,,,,,Warstock,"4,788,000",Main Page,Hangar,Property,✔,✔,✔,29/08,2017,Smuggler's Run,molotok,
+Planes,Velum,RWD,5,Jobuilt,,,,,Elitas,"450,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,17/09,2013,-,"velum, velum2",
+Planes,Vestra,RWD,2,Buckingham,,,,,Elitas,"950,000",Main Page,Hangar & Pegasus,-,✔,✔,✔,04/03,2014,Business,vestra,
+Planes,Volatol,RWD,4,-,,,,,Warstock,"3,724,000",Main Page,Hangar,Property,,✔,,12/12,2017,Doomsday Heist,volatol,
+Sedans,Asea,FWD,4,Declasse,✔,,,,SSASA,"12,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,"asea, asea2",
+Sedans,Asterope,RWD,4,Karin,,,,,SSASA,"26,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,asterope,
+Sedans,Asterope GZ,RWD,4,Karin,✔,,,,SSASA,"459,000",4 Door Tab,Garage,LSC,✔,✔,✔,12/12,2023,Chop Shop,asterope2,
+Sedans,Chavos V6,RWD,4,Dinka,✔,,✔,,SSASA,"1,420,000",2 Door Tab,Garage,LSC,✔,✔,✔,10/12,2024,Agents Of Sabotage,chavosv6,
+Sedans,Cinquemila,RWD,4,Lampadati,✔,,✔,,L.Motorsport,"1,144,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2021,The Contract,cinquemila,
+Sedans,Cognoscenti,RWD,4,Enus,,,,,L.Motorsport,"254,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,cognoscenti,
+Sedans,Cognoscenti (Armored),RWD,4,Enus,,,,,L.Motorsport,"558,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,cognoscenti2,
+Sedans,Cognoscenti 55,RWD,4,Enus,,,,,L.Motorsport,"154,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,cog55,
+Sedans,Cognoscenti 55 (Armored),RWD,4,Enus,,,,,L.Motorsport,"396,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,cog552,
+Sedans,Deity,RWD,4,Enus,✔,,✔,,L.Motorsport,"1,845,000",4 Door Tab,Garage,LSC & Property,✔,✔,✔,15/12,2021,The Contract,deity,
+Sedans,Emperor,RWD,4,Albany,,,,,Traffic,0,Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,"emperor, emperor3",
+Sedans,Emperor Beater,RWD,4,Albany,,,,,Traffic,0,Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,emperor2,
+Sedans,Fugitive,RWD,4,Cheval,,,,,SSASA,"24,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,fugitive,
+Sedans,Glendale,RWD,4,Benefactor,✔,,,,SSASA,"200,000",4 Door Tab,Garage,LSC,✔,✔,✔,17/06,2014,I'm Not A Hipster,glendale,Trunk options add traction like a spoiler
+Sedans,Glendale Custom,RWD,4,Benefactor,✔,,,,Upgrade,"520,000",Benny's Workshop,Garage,LSC,✔,✔,✔,11/08,2020,Los Santos Summer Special,glendale2,Acquired by upgrading Glendale in Benny's. Trunk Door modifications add traction like a spoiler
+Sedans,Hardy,RWD,4,Annis,✔,,✔,,SSASA,"1,380,000",4 Door Tab,Garage,LSC,✔,✔,✔,17/06,2025,Money Fronts,hardy,
+Sedans,Ingot,FWD,4,Vulcar,,,,,SSASA,"9,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,ingot,
+Sedans,Intruder,RWD,4,Karin,✔,,,,SSASA,"16,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,intruder,
+Sedans,Minimus,RWD,4,Annis,✔,,✔,,SSASA,"1,417,000",4 Door Tab,Garage,LSC,✔,✔,✔,17/06,2025,Money Fronts,minimus,
+Sedans,Premier,FWD,4,Declasse,✔,,,,SSASA,"10,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,premier,
+Sedans,Primo,RWD,4,Albany,✔,,,,SSASA,"9,000",4 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,primo,
+Sedans,Primo Custom,RWD,4,Albany,✔,,,,Upgrade,"409,000",Benny's Workshop,Garage,LSC,✔,✔,✔,20/10,2015,Lowriders,primo2,Acquired by upgrading Primo in Benny's
+Sedans,Regina,RWD,4,Dundreary,,,,,SSASA,"8,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,regina,
+Sedans,Rhinehart,AWD,4,Ubermacht,✔,,✔,,SSASA,"1,598,000",4 Door Tab,Garage,LSC,✔,✔,✔,13/10,2022,Criminal Enterprises,rhinehart,
+Sedans,Romero Hearse,RWD,2,Chariot,,,,,SSASA,"45,000",6 November 2025,Garage,LSC,✔,✔,✔,17/09,2013,-,romero,
+Sedans,Schafter,RWD,4,Benefactor,✔,,,,SSASA,"65,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,schafter2,
+Sedans,Schafter LWB (Armored),RWD,4,Benefactor,✔,,,,L.Motorsport,"438,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,schafter6,
+Sedans,Schafter V12 (Armored),RWD,4,Benefactor,✔,,,,L.Motorsport,"325,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,schafter5,
+Sedans,Sentinel XS4,RWD,4,Ubermacht,✔,,✔,,SSASA,"1,429,000",4 Door Tab,Garage,LSC,✔,✔,✔,10/12,2025,A Safehouse in the Hills,sentinel6,
+Sedans,Stafford,RWD,4,Enus,,,,,L.Motorsport,"1,272,000",2 July 2026,Garage,LSC,✔,✔,✔,31/07,2018,After Hours,stafford,
+Sedans,Stanier,RWD,4,Vapid,,,,,SSASA,"10,000",4 Door Tab,Garage,LSC,✔,,,17/09,2013,-,stanier,
+Sedans,Stratum,AWD,4,Zirconium,,,,,SSASA,"10,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,stratum,
+Sedans,Stretch,RWD,6,Dundreary,,,,,SSASA,"30,000",Luxury Tab,Pegasus,-,,✔,✔,17/09,2013,-,stretch,
+Sedans,Super Diamond,RWD,4,Enus,,,,,L.Motorsport,"250,000",25 June 2026,Garage,LSC,✔,✔,✔,17/09,2013,-,superd,
+Sedans,Surge,FWD,4,Cheval,✔,,,,SSASA,"38,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,surge,
+Sedans,Tailgater,RWD,4,Obey,✔,,,,SSASA,"55,000",21 September 2023,Garage,LSC,✔,✔,✔,17/09,2013,-,tailgater,
+Sedans,Tailgater S,RWD,4,Obey,✔,,✔,,L.Motorsport,"1,495,000",4 Door Tab,Garage,LSC,✔,✔,✔,20/07,2021,Los Santos Tuners,tailgater2,
+Sedans,Turreted Limo,RWD,5,Benefactor,,,,,Warstock,"1,650,000",Main Page,Pegasus,-,,✔,✔,15/12,2015,Executives & Other Criminals,limo2,
+Sedans,Vorschlaghammer,RWD,4,Benefactor,✔,,✔,,SSASA,"1,790,000",4 Door Tab,Garage,LSC,✔,✔,✔,01/08,2024,Bottom Dollar Bounties,vorschlaghammer,
+Sedans,Warrener,RWD,4,Vulcar,✔,,,,SSASA,"120,000",14 May 2026,Garage,LSC,✔,✔,✔,17/06,2014,I'm Not A Hipster,warrener,
+Sedans,Warrener HKR,RWD,2,Vulcar,✔,,✔,,SSASA,"1,260,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/07,2021,Los Santos Tuners,warrener2,
+Sedans,Washington,RWD,4,Albany,,,,,SSASA,"15,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,washington,
+Service,Airport Bus,AWD,16,Brute,,,,,Warstock,"550,000",Main Page,Pegasus,-,,,,17/09,2013,-,airbus,
+Service,Brickade,AWD,6,MTL,,,,,Warstock,"555,000",Main Page,Pegasus,-,,✔,✔,07/06,2016,Finance and Felony,brickade,
+Service,Brickade 6x6,AWD,6,MTL,,,,,Warstock,"1,450,000",Main Page,Freakshop,Property,,,,13/12,2022,Los Santos Drug Wars,brickade2,
+Service,Bus,AWD,16,Brute,,,,,Warstock,"500,000",Main Page,Pegasus,-,,✔,✔,17/09,2013,-,bus,
+Service,Dashound,AWD,10,Brute,,,,,Warstock,"525,000",Main Page,Pegasus,-,,✔,✔,17/09,2013,-,coach,
+Service,Dune,AWD,2,MTL,,,,,SSASA,"1,300,000",Off-Road Tab,Pegasus,-,✔,✔,✔,26/07,2016,Cunning Stunts,rallytruck,
+Service,Festival Bus,RWD,11,Vapid,,,,,SSASA,"1,842,050",Luxury Tab,Pegasus,-,,✔,,24/07,2018,After Hours,pbus2,
+Service,Rental Shuttle Bus,RWD,10,Brute,,,,,Warstock,"30,000",Main Page,Pegasus,-,,,,17/09,2013,-,rentalbus,
+Service,Taxi,RWD,4,Vapid,,,,,Warstock,"650,000",Main Page,Pegasus,-,,✔,✔,17/09,2013,-,taxi,
+Service,Taxi Custom,RWD,4,Vapid,,,,,Unlock,0,Arena Levels,Pegasus,-,,,,11/12,2018,-,taxi_custom,Unlocked at Arena Sponsorship Tier 25. Identical to regular Taxi except has performance upgrades applied.
+Service,Tour Bus,RWD,10,Brute,,,,,-,-,-,-,-,,,,17/09,2013,-,tourbus,
+Service,Trashmaster,RWD,4,Jobuilt,,,,,Unlock,0,Arena Levels,Pegasus,-,,✔,✔,17/09,2013,-,"trash, trash2",Unlocked at Arena Sponsorship Tier 100
+Service,Vivanite (KnoWay),AWD,4,Karin,,,,,-,-,-,-,-,,,,10/12,2025,A Safehouse in the Hills,vivanite2,
+Service,Wastelander,AWD,6,MTL,,,,,Warstock,"658,350",Main Page,Warehouse,-,,✔,✔,13/12,2016,Import/Export,wastelander,
+Sports,10F,RWD,2,Obey,,,✔,,L.Motorsport,"1,675,000",2 Door Tab,Garage,LSC,✔,✔,✔,06/10,2022,Criminal Enterprises,tenf,"Has active spoiler, downforce, and spoiler upgrades, however none work to give any increased traction"
+Sports,10F Widebody,RWD,2,Obey,,,✔,,Upgrade,"2,250,000",Benny's Workshop,Garage,LSC,✔,✔,✔,10/11,2022,Criminal Enterprises,tenf2,"Acquired by upgrading 10F in Benny's. Has active spoiler, downforce, and spoiler upgrades, however none work to give any increased traction"
+Sports,300R,RWD,2,Annis,✔,,✔,,L.Motorsport,"1,245,000",2 Door Tab,Garage,LSC & Property,✔,✔,✔,13/12,2022,Los Santos Drug Wars,r300,
+Sports,8F Drafter,AWD,2,Obey,✔,,,,L.Motorsport,"718,000",2 Door Tab,Garage,LSC,✔,✔,✔,23/07,2019,Diamond Casino & Resort,drafter,
+Sports,9F,AWD,2,Obey,✔,,,,L.Motorsport,"120,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,ninef,
+Sports,9F Cabrio,AWD,2,Obey,✔,,,,L.Motorsport,"130,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,ninef2,
+Sports,Alpha,RWD,2,Albany,✔,,,,L.Motorsport,"150,000",11 June 2026,Garage,LSC,✔,✔,✔,04/03,2014,Business,alpha,
+Sports,Banshee,RWD,2,Bravado,✔,,,,L.Motorsport,"105,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,banshee,
+Sports,Banshee (HSW),RWD,2,Bravado,✔,,,,Upgrade,"1,863,000",LSCM Workshop,Garage,LSC & LSCM,✔,,✔,15/03,2022,Expanded & Enhanced Edition,banshee_hsw,Acquired by upgrading Banshee at Hao's Special Works
+Sports,Banshee GTS,RWD,2,Bravado,✔,,✔,,L.Motorsport,"1,989,500",2 Door Tab,Garage,LSC,✔,✔,✔,10/12,2024,Agents Of Sabotage,banshee3,
+Sports,Banshee GTS (HSW),RWD,2,Bravado,✔,,✔,,Upgrade,"3,889,500",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,10/12,2024,Agents Of Sabotage,banshee3_hsw,
+Sports,Bestia GTS,AWD,2,Grotti,✔,,,,L.Motorsport,"610,000",2 Door Tab,Garage,LSC,✔,✔,✔,07/06,2016,Finance and Felony,bestiagts,
+Sports,Blista Compact,FWD,2,Dinka,✔,,,,SSASA,"42,000",2 Door Tab,Garage,LSC,✔,,,18/11,2014,Enhanced Edition,blista2,
+Sports,Buffalo,RWD,4,Bravado,✔,,,,SSASA,"35,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,buffalo,
+Sports,Buffalo S,RWD,4,Bravado,✔,,,,SSASA,"96,000",4 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,buffalo2,
+Sports,Calico GTF,AWD,2,Karin,DF=1.5,,✔,,SSASA,"1,995,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/07,2021,Los Santos Tuners,calico,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Carbonizzare,RWD,2,Grotti,✔,,,,L.Motorsport,"195,000",11 June 2026,Garage,LSC,✔,,,17/09,2013,-,carbonizzare,
+Sports,Comet,RWD,2,Pfister,✔,,,,L.Motorsport,"100,000",2 Door Tab,Garage,LSC,✔,,,17/09,2013,-,comet2,
+Sports,Comet Retro Custom,RWD,2,Pfister,DF=1.75,,,,Upgrade,"745,000",Benny's Workshop,Garage,LSC,✔,✔,✔,13/12,2016,Import/Export,comet3,"Acquired by upgrading Comet in Benny's. Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Comet S2,RWD,2,Pfister,,,✔,,L.Motorsport,"1,878,000",2 Door Tab,Garage,LSC,✔,✔,✔,29/07,2021,Los Santos Tuners,comet6,"Has active spoiler, downforce, and spoiler upgrades, however none work to give any increased traction"
+Sports,Comet S2 Cabrio,RWD,2,Pfister,,,✔,,L.Motorsport,"1,797,000",2 Door Tab,Garage,LSC,✔,✔,✔,06/01,2022,The Contract,comet7,"Has active spoiler, downforce, and spoiler upgrades, however none work to give any increased traction"
+Sports,Comet Safari,AWD,2,Pfister,✔,,,,L.Motorsport,"710,000",2 Door Tab,Garage,LSC & MOC,✔,✔,✔,12/12,2017,Doomsday Heist,comet4,
+Sports,Comet SR,RWD,2,Pfister,DF=2.25,,,,L.Motorsport,"1,145,000",2 Door Tab,Garage,LSC,✔,✔,✔,27/02,2018,Doomsday Heist,comet5,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Coquette,RWD,2,Invetero,✔,,,,L.Motorsport,"138,000",25 June 2026,Garage,LSC,✔,✔,✔,17/09,2013,-,coquette,
+Sports,Coquette D10,RWD,2,Invetero,DF=2.05,,,,L.Motorsport,"1,510,000",2 Door Tab,Garage,LSC,✔,✔,✔,11/08,2020,Los Santos Summer Special,coquette4,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Coquette D5,RWD,2,Invetero,✔,,✔,,L.Motorsport,"1,730,000",2 Door Tab,Garage,LSC,✔,✔,✔,04/03,2025,Agents Of Sabotage,coquette6,
+Sports,Corsita,RWD,2,Lampadati,DF=2,,✔,,L.Motorsport,"1,795,000",2 Door Tab,Garage,LSC,✔,✔,✔,26/07,2022,Criminal Enterprises,corsita,
+Sports,Cypher,RWD,2,Ubermacht,✔,,✔,,L.Motorsport,"1,550,000",2 Door Tab,Garage,LSC,✔,✔,✔,02/09,2021,Los Santos Tuners,cypher,
+Sports,Drift Tampa,AWD,2,Declasse,,,,,SSASA,"995,000",2 Door Tab,Garage,LSC,✔,✔,✔,19/07,2016,Cunning Stunts,tampa2,
+Sports,Elegy Retro Custom,AWD,2,Annis,✔,,,,Upgrade,"904,000",Benny's Workshop,Garage,LSC,✔,✔,✔,13/12,2016,Import/Export,elegy,Acquired by upgrading Elegy RH8 in Benny's
+Sports,Elegy RH8,AWD,2,Annis,✔,,,,L.Motorsport,"95,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,elegy2,
+Sports,Envisage,RWD,2,Bollokan,DF=1.9,,✔,,L.Motorsport,"2,472,000",2 Door Tab,Garage,LSC & Property,✔,✔,✔,25/06,2024,Bottom Dollar Bounties,envisage,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Euros,RWD,2,Annis,✔,,✔,,L.Motorsport,"1,800,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/07,2021,Los Santos Tuners,euros,
+Sports,Feltzer,RWD,2,Benefactor,✔,✔,,,L.Motorsport,"145,000",26 March 2026,Garage,LSC,✔,,,17/09,2013,-,feltzer2,
+Sports,Flash GT,AWD,2,Vapid,DF=2,✔,,,L.Motorsport,"1,675,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/04,2018,SSA Super Sport Series,flashgt,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Furore GT,RWD,2,Lampadati,,,,,L.Motorsport,"448,000",21 May 2026,Garage,LSC,✔,✔,✔,02/10,2014,Last Team Standing,furoregt,
+Sports,Fusilade,RWD,2,Schyster,✔,,,,SSASA,"36,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,fusilade,
+Sports,Futo,RWD,2,Karin,✔,,,,SSASA,"9,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,futo,
+Sports,Futo GTX,RWD,2,Karin,✔,,✔,,SSASA,"1,590,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/07,2021,Los Santos Tuners,futo2,
+Sports,GB200,AWD,2,Vapid,DF=1.5,✔,,,L.Motorsport,"940,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/03,2018,SSA Super Sport Series,gb200,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Go Go Monkey Blista,FWD,2,Dinka,✔,,,,Unlock,0,Arena Levels,Garage,LSC,✔,,,18/11,2014,Enhanced Edition,blista3,Only available to purchase at Arena War skill level 20
+Sports,Growler,RWD,2,Pfister,✔,,✔,,L.Motorsport,"1,627,000",2 Door Tab,Garage,LSC,✔,✔,✔,19/08,2021,Los Santos Tuners,growler,
+Sports,Hotring Everon,RWD,2,Karin,DF=1.2,,,,SSASA,"947,000",2 Door Tab,Garage,LSC,✔,✔,✔,09/03,2023,Los Santos Drug Wars,everon2,"Has ""downforce"" handling line by default and no spoiler options"
+Sports,Hotring Hellfire,RWD,2,Bravado,Active,,✔,,SSASA,"1,810,000",2 Door Tab,Garage,LSC,✔,✔,✔,14/09,2023,San Andreas Mercenaries,gauntlet6,"Has active spoiler, downforce, and spoiler upgrades, however active spoiler traction bonus takes precedence (brake flaps when raised)"
+Sports,Hotring Sabre,RWD,2,Declasse,,,,,SSASA,"830,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/03,2018,SSA Super Sport Series,hotring,
+Sports,Imorgon,AWD,2,Overflod,DF=2.5,,,,L.Motorsport,"1,499,000",2 Door Tab,Garage,LSC,✔,✔,✔,09/01,2020,Diamond Casino Heist,imorgon,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Issi Sport,AWD,2,Weeny,DF=2,,,,SSASA,"897,000",2 Door Tab,Garage,LSC,✔,✔,✔,23/07,2019,Diamond Casino & Resort,issi7,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Itali GTO,AWD,2,Grotti,✔,✔,,,L.Motorsport,"1,965,000",2 Door Tab,Garage,LSC,✔,✔,✔,26/12,2018,Arena War,italigto,
+Sports,Itali RSX,AWD,2,Grotti,,,✔,,L.Motorsport,"3,465,000",2 Door Tab,Garage,LSC,✔,✔,✔,22/12,2020,Cayo Perico Heist,italirsx,"Has active spoiler, downforce, and spoiler upgrades, however none work to give any increased traction"
+Sports,Jester,AWD,2,Dinka,✔,✔,,,L.Motorsport,"240,000",2 July 2026,Garage,LSC,✔,✔,✔,04/03,2014,Business,jester,
+Sports,Jester (Racecar),AWD,2,Dinka,✔,✔,,,SSASA,"350,000",15 January 2026,Garage,LSC,✔,✔,✔,18/12,2014,Festive Surprise 2014,jester2,
+Sports,Jester Classic,RWD,2,Dinka,✔,✔,,,L.Motorsport,"790,000",2 Door Tab,Garage,LSC,✔,✔,✔,24/07,2018,After Hours,jester3,
+Sports,Jester RR,RWD,2,Dinka,✔,,✔,,L.Motorsport,"1,970,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/07,2021,Los Santos Tuners,jester4,
+Sports,Jugular,AWD,4,Ocelot,DF=2,,,,L.Motorsport,"1,225,000",4 Door Tab,Garage,LSC,✔,✔,✔,10/10,2019,Diamond Casino & Resort,jugular,
+Sports,Khamelion,RWD,2,Hijak,✔,,,,L.Motorsport,"100,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,khamelion,
+Sports,Komoda,RWD,4,Lampadati,✔,,,,L.Motorsport,"1,700,000",4 Door Tab,Garage,LSC,✔,✔,✔,12/12,2019,Diamond Casino Heist,komoda,
+Sports,Kuruma,AWD,4,Karin,✔,,,,SSASA,"126,350",4 Door Tab,Garage,LSC,✔,✔,✔,10/03,2015,Heists,kuruma,
+Sports,Kuruma (Armored),AWD,4,Karin,✔,,,,SSASA,"698,250",4 Door Tab,Garage,LSC,✔,✔,✔,10/03,2015,Heists,kuruma2,
+Sports,La Coureuse,RWD,2,Penaud,DF=2.5,,✔,,L.Motorsport,"1,990,000",2 Door Tab,Garage,LSC & Property,✔,✔,✔,20/07,2023,San Andreas Mercenaries,coureur,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,La Coureuse (HSW),RWD,2,Penaud,DF=2.5,,✔,,Upgrade,"2,808,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,20/07,2023,San Andreas Mercenaries,coureur_hsw,"Acquired by upgrading La Coureuse at Hao's Special Works. Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Locust,RWD,2,Ocelot,DF=2,,,,L.Motorsport,"978,000",2 Door Tab,Garage,LSC,✔,✔,✔,29/08,2019,Diamond Casino & Resort,locust,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,LSCM Jester RR,RWD,2,Dinka,,,,,L.Motorsport,"2,290,000",4 Door Tab,Garage,LSC,✔,✔,✔,10/12,2024,Agents Of Sabotage,jester5,Name changed from Jester RR Widebody in June 2025 with Money Fronts DLC
+Sports,Lynx,RWD,2,Ocelot,✔,,,,L.Motorsport,"841,000",2 Door Tab,Garage,LSC,✔,✔,✔,19/07,2016,Cunning Stunts,lynx,
+Sports,Massacro,RWD,2,Dewbauchee,✔,✔,,,L.Motorsport,"275,000",2 Door Tab,Garage,LSC,✔,✔,✔,13/05,2014,High Life,massacro,
+Sports,Massacro (Racecar),RWD,2,Dewbauchee,✔,✔,,,SSASA,"385,000",2 Door Tab,Garage,LSC,✔,✔,✔,18/12,2014,Festive Surprise 2014,massacro2,
+Sports,Neo,AWD,2,Vysser,✔,✔,,,L.Motorsport,"1,875,000",2 Door Tab,Garage,LSC,✔,✔,✔,01/08,2019,Diamond Casino & Resort,neo,
+Sports,Neon,AWD,4,Pfister,✔,✔,,,L.Motorsport,"1,500,000",4 Door Tab,Garage,LSC,✔,✔,✔,30/01,2018,Doomsday Heist,neon,
+Sports,Niobe,AWD,2,Ubermacht,DF=2.7,,✔,,L.Motorsport,"1,880,000",2 Door Tab,Garage,LSC,✔,✔,✔,25/06,2024,Bottom Dollar Bounties,niobe,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Niobe (HSW),AWD,2,Ubermacht,DF=2.7,,✔,,Upgrade,"3,680,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,25/06,2024,Bottom Dollar Bounties,niobe_hsw,"Acquired by upgrading Niobe at Hao's Special Works. Has ""downforce"" handling line by default but a non-stock spoiler is still needed."
+Sports,Omnis,AWD,2,Obey,DF=2,✔,,,SSASA,"701,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/07,2016,Cunning Stunts,omnis,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Omnis e-GT,AWD,4,Obey,,,✔,,L.Motorsport,"1,795,000",4 Door Tab,Garage,LSC & Property,✔,✔,✔,26/07,2022,Criminal Enterprises,omnisegt,"Has active spoiler, downforce, and spoiler upgrades, however none work to give any increased traction"
+Sports,Panthere,RWD,2,Toundra,DF=1.2,,✔,,L.Motorsport,"1,205,000",2 Door Tab,Garage,LSC,✔,✔,✔,16/02,2023,Los Santos Drug Wars,panthere,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Paragon R,AWD,2,Enus,✔,,,,L.Motorsport,"905,000",2 Door Tab,Garage,LSC,✔,✔,✔,23/07,2019,Diamond Casino & Resort,paragon,
+Sports,Paragon R (Armored),AWD,2,Enus,✔,,,,Unlock,0,Casino Missions,Garage,LSC,,✔,✔,23/07,2019,Diamond Casino & Resort,paragon2,Unlocked with completion of Casino missions
+Sports,Paragon S,AWD,2,Enus,Active,,✔,,L.Motorsport,"2,010,000",2 Door Tab,Garage,LSC & Property,✔,✔,✔,25/06,2024,Bottom Dollar Bounties,paragon3,"Has active spoiler, downforce, and spoiler upgrades, however active spoiler traction bonus takes precedence"
+Sports,Pariah,RWD,2,Ocelot,✔,,,,L.Motorsport,"1,420,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/12,2017,Doomsday Heist,pariah,
+Sports,Penumbra,RWD,2,Maibatsu,✔,,,,SSASA,"24,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,penumbra,
+Sports,Penumbra FF,AWD,2,Maibatsu,✔,,✔,,SSASA,"1,380,000",2 Door Tab,Garage,LSC,✔,✔,✔,11/08,2020,Los Santos Summer Special,penumbra2,
+Sports,Raiden,AWD,4,Coil,✔,✔,,,L.Motorsport,"975,000",4 Door Tab,Garage,LSC,✔,✔,✔,12/12,2017,Doomsday Heist,raiden,
+Sports,Rapid GT,RWD,2,Dewbauchee,✔,,,,L.Motorsport,"132,000",28 May 2026,Garage,LSC,✔,,,17/09,2013,-,rapidgt,
+Sports,Rapid GT Cabrio,RWD,2,Dewbauchee,✔,,,,L.Motorsport,"140,000",21 May 2026,Garage,LSC,✔,,,17/09,2013,-,rapidgt2,
+Sports,Rapid GT X,RWD,2,Dewbauchee,✔,,✔,,L.Motorsport,"2,705,500",2 Door Tab,Garage,LSC,✔,✔,✔,17/06,2025,Money Fronts,rapidgt4,
+Sports,Raptor,RWD,2,BF,,,,,L.Motorsport,"648,000",2 Door Tab,Garage,LSC,✔,✔,✔,11/10,2016,Bikers,raptor,
+Sports,Remus,RWD,2,Annis,DF=1.2,,✔,,SSASA,"1,370,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/07,2021,Los Santos Tuners,remus,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Revolter,AWD,4,Ubermacht,,✔,,,L.Motorsport,"866,000",4 Door Tab,Garage,LSC & MOC,✔,✔,✔,23/01,2018,Doomsday Heist,revolter,
+Sports,RT3000,RWD,2,Dinka,✔,,✔,,SSASA,"1,715,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/07,2021,Los Santos Tuners,rt3000,
+Sports,Ruston,RWD,2,Hijak,DF=1.15,,,,L.Motorsport,"430,000",4 June 2026,Garage,LSC,✔,✔,✔,21/03,2017,Cunning Stunts: SV Circuit,ruston,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,S95,RWD,2,Karin,✔,,,,SSASA,"1,995,000",2 Door Tab,Garage,LSC,✔,✔,✔,15/03,2022,Expanded & Enhanced Edition,s95,
+Sports,S95 (HSW),RWD,2,Karin,✔,,,,Upgrade,"2,520,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,15/03,2022,Expanded & Enhanced Edition,s95_hsw,Acquired by upgrading S95 at Hao's Special Works
+Sports,Schafter LWB,RWD,4,Benefactor,✔,,,,L.Motorsport,"208,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,schafter4,
+Sports,Schafter V12,RWD,4,Benefactor,✔,,,,L.Motorsport,"116,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,schafter3,
+Sports,Schlagen GT,RWD,2,Benefactor,DF=1.5,✔,,,L.Motorsport,"1,300,000",2 Door Tab,Garage,LSC,✔,✔,✔,22/01,2019,Arena War,schlagen,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Schwartzer,RWD,2,Benefactor,✔,,,,SSASA,"80,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,schwarzer,
+Sports,Sentinel Classic,RWD,2,Ubermacht,✔,✔,,,SSASA,"650,000",2 Door Tab,Garage,LSC,✔,✔,✔,19/12,2017,Doomsday Heist,sentinel3,
+Sports,Sentinel Classic Widebody,RWD,2,Ubermacht,DF=1.5,✔,,,Upgrade,"1,350,000",Benny's Workshop,Garage,LSC,✔,✔,✔,22/11,2022,Criminal Enterprises,sentinel4,Acquired by upgrading Sentinel Classic in Benny's
+Sports,Sentinel GTS,RWD,4,Ubermacht,✔,,✔,,L.Motorsport,"2,172,000",4 Door Tab,Garage,LSC,✔,✔,✔,17/06,2025,Money Fronts,sentinel5,
+Sports,Seven-70,RWD,2,Dewbauchee,✔,,,,L.Motorsport,"695,000",25 June 2026,Garage,LSC,✔,✔,✔,05/07,2016,Finance and Felony,seven70,
+Sports,SM722,RWD,2,Benefactor,✔,,✔,,L.Motorsport,"1,669,000",2 Door Tab,Garage,LSC,✔,✔,✔,04/08,2022,Criminal Enterprises,sm722,
+Sports,Specter,RWD,2,Dewbauchee,✔,,,,Benny's,"599,000",Main Page,Garage,LSC,✔,✔,✔,17/01,2017,Import/Export,specter,
+Sports,Specter Custom,RWD,2,Dewbauchee,DF=1.75,,,,Upgrade,"751,000",Benny's Workshop,Garage,LSC,✔,✔,✔,17/01,2017,Import/Export,specter2,"Acquired by upgrading Specter in Benny's. Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Sprunk Buffalo,RWD,4,Bravado,✔,,,,SSASA,"535,000",4 Door Tab,Garage,LSC,✔,✔,✔,18/11,2014,Enhanced Edition,buffalo3,
+Sports,Stinger TT,RWD,2,Grotti,Active,,✔,,L.Motorsport,"2,380,000",2 Door Tab,Garage,LSC & Property,✔,✔,✔,13/06,2023,San Andreas Mercenaries,stingertt,Name changed from Itali GTO Stinger TT in June 2025 with Money Fronts DLC
+Sports,Stinger TT (HSW),RWD,2,Grotti,Active,,✔,,Upgrade,"3,798,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,13/06,2023,San Andreas Mercenaries,stingertt_hsw,Acquired by upgrading Itali GTO Stinger TT at Hao's Special Works. Name changed from Itali GTO Stinger TT (HSW) in June 2025 with Money Fronts DLC
+Sports,Streiter,AWD,4,Benefactor,,,,,SSASA,"500,000",18 June 2026,Garage,LSC,✔,✔,✔,23/12,2017,Doomsday Heist,streiter,
+Sports,Sugoi,FWD,4,Dinka,DF=1.1,,,,SSASA,"1,224,000",4 Door Tab,Garage,LSC,✔,✔,✔,13/02,2020,Diamond Casino Heist,sugoi,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Sports,Sultan,AWD,4,Karin,✔,,,,Benny's,"12,000",Main Page,Garage,LSC,✔,✔,✔,17/09,2013,-,sultan,
+Sports,Sultan Classic,AWD,4,Karin,✔,,,,SSASA,"1,718,000",4 Door Tab,Garage,LSC,✔,✔,✔,16/01,2020,Diamond Casino Heist,sultan2,Middle suspension best
+Sports,Sultan RS Classic,AWD,2,Karin,✔,,✔,,SSASA,"1,789,000",2 Door Tab,Garage,LSC,✔,✔,✔,26/08,2021,Los Santos Tuners,sultan3,Middle suspension best
+Sports,Surano,RWD,2,Benefactor,✔,,,,L.Motorsport,"110,000",19 March 2026,Garage,LSC,✔,,,17/09,2013,-,surano,
+Sports,Tropos Rallye,RWD,2,Lampadati,✔,✔,,,SSASA,"816,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/07,2016,Cunning Stunts,tropos,
+Sports,V-STR,RWD,4,Albany,✔,,,,L.Motorsport,"1,285,000",4 Door Tab,Garage,LSC,✔,✔,✔,30/01,2020,Diamond Casino Heist,vstr,
+Sports,Vectre,AWD,2,Emperor,✔,,✔,,L.Motorsport,"1,785,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/08,2021,Los Santos Tuners,vectre,
+Sports,Verlierer,RWD,2,Bravado,✔,,,,L.Motorsport,"695,000",4 June 2026,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,verlierer2,
+Sports,Veto Classic,RWD,1,Dinka,✔,,,,SSASA,"895,000",Special Tab,Garage,LSC,✔,✔,✔,18/12,2020,Cayo Perico Heist,veto,Engine Block modification adds traction like a spoiler
+Sports,Veto Modern,RWD,1,Dinka,✔,,,,SSASA,"995,000",Special Tab,Garage,LSC,✔,✔,✔,22/12,2020,Cayo Perico Heist,veto2,Engine Block modification adds traction like a spoiler
+Sports,ZR350,RWD,2,Annis,✔,,✔,,L.Motorsport,"1,615,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/07,2021,Los Santos Tuners,zr350,
+Sports,ZR380,RWD,2,Annis,✔,✔,,✔,ArenaWar,"2,138,640",Arena Ready Tab,Garage,LSC & Property,,,✔,11/12,2018,Arena War,"zr380, zr3802, zr3803",
+Sports Classics,190z,RWD,2,Karin,✔,,,,L.Motorsport,"900,000",21 May 2026,Garage,LSC,✔,✔,✔,20/02,2018,Doomsday Heist,z190,
+Sports Classics,Ardent,RWD,2,Ocelot,✔,,,,Warstock,"1,150,000",Main Page,Garage,MOC,✔,✔,✔,22/08,2017,Gunrunning,ardent,
+Sports Classics,Astrale,RWD,2,Pfister,✔,,✔,,L.Motorsport,"1,475,500",2 Door Tab,Garage,LSC,✔,✔,✔,08/01,2026,A Safehouse in the Hills,astrale,
+Sports Classics,Astrale (HSW),RWD,2,Pfister,✔,,✔,,Upgrade,"2,425,500",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,08/01,2026,A Safehouse in the Hills,astrale_hsw,Acquired by upgrading Astrale at Hao's Special Works
+Sports Classics,Casco,RWD,2,Lampadati,,,,,L.Motorsport,"904,400",2 Door Tab,Garage,LSC,✔,✔,✔,10/03,2015,Heists,casco,
+Sports Classics,Cheburek,RWD,4,RUNE,✔,✔,,,SSASA,"145,000",4 Door Tab,Garage,LSC,✔,✔,✔,05/06,2018,SSA Super Sport Series,cheburek,
+Sports Classics,Cheetah Classic,RWD,2,Grotti,✔,,,,L.Motorsport,"865,000",2 Door Tab,Garage,LSC,✔,✔,✔,11/07,2017,Gunrunning,cheetah2,
+Sports Classics,Coquette Classic,RWD,2,Invetero,,,,,L.Motorsport,"665,000",2 Door Tab,Garage,LSC,✔,✔,✔,19/08,2014,San Andreas Flight School,coquette2,
+Sports Classics,Coquette D1,RWD,2,Invetero,,,✔,,L.Motorsport,"1,500,000",2 Door Tab,Garage,LSC,✔,✔,✔,25/06,2024,Bottom Dollar Bounties,coquette5,
+Sports Classics,Deluxo,RWD,2,Imponte,✔,✔,,,Warstock,"5,750,000",Main Page,Garage,MOC,,✔,✔,12/12,2017,Doomsday Heist,deluxo,Silly
+Sports Classics,Dynasty,RWD,4,Weeny,✔,,,,SSASA,"450,000",2 July 2026,Garage,LSC,✔,✔,✔,17/10,2019,Diamond Casino & Resort,dynasty,Deflector modification adds traction like a spoiler
+Sports Classics,Fagaloa,RWD,2,Vulcar,✔,,,,SSASA,"335,000",4 June 2026,Garage,LSC,✔,✔,✔,20/03,2018,SSA Super Sport Series,fagaloa,Visor modification adds traction like a spoiler
+Sports Classics,Franken Stange,RWD,4,Albany,,,,,SSASA,"550,000",6 November 2025,Garage,LSC,✔,,,29/10,2015,Halloween Surprise,btype2,
+Sports Classics,GT500,RWD,2,Grotti,,,,,L.Motorsport,"785,000",18 June 2026,Garage,LSC,✔,✔,✔,16/01,2018,Doomsday Heist,gt500,
+Sports Classics,GT750,RWD,2,Grotti,✔,,✔,,L.Motorsport,"1,247,000",2 Door Tab,Garage,LSC,✔,✔,✔,10/12,2025,A Safehouse in the Hills,gt750,
+Sports Classics,Infernus Classic,RWD,2,Pegassi,✔,,,,L.Motorsport,"915,000",2 Door Tab,Garage,LSC,✔,✔,✔,28/03,2017,Cunning Stunts: SV Circuit,infernus2,
+Sports Classics,Itali Classic,RWD,2,Grotti,✔,,✔,,L.Motorsport,"2,025,000",2 Door Tab,Garage,LSC,✔,✔,✔,05/02,2026,A Safehouse in the Hills,itali2,
+Sports Classics,JB 700,RWD,2,Dewbauchee,,,,,L.Motorsport,"350,000",21 May 2026,Garage,LSC,✔,✔,✔,17/09,2013,-,jb700,
+Sports Classics,JB 700W,RWD,2,Dewbauchee,,,,,Warstock,"1,470,000",Main Page,Garage,LSC,,✔,✔,26/12,2019,Diamond Casino Heist,jb7002,
+Sports Classics,LSCM Cheetah Classic,RWD,2,Grotti,DF=2.4,,,,L.Motorsport,"1,952,500",2 Door Tab,Garage,LSC,✔,✔,✔,26/06,2025,Money Fronts,cheetah3,
+Sports Classics,Mamba,RWD,2,Declasse,,,,,L.Motorsport,"995,000",2 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,mamba,
+Sports Classics,Manana,RWD,2,Albany,,,,,Benny's,"10,000",Main Page,Garage,LSC,✔,✔,✔,17/09,2013,-,manana,
+Sports Classics,Michelli GT,RWD,2,Lampadati,✔,✔,,,SSASA,"1,225,000",2 April 2026,Garage,LSC,✔,✔,✔,05/06,2018,SSA Super Sport Series,michelli,
+Sports Classics,Monroe,RWD,2,Pegassi,,,,,L.Motorsport,"490,000",2 Door Tab,Garage,LSC,✔,,,17/09,2013,-,monroe,
+Sports Classics,Nebula Turbo,RWD,2,Vulcar,✔,,,,SSASA,"797,000",2 Door Tab,Garage,LSC,✔,✔,✔,22/08,2019,Diamond Casino & Resort,nebula,
+Sports Classics,Peyote,RWD,2,Vapid,,,,,Benny's,"38,000",Main Page,Garage,LSC,✔,,,17/09,2013,-,peyote,
+Sports Classics,Peyote Custom,RWD,2,Vapid,,,,,Upgrade,"620,000",Benny's Workshop,Garage,LSC,✔,,,11/08,2020,Los Santos Summer Special,peyote3,Acquired by upgrading Peyote in Benny's
+Sports Classics,Pigalle,FWD,2,Lampadati,✔,,,,SSASA,"400,000",2 April 2026,Garage,LSC,✔,✔,✔,17/06,2014,I'm Not A Hipster,pigalle,
+Sports Classics,Rapid GT Classic,RWD,2,Dewbauchee,✔,,,,L.Motorsport,"885,000",18 June 2026,Garage,LSC,✔,✔,✔,12/09,2017,Smuggler's Run,rapidgt3,
+Sports Classics,Retinue,RWD,2,Vapid,✔,✔,,,SSASA,"615,000",18 June 2026,Garage,LSC,✔,✔,✔,29/08,2017,Smuggler's Run,retinue,
+Sports Classics,Retinue Mk II,RWD,2,Vapid,✔,,✔,,SSASA,"972,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/12,2019,Diamond Casino Heist,retinue2,
+Sports Classics,Roosevelt,RWD,6,Albany,,,,,L.Motorsport,"750,000",19 February 2026,Garage,LSC,✔,✔,✔,13/02,2014,Valentine's Day Massacre,btype,
+Sports Classics,Roosevelt Valor,RWD,6,Albany,✔,,,,L.Motorsport,"982,000",20 February 2025,Garage,LSC,✔,✔,✔,10/02,2016,Be My Valentine,btype3,Tailgate spare wheel modification adds traction like a spoiler
+Sports Classics,Savestra,RWD,2,Annis,✔,✔,,,L.Motorsport,"990,000",2 Door Tab,Garage,LSC & MOC,✔,✔,✔,02/01,2018,Doomsday Heist,savestra,
+Sports Classics,Stinger,RWD,2,Grotti,,,,,L.Motorsport,"850,000",4 June 2026,Garage,LSC,✔,,,17/09,2013,-,stinger,
+Sports Classics,Stinger GT,RWD,2,Grotti,,✔,,,L.Motorsport,"875,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,stingergt,
+Sports Classics,Stirling GT,RWD,2,Benefactor,✔,✔,,,L.Motorsport,"975,000",2 Door Tab,Garage,LSC,✔,✔,✔,10/06,2015,Ill-Gotten Gains Part 1,feltzer3,
+Sports Classics,Stirling GT (HSW),RWD,2,Benefactor,✔,✔,,,Upgrade,"1,875,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,26/07,2022,Criminal Enterprises,feltzer3_hsw,Acquired by upgrading Stirling GT at Hao's Special Works
+Sports Classics,Stromberg,RWD,2,Ocelot,,✔,,,Warstock,"2,500,000",Main Page,Garage & Submarine,MOC,,✔,✔,12/12,2017,Doomsday Heist,stromberg,
+Sports Classics,Swinger,RWD,2,Ocelot,,✔,,,L.Motorsport,"909,000",2 Door Tab,Garage,LSC,✔,✔,✔,24/07,2018,After Hours,swinger,
+Sports Classics,Toreador,RWD,4,Pegassi,✔,,,✔,Warstock,"4,250,000",Main Page,Garage & Submarine,LSC,,✔,✔,15/12,2020,Cayo Perico Heist,toreador,1:07 lap time without boost
+Sports Classics,Torero,RWD,2,Pegassi,✔,,,,L.Motorsport,"998,000",2 Door Tab,Garage,LSC,✔,✔,✔,25/07,2017,Gunrunning,torero,
+Sports Classics,Tornado,RWD,2,Declasse,,,,,Benny's,"30,000",Main Page,Garage,LSC,✔,,,17/09,2013,-,tornado,
+Sports Classics,Tornado Beater,RWD,2,Declasse,,,,,Traffic,0,Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,tornado3,
+Sports Classics,Tornado Cabrio,RWD,2,Declasse,,,,,Traffic,0,Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,tornado2,
+Sports Classics,Tornado Custom,RWD,2,Declasse,,,,,Upgrade,"405,000",Benny's Workshop,Garage,LSC,✔,✔,✔,04/04,2016,Lowriders: Custom Classics,tornado5,Acquired by upgrading Tornado in Benny's
+Sports Classics,Tornado Mariachi,RWD,2,Declasse,,,,,Traffic,0,Traffic Spawn,Garage,MOC,✔,,,17/09,2013,-,tornado4,
+Sports Classics,Tornado Rat Rod,RWD,2,Declasse,,,,,SSASA,"378,000",2 July 2026,Garage,LSC,✔,✔,✔,01/11,2016,Bikers,tornado6,
+Sports Classics,Turismo Classic,RWD,2,Grotti,✔,,,,L.Motorsport,"705,000",2 Door Tab,Garage,LSC,✔,✔,✔,04/04,2017,Cunning Stunts: SV Circuit,turismo2,
+Sports Classics,Turismo Classic (HSW),RWD,2,Grotti,✔,,,,Upgrade,"1,602,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,15/03,2022,Expanded & Enhanced Edition,turismo2_hsw,Acquired by upgrading Turismo Classic at Hao's Special Works
+Sports Classics,Uranus LozSpeed,RWD,2,Vapid,✔,,✔,,SSASA,"1,140,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/02,2025,Agents Of Sabotage,uranus1,
+Sports Classics,Viseris,RWD,2,Lampadati,✔,,,,L.Motorsport,"875,000",2 Door Tab,Garage,LSC & MOC,✔,✔,✔,09/01,2018,Doomsday Heist,viseris,
+Sports Classics,Z-Type,RWD,2,Truffade,,,,,L.Motorsport,"950,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,ztype,
+Sports Classics,Zion Classic,RWD,2,Ubermacht,✔,✔,,,SSASA,"812,000",2 Door Tab,Garage,LSC,✔,✔,✔,19/09,2019,Diamond Casino & Resort,zion3,
+Supers,811,AWD,2,Pfister,✔,,,,L.Motorsport,"1,135,000",2 Door Tab,Garage,LSC,✔,✔,✔,28/06,2016,Finance and Felony,pfister811,
+Supers,Adder,AWD,2,Truffade,,,,,L.Motorsport,"1,000,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,adder,
+Supers,Autarch,RWD,2,Overflod,DF=2.95,✔,,,L.Motorsport,"1,955,000",2 Door Tab,Garage,LSC,✔,✔,✔,26/12,2017,Doomsday Heist,autarch,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Banshee 900R,RWD,2,Bravado,✔,,,,Upgrade,"670,000",Benny's Workshop,Garage,LSC,✔,✔,✔,28/01,2016,January 2016,banshee2,Acquired by upgrading Banshee in Benny's
+Supers,Bullet,RWD,2,Vapid,,,,,L.Motorsport,"155,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,bullet,
+Supers,Champion,RWD,2,Dewbauchee,✔,,✔,,L.Motorsport,"3,750,000",2 Door Tab,Garage,LSC & Property,✔,✔,✔,15/12,2021,The Contract,champion,
+Supers,Cheetah,RWD,2,Grotti,✔,,,,L.Motorsport,"650,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,cheetah,
+Supers,Cyclone,AWD,2,Coil,✔,✔,,,L.Motorsport,"1,034,000",2 Door Tab,Garage,LSC,✔,✔,✔,14/11,2017,Smuggler's Run,cyclone,
+Supers,Cyclone II,AWD,2,Coil,✔,✔,,,L.Motorsport,"2,250,000",2 Door Tab,Garage,LSC,✔,✔,✔,15/03,2022,Expanded & Enhanced Edition,cyclone2,
+Supers,Cyclone II (HSW),AWD,2,Coil,✔,✔,,,Upgrade,"2,701,250",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,15/03,2022,Expanded & Enhanced Edition,cyclone2_hsw,Acquired by upgrading Cyclone II at Hao's Special Works
+Supers,Deveste Eight,RWD,2,Principe,✔,✔,,,L.Motorsport,"1,795,000",2 Door Tab,Garage,LSC,✔,✔,✔,21/02,2019,Arena War,deveste,
+Supers,Deveste Eight (HSW),RWD,2,Principe,✔,✔,,,Upgrade,"2,849,500",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,29/03,2022,Expanded & Enhanced Edition,deveste_hsw,Acquired by upgrading Deveste Eight at Hao's Special Works
+Supers,Emerus,RWD,2,Progen,DF=3.5,,,,L.Motorsport,"2,750,000",2 Door Tab,Garage,LSC,✔,✔,✔,15/08,2019,Diamond Casino & Resort,emerus,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Entity MT,RWD,2,Overflod,DF=2.2,,✔,,L.Motorsport,"2,355,000",2 Door Tab,Garage,LSC,✔,✔,✔,13/12,2022,Los Santos Drug Wars,entity3,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Entity MT (HSW),RWD,2,Overflod,DF=2.2,,✔,,Upgrade,"3,205,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,13/12,2022,Los Santos Drug Wars,entity3_hsw,"Acquired by upgrading Entity MT at Hao's Special Works. Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Entity XF,AWD,2,Overflod,✔,,,,L.Motorsport,"795,000",28 May 2026,Garage,LSC,✔,✔,✔,17/09,2013,-,entityxf,
+Supers,Entity XXR,RWD,2,Overflod,DF=1.75,✔,,,L.Motorsport,"2,305,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/03,2018,SSA Super Sport Series,entity2,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,ETR1,RWD,2,Emperor,DF=3,✔,,,L.Motorsport,"1,097,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/07,2016,Cunning Stunts,sheava,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,FMJ,RWD,2,Vapid,✔,✔,,,L.Motorsport,"1,750,000",2 Door Tab,Garage,LSC,✔,✔,✔,07/06,2016,Finance and Felony,fmj,
+Supers,FMJ MK V,RWD,2,Vapid,DF=3.4,,✔,,L.Motorsport,"2,965,000",2 Door Tab,Garage,LSC,✔,✔,✔,10/12,2025,A Safehouse in the Hills,fmj2,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,FMJ MK V (HSW),RWD,2,Vapid,DF=3.4,,✔,,Upgrade,"4,915,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,10/12,2025,A Safehouse in the Hills,fmj2_hsw,"Acquired by upgrading FMJ MK V at Hao's Special Works. Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Furia,AWD,2,Grotti,Active,,,,L.Motorsport,"2,740,000",2 Door Tab,Garage,LSC,✔,✔,✔,19/12,2019,Diamond Casino Heist,furia,Active spoiler improves traction & braking when raised - can be broken
+Supers,GP1,RWD,2,Progen,DF=1.25,✔,,,L.Motorsport,"1,260,000",2 Door Tab,Garage,LSC,✔,✔,✔,14/03,2017,Cunning Stunts: SV Circuit,gp1,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Ignus,AWD,2,Pegassi,Active,,✔,,L.Motorsport,"2,765,000",2 Door Tab,Garage,LSC,✔,✔,✔,15/12,2021,The Contract,ignus,"Active spoiler improves traction & braking, no aftermarket spoiler needed"
+Supers,Infernus,AWD,2,Pegassi,✔,,,,L.Motorsport,"440,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,infernus,
+Supers,Itali GTB,AWD,2,Progen,✔,✔,,,Benny's,"1,189,000",Main Page,Garage,LSC,✔,✔,✔,10/01,2017,Import/Export,italigtb,
+Supers,Itali GTB Custom,AWD,2,Progen,DF=1.5,✔,,,Upgrade,"1,684,000",Benny's Workshop,Garage,LSC,✔,✔,✔,10/01,2017,Import/Export,italigtb2,"Acquired by upgrading Itali GTB in Benny's. Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Krieger,AWD,2,Benefactor,DF=2.75,,,,L.Motorsport,"2,875,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/09,2019,Diamond Casino & Resort,krieger,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,LM87,RWD,1,Benefactor,DF=4.25,,✔,,L.Motorsport,"2,915,000",2 Door Tab,Garage,LSC,✔,✔,✔,26/07,2022,Criminal Enterprises,lm87,
+Supers,Luiva,RWD,2,Progen,Active,,✔,,L.Motorsport,"2,697,500",2 Door Tab,Garage,LSC,✔,✔,✔,10/12,2025,A Safehouse in the Hills,luiva,"Has active spoiler, downforce, and spoiler upgrades, however active spoiler traction bonus takes precedence"
+Supers,Nero,AWD,2,Truffade,Active,,,,Benny's,"1,440,000",Main Page,Garage,LSC,✔,✔,✔,20/12,2016,Import/Export,nero,Active spoiler improves traction & braking when raised - can be broken
+Supers,Nero Custom,AWD,2,Truffade,✔,,,,Upgrade,"2,045,000",Benny's Workshop,Garage,LSC,✔,✔,✔,20/12,2016,Import/Export,nero2,Acquired by upgrading Nero in Benny's
+Supers,Osiris,AWD,2,Pegassi,✔,✔,,,L.Motorsport,"1,950,000",2 Door Tab,Garage,LSC,✔,✔,✔,10/06,2015,Ill-Gotten Gains Part 1,osiris,
+Supers,Penetrator,AWD,2,Ocelot,✔,✔,,,L.Motorsport,"880,000",2 Door Tab,Garage,LSC,✔,✔,✔,13/12,2016,Import/Export,penetrator,
+Supers,Pipistrello,AWD,2,Overflod,Active,,✔,,L.Motorsport,"2,950,000",2 Door Tab,Garage,LSC,✔,✔,✔,25/06,2024,Bottom Dollar Bounties,pipistrello,"Has active spoiler, downforce, and spoiler upgrades, however active spoiler traction bonus takes precedence"
+Supers,RE-7B,RWD,2,Annis,DF=3.5,✔,,,L.Motorsport,"2,475,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/07,2016,Cunning Stunts,le7b,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Reaper,RWD,2,Pegassi,✔,✔,,,L.Motorsport,"1,595,000",2 Door Tab,Garage,LSC,✔,✔,✔,07/06,2016,Finance and Felony,reaper,
+Supers,Rocket Voltic,RWD,2,Coil,,,,✔,Warstock,"3,830,400",Main Page,Warehouse,LSC,,✔,✔,13/12,2016,Import/Export,voltic2,
+Supers,S80RR,RWD,1,Annis,DF=3.75,,,,L.Motorsport,"2,575,000",2 Door Tab,Garage,LSC,✔,✔,✔,23/07,2019,Diamond Casino & Resort,s80,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,SC1,RWD,2,Ubermacht,✔,✔,,,L.Motorsport,"761,800",2 Door Tab,Garage,LSC,✔,✔,✔,12/12,2017,Doomsday Heist,sc1,
+Supers,Scramjet,RWD,2,Declasse,,✔,,✔,Warstock,"4,000,000",Main Page,Garage,MOC,,✔,,21/08,2018,After Hours,scramjet,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Sultan RS,AWD,2,Karin,✔,,,,Upgrade,"807,000",Benny's Workshop,Garage,LSC,✔,✔,✔,28/01,2016,January 2016,sultanrs,Acquired by upgrading Sultan in Benny's
+Supers,Suzume,AWD,2,Overflod,Active,,✔,,L.Motorsport,"3,074,500",2 Door Tab,Garage,LSC,✔,✔,✔,17/06,2025,Money Fronts,suzume,
+Supers,T20,AWD,2,Progen,Active,✔,,,L.Motorsport,"2,200,000",2 Door Tab,Garage,LSC,✔,✔,✔,08/07,2015,Ill-Gotten Gains Part 2,t20,Active spoiler improves traction & braking when raised - can be broken
+Supers,Taipan,RWD,2,Cheval,DF=1.2,✔,,,L.Motorsport,"1,980,000",2 Door Tab,Garage,LSC,✔,✔,✔,20/03,2018,SSA Super Sport Series,taipan,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Tempesta,AWD,2,Pegassi,✔,✔,,,L.Motorsport,"1,329,000",2 Door Tab,Garage,LSC,✔,✔,✔,13/12,2016,Import/Export,tempesta,
+Supers,Tezeract,AWD,2,Pegassi,DF=1.7,✔,,,L.Motorsport,"2,825,000",2 Door Tab,Garage,LSC,✔,✔,✔,27/03,2018,SSA Super Sport Series,tezeract,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Thrax,AWD,2,Truffade,DF=3.2,,,,L.Motorsport,"2,325,000",2 Door Tab,Garage,LSC,✔,✔,✔,23/07,2019,Diamond Casino & Resort,thrax,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Tigon,RWD,2,Lampadati,DF=2.75,,,,L.Motorsport,"2,310,000",2 Door Tab,Garage,LSC,✔,✔,✔,11/08,2020,Los Santos Summer Special,tigon,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Torero XO,AWD,2,Pegassi,,,✔,,L.Motorsport,"2,890,000",2 Door Tab,Garage,LSC,✔,✔,✔,26/07,2022,Criminal Enterprises,torero2,"Has active spoiler and spoiler upgrades, however none work to give any increased traction"
+Supers,Turismo Omaggio,RWD,2,Grotti,DF=3.36,,,,L.Motorsport,"2,845,000",2 Door Tab,Garage,LSC & Property,✔,✔,✔,12/12,2023,Chop Shop,turismo3,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Turismo R,RWD,2,Grotti,✔,✔,,,L.Motorsport,"500,000",2 Door Tab,Garage,LSC,✔,✔,✔,04/03,2014,Business,turismor,
+Supers,Tyrant,RWD,2,Overflod,DF=3,✔,,,L.Motorsport,"2,515,000",2 Door Tab,Garage,LSC,✔,✔,✔,08/05,2018,SSA Super Sport Series,tyrant,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Tyrus,RWD,2,Progen,DF=3.35,✔,,,L.Motorsport,"1,830,000",2 Door Tab,Garage,LSC,✔,✔,✔,12/07,2016,Cunning Stunts,tyrus,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Vacca,RWD,2,Pegassi,✔,,,,L.Motorsport,"240,000",2 Door Tab,Garage,LSC,✔,,,17/09,2013,-,vacca,
+Supers,Vagner,RWD,2,Dewbauchee,DF=2.75,✔,,,L.Motorsport,"1,535,000",2 Door Tab,Garage,LSC,✔,✔,✔,30/06,2017,Gunrunning,vagner,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Vigilante,RWD,2,Grotti,,✔,,✔,Warstock,"3,750,000",Main Page,Garage,MOC,,✔,✔,31/10,2017,Smuggler's Run,vigilante,1:06 lap time without boost
+Supers,Virtue,AWD,2,Ocelot,Active,,✔,,L.Motorsport,"2,980,000",2 Door Tab,Garage,LSC & Property,✔,✔,✔,16/03,2023,Los Santos Drug Wars,virtue,"Active spoiler improves traction & braking, no aftermarket spoiler needed"
+Supers,Visione,RWD,2,Grotti,DF=2,✔,,,L.Motorsport,"2,250,000",2 Door Tab,Garage,LSC,✔,✔,✔,29/08,2017,Smuggler's Run,visione,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,Voltic,RWD,2,Coil,✔,,,,L.Motorsport,"150,000",25 June 2026,Garage,LSC,✔,✔,✔,17/09,2013,-,voltic,
+Supers,Weaponized Ignus,AWD,2,Pegassi,✔,,,,Warstock,"4,500,000",Main Page,Garage,LSC,✔,✔,✔,15/03,2022,Expanded & Enhanced Edition,ignus2,
+Supers,Weaponized Ignus (HSW),AWD,2,Pegassi,✔,,,,Upgrade,"5,000,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,15/03,2022,Expanded & Enhanced Edition,ignus2_hsw,Acquired by upgrading Weaponized Ignus at Hao's Special Works
+Supers,X-treme,AWD,2,Pfister,DF=2.35,,✔,,L.Motorsport,"2,885,000",2 Door Tab,Garage,LSC,✔,✔,✔,10/12,2025,A Safehouse in the Hills,xtreme,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+Supers,X80 Proto,AWD,2,Grotti,Active,✔,,,L.Motorsport,"2,700,000",2 Door Tab,Garage,LSC,✔,✔,✔,21/06,2016,Finance and Felony,prototipo,"Active spoiler improves traction & braking, no aftermarket spoiler needed"
+Supers,XA-21,AWD,2,Ocelot,Active,✔,,,L.Motorsport,"1,670,000",2 Door Tab,Garage,LSC,✔,✔,✔,15/08,2017,Gunrunning,xa21,Active spoiler improves traction & braking when raised - can be broken
+Supers,Zeno,RWD,2,Overflod,✔,,✔,,L.Motorsport,"2,820,000",2 Door Tab,Garage,LSC,✔,✔,✔,23/12,2021,The Contract,zeno,
+Supers,Zentorno,AWD,2,Pegassi,✔,✔,,,L.Motorsport,"725,000",2 Door Tab,Garage,LSC,✔,✔,✔,13/05,2014,High Life,zentorno,
+Supers,Zorrusso,RWD,2,Pegassi,DF=2.9,,,,L.Motorsport,"1,925,000",2 Door Tab,Garage,LSC,✔,✔,✔,24/10,2019,Diamond Casino & Resort,zorrusso,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+SUVs,Aleutian,AWD,4,Vapid,,,✔,,L.Motorsport,"1,835,000",4 Door Tab,Garage,LSC & Property,✔,✔,✔,12/12,2023,Chop Shop,aleutian,
+SUVs,Astron,AWD,4,Pfister,✔,,✔,,L.Motorsport,"1,580,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2021,The Contract,astron,
+SUVs,Astron Custom,AWD,4,Pfister,✔,,,,L.Motorsport,"1,720,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/03,2022,Expanded & Enhanced Edition,astron2,
+SUVs,Astron Custom (HSW),AWD,4,Pfister,✔,,,,Upgrade,"2,095,250",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,15/03,2022,Expanded & Enhanced Edition,astron2_hsw,Acquired by upgrading Astron Custom at Hao's Special Works
+SUVs,Baller,AWD,4,Gallivanter,,,,,SSASA,"90,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,baller2,
+SUVs,Baller (Old),AWD,4,Gallivanter,,,,,Traffic,0,Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,baller,
+SUVs,Baller LE,AWD,4,Gallivanter,,,,,L.Motorsport,"149,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,baller3,
+SUVs,Baller LE (Armored),AWD,4,Gallivanter,,,,,L.Motorsport,"374,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,baller5,
+SUVs,Baller LE LWB,AWD,4,Gallivanter,,,,,L.Motorsport,"247,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,baller4,
+SUVs,Baller LE LWB (Armored),AWD,4,Gallivanter,,,,,L.Motorsport,"513,000",4 Door Tab,Garage,LSC,✔,✔,✔,15/12,2015,Executives & Other Criminals,baller6,
+SUVs,Baller ST,AWD,4,Gallivanter,✔,,✔,,L.Motorsport,"890,000",4 Door Tab,Garage,LSC,✔,✔,✔,23/12,2021,The Contract,baller7,
+SUVs,Baller ST-D,AWD,4,Gallivanter,✔,,✔,,L.Motorsport,"1,715,000",4 Door Tab,Garage,LSC & Property,✔,✔,✔,15/02,2024,Chop Shop,baller8,
+SUVs,BeeJay XL,AWD,4,Karin,,,,,SSASA,"27,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,bjxl,
+SUVs,Castigator,AWD,4,Canis,✔,,✔,,SSASA,"1,650,000",4 Door Tab,Garage,LSC,✔,✔,✔,03/07,2024,Bottom Dollar Bounties,castigator,
+SUVs,Cavalcade,AWD,4,Albany,,,,,SSASA,"70,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,cavalcade2,
+SUVs,Cavalcade (Old),AWD,4,Albany,,,,,SSASA,"60,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,cavalcade,
+SUVs,Cavalcade XL,AWD,4,Albany,✔,,✔,,SSASA,"1,665,000",4 Door Tab,Garage,LSC,✔,✔,✔,11/01,2024,Chop Shop,cavalcade3,
+SUVs,Contender,AWD,4,Vapid,,,,,SSASA,"250,000",Luxury Tab,Garage,LSC,✔,✔,✔,26/07,2016,Cunning Stunts,contender,
+SUVs,Dorado,AWD,4,Bravado,✔,,,,SSASA,"1,375,000",4 Door Tab,Garage,LSC,✔,✔,✔,21/12,2023,Chop Shop,dorado,
+SUVs,Dubsta,AWD,4,Benefactor,✔,,,,Traffic,0,Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,dubsta,Tailgate spare wheel modification adds traction like a spoiler
+SUVs,Dubsta 2,AWD,4,Benefactor,,,,,Traffic,0,Special Spawn,Garage,LSC,✔,,,17/09,2013,-,dubsta2,Identical to a regular Dubsta but doesn't get spare wheel mod for added traction
+SUVs,Everon RS,AWD,2,Karin,✔,,✔,,L.Motorsport,"1,665,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/06,2025,Money Fronts,everon3,
+SUVs,FQ2,AWD,4,Fathom,,,,,SSASA,"50,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,fq2,
+SUVs,Granger,AWD,8,Declasse,,,,,SSASA,"35,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,granger,
+SUVs,Granger 3600LX,AWD,8,Declasse,✔,,✔,,SSASA,"2,000,000",Luxury Tab,Garage,LSC & Property,✔,✔,✔,27/01,2021,The Contract,granger2,Roof Rack modification adds traction like a spoiler
+SUVs,Gresley,AWD,4,Bravado,,,,,SSASA,"29,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,gresley,
+SUVs,Habanero,AWD,4,Emperor,,,,,SSASA,"42,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,habanero,
+SUVs,Huntley S,AWD,4,Enus,,,,,L.Motorsport,"195,000",4 Door Tab,Garage,LSC,✔,✔,✔,13/05,2014,High Life,huntley,
+SUVs,I-Wagen,AWD,4,Obey,✔,,✔,,SSASA,"1,720,000",Luxury Tab,Garage,LSC,✔,✔,✔,20/01,2022,The Contract,iwagen,
+SUVs,Issi Rally,AWD,4,Weeny,DF=1.2,,✔,,SSASA,"1,835,000",4 Door Tab,Garage,LSC,✔,✔,✔,26/01,2023,Los Santos Drug Wars,issi8,"Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+SUVs,Issi Rally (HSW),AWD,4,Weeny,DF=1.2,,✔,,Upgrade,"2,485,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,26/01,2023,Los Santos Drug Wars,issi8_hsw,"Acquired by upgrading Issi Rally at Hao's Special Works. Has ""downforce"" handling line by default but a non-stock spoiler is still needed"
+SUVs,Jubilee,AWD,4,Enus,✔,,✔,,L.Motorsport,"1,650,000",4 Door Tab,Garage,LSC & Property,✔,✔,✔,15/12,2021,The Contract,jubilee,
+SUVs,Landstalker,AWD,4,Dundreary,,,,,SSASA,"58,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,landstalker,
+SUVs,Landstalker XL,AWD,4,Dundreary,,,,,SSASA,"1,220,000",25 June 2026,Garage,LSC,✔,✔,✔,11/08,2020,Los Santos Summer Special,landstalker2,
+SUVs,Mesa,AWD,4,Canis,,,,,Traffic,0,Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,"mesa, mesa2",
+SUVs,Novak,AWD,4,Lampadati,✔,,,,L.Motorsport,"608,000",4 Door Tab,Garage,LSC,✔,✔,✔,07/11,2019,Diamond Casino & Resort,novak,
+SUVs,Patriot,AWD,4,Mammoth,,,,,SSASA,"50,000",Luxury Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,patriot,
+SUVs,Patriot Stretch,AWD,6,Mammoth,,,,,SSASA,"611,800",Luxury Tab,Garage,LSC,✔,✔,✔,24/07,2018,After Hours,patriot2,
+SUVs,Radius,AWD,4,Vapid,,,,,SSASA,"32,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,radi,
+SUVs,Rebla GTS,AWD,4,Ubermacht,✔,,✔,,L.Motorsport,"1,175,000",4 Door Tab,Garage,LSC,✔,✔,✔,12/12,2019,Diamond Casino Heist,rebla,No traction increase from lowered suspension but is helped by maximum camber
+SUVs,Rocoto,AWD,4,Obey,,,,,SSASA,"85,000",Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,rocoto,
+SUVs,Seminole,AWD,4,Canis,,,,,SSASA,"30,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,seminole,
+SUVs,Seminole Frontier,AWD,4,Canis,✔,,,,SSASA,"678,000",25 June 2026,Garage,LSC,✔,✔,✔,11/08,2020,Los Santos Summer Special,seminole2,Deflector modifications adds traction like a spoiler
+SUVs,Serrano,AWD,4,Benefactor,✔,,,,SSASA,"60,000",Traffic Spawn,Garage,LSC,✔,✔,✔,17/09,2013,-,serrano,
+SUVs,Squaddie,AWD,4,Mammoth,✔,,✔,,Warstock,"1,130,000",Main Page,Garage,LSC,✔,✔,✔,04/02,2021,Cayo Perico Heist,squaddie,Bodywork modification adds traction like a spoiler
+SUVs,Toros,AWD,4,Pegassi,✔,,,,L.Motorsport,"498,000",4 Door Tab,Garage,LSC,✔,✔,✔,18/12,2018,Arena War,toros,Front bumper modification adds traction like a spoiler
+SUVs,Vivanite,AWD,4,Karin,✔,,✔,,SSASA,"960,000",4 Door Tab,Garage,LSC,✔,✔,✔,12/12,2023,Chop Shop,vivanite,
+SUVs,Vivanite (HSW),AWD,4,Karin,✔,,✔,,Upgrade,"1,760,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,12/12,2023,Chop Shop,vivanite_hsw,Acquired by upgrading Vivanite at Hao's Special Works
+SUVs,Woodlander,AWD,4,Karin,✔,,✔,,SSASA,"1,611,000",4 Door Tab,Garage,LSC,✔,✔,✔,17/06,2025,Money Fronts,woodlander,
+SUVs,Woodlander (HSW),AWD,4,Karin,✔,,✔,,Upgrade,"2,511,000",LSCM Workshop,Garage,LSC & LSCM,✔,✔,✔,17/06,2025,Money Fronts,woodlander_hsw,
+SUVs,XLS,AWD,4,Benefactor,,,,,L.Motorsport,"253,000",4 Door Tab,Garage,LSC,✔,✔,✔,07/06,2016,Finance and Felony,xls,
+SUVs,XLS (Armored),AWD,4,Benefactor,,,,,L.Motorsport,"522,000",4 Door Tab,Garage,LSC,✔,✔,✔,07/06,2016,Finance and Felony,xls2,
+Utility,Airtug,FWD,2,HVY,,,,,-,-,-,-,-,✔,✔,✔,17/09,2013,-,airtug,
+Utility,Caddy,RWD,2,Nagasaki,,,,,-,-,-,-,-,✔,✔,✔,17/09,2013,-,caddy,
+Utility,Caddy (Bunker),RWD,2,Nagasaki,,,,,Property,"120,000",Listed Source,Bunker,-,,✔,✔,13/06,2017,Gunrunning,caddy3,
+Utility,Caddy (Civilian),RWD,2,Nagasaki,,,,,Property,"85,000",Listed Source,Bunker,-,,,,17/09,2013,-,caddy2,
+Utility,Docktug,RWD,1,HVY,,,,,-,-,-,-,-,,,,17/09,2013,-,docktug,
+Utility,Fieldmaster,RWD,1,Stanley,,✔,,,-,-,-,-,-,✔,✔,✔,17/09,2013,-,"tractor2, tractor3",
+Utility,Forklift,RWD,1,HVY,,,,,-,-,-,-,-,,,,17/09,2013,-,forklift,
+Utility,Keitora,RWD,2,Shitzu,,,✔,,SSASA,"810,000",2 Door Tab,Garage,LSC,✔,,,26/02,2026,A Safehouse in the Hills,keitora,
+Utility,Lawn Mower,FWD,1,Jack Sheepe,,,,,-,-,-,-,-,✔,✔,✔,17/09,2013,-,mower,
+Utility,Ripley,RWD,2,-,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,ripley,
+Utility,Sadler,AWD,4,Vapid,,,,,SSASA,"35,000",Off-Road Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,"sadler, sadler2",
+Utility,Scrap Truck,RWD,2,-,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,scrap,
+Utility,Slamtruck,RWD,2,Vapid,,,,,SSASA,"1,310,000",2 Door Tab,Garage,LSC,✔,✔,✔,21/01,2021,Cayo Perico Heist,slamtruck,
+Utility,Tow Truck (Large),RWD,2,Vapid,,,,,-,-,-,-,-,,,,17/09,2013,-,towtruck,Only available in single player
+Utility,Tow Truck (Salvage Yard),RWD,2,Vapid,,,,,Property,"1,100,000",Listed Source,Salvage Yard,Property,,,,12/12,2023,Chop Shop,"towtruck3, towtruck4",Both beater and clean versions perform identically
+Utility,Tow Truck (Small),RWD,2,Vapid,,,,,-,-,-,-,LSC,,,,17/09,2013,-,towtruck2,"Has access to upgrades in LSC in single player, which is the only place it's available"
+Utility,Tractor,RWD,1,Stanley,,,,,Unlock,0,Arena Levels,Pegasus,-,,,,17/09,2013,-,tractor,Unlocked at Arena Sponsorship Tier 1000
+Utility,Utility Truck (Cargo),RWD,2,Brute,,,,,-,-,-,-,-,,,,17/09,2013,-,utillitruck2,
+Utility,Utility Truck (Cherry Picker),RWD,2,Brute,,,,,-,-,-,-,-,,,,17/09,2013,-,utillitruck,
+Utility,Utility Truck (Pickup),RWD,2,Vapid,,,,,-,-,-,-,-,,,,17/09,2013,-,utillitruck3,
+Vans,Armored Boxville,RWD,5,Brute,,,,,Warstock,"1,300,000",Main Page,Warehouse,-,,✔,✔,13/12,2016,Import/Export,boxville5,
+Vans,Bison,AWD,6,Bravado,,,,,SSASA,"30,000",Off-Road Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,"bison, bison2, bison3",
+Vans,Bobcat XL,RWD,2,Vapid,,,,,SSASA,"23,000",Luxury Tab,Garage,LSC,✔,,,17/09,2013,-,bobcatxl,
+Vans,Boxville,RWD,4,Brute,,,,,Warstock,"59,850",Main Page,Pegasus,-,✔,✔,✔,17/09,2013,-,"boxville, boxville2, boxville3, boxville4, boxville6",
+Vans,Bugstars Burrito,RWD,4,Declasse,,,,,Warstock,"598,500",Main Page,Garage,LSC,✔,,,17/09,2013,-,burrito2,
+Vans,Burrito,RWD,4,Declasse,,,,,-,-,-,-,-,,,,17/09,2013,-,"burrito, burrito3, burrito4, burrito5",
+Vans,Camper,FWD,2,Brute,,,,,-,-,-,-,-,✔,✔,✔,17/09,2013,-,camper,
+Vans,Clown Van,RWD,4,Vapid,,,,,Unlock,0,Arena Levels,Pegasus,-,✔,,,17/09,2013,-,speedo2,Unlocked at Arena Sponsorship Tier 75
+Vans,Gang Burrito,RWD,4,Declasse,✔,,,,SSASA,"86,450",4 Door Tab,Garage,LSC,✔,✔,✔,10/03,2015,Heists,gburrito2,
+Vans,Gang Burrito (Lost),RWD,4,Declasse,,,,,-,-,-,-,-,,✔,✔,17/09,2013,-,gburrito,
+Vans,Journey,FWD,6,Zirconium,,,,,Warstock,"15,000",Main Page,Pegasus,-,✔,✔,✔,17/09,2013,-,journey,
+Vans,Journey II,FWD,6,Zirconium,,,,,SSASA,"790,000",4 Door Tab,Garage,LSC,✔,,,13/12,2022,Los Santos Drug Wars,journey2,
+Vans,Minivan,AWD,4,Vapid,,,,,SSASA,"30,000",4 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,minivan,
+Vans,Minivan Custom,AWD,4,Vapid,✔,,,,Upgrade,"360,000",Benny's Workshop,Garage,LSC,✔,✔,✔,12/04,2016,Lowriders: Custom Classics,minivan2,Acquired by upgrading Minivan in Benny's
+Vans,Paradise,RWD,4,Bravado,,,,,SSASA,"25,000",4 Door Tab,Garage,LSC,✔,✔,✔,19/11,2013,Beach Bum,paradise,
+Vans,Pony,RWD,4,Brute,,,,,-,-,-,-,-,✔,,,17/09,2013,-,pony,
+Vans,Pony (SOTW),RWD,4,Brute,,,,,Unlock,0,Career Progress,Garage,Facility,✔,,,17/09,2013,-,pony2,Unlocked at Money Fronts Career Progress Tier 4
+Vans,Rumpo,RWD,4,Bravado,,,,,SSASA,"13,000",Off-Road Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,"rumpo, rumpo2",
+Vans,Rumpo Custom,AWD,4,Bravado,,,,,SSASA,"130,000",4 Door Tab,Garage,LSC,✔,✔,✔,07/06,2016,Finance and Felony,rumpo3,
+Vans,Speedo,RWD,4,Vapid,,,,,Traffic,0,Traffic Spawn,Garage,MOC,✔,✔,✔,17/09,2013,-,speedo,
+Vans,Speedo Custom,RWD,4,Vapid,,,,,Property,0,Listed Source,Nightclub,Property,✔,✔,✔,24/07,2018,After Hours,"speedo4, speedo5",Only available with purchase of Nightclub
+Vans,Surfer,RWD,2,BF,,,,,SSASA,"11,000",2 Door Tab,Garage,LSC,✔,✔,✔,17/09,2013,-,surfer,
+Vans,Surfer Beater,RWD,2,BF,,,,,Traffic,0,Traffic Spawn,Garage,LSC,✔,,,17/09,2013,-,surfer2,
+Vans,Surfer Custom,RWD,4,BF,,,,,SSASA,"590,000",4 Door Tab,Garage,LSC,✔,,,13/12,2022,Los Santos Drug Wars,surfer3,
+Vans,Taco Van,RWD,1,Brute,,,,,Warstock,"345,000",Main Page,Pegasus,-,✔,✔,✔,17/09,2013,-,taco,Made available to purchase online with Agents Of Sabotage update
+Vans,Youga,RWD,2,Bravado,,,,,SSASA,"16,000",2 Door Tab,Garage,LSC,✔,,,17/09,2013,-,youga,
+Vans,Youga Classic,RWD,4,Bravado,✔,,,,SSASA,"195,000",4 Door Tab,Garage,LSC,✔,✔,✔,22/11,2016,Bikers,youga2,Tailgate spare wheel modification adds traction like a spoiler
+Vans,Youga Classic 4x4,RWD,4,Bravado,✔,,,,Upgrade,"1,288,000",Benny's Workshop,Garage,LSC,✔,✔,✔,11/08,2020,Los Santos Summer Special,youga3,Acquired by upgrading Youga Classic in Benny's
+Vans,Youga Custom,RWD,4,Vapid,,,✔,,Unlock,0,Career Progress,Garage,LSC,✔,,,15/12,2021,The Contract,"youga4, youga5",Unlocked at The Contract Career Progress Tier 4

@@ -9,6 +9,12 @@ import re
 import time
 import requests
 from bs4 import BeautifulSoup
+try:
+    from broughy import get_vehicle_stats, csvs_available
+    _BROUGHY_AVAILABLE = csvs_available()
+except ImportError:
+    _BROUGHY_AVAILABLE = False
+    def get_vehicle_stats(name): return {}
 
 _REMOVED_TAG_RE = re.compile(r"\s*\(Removed Vehicle\)\s*", re.IGNORECASE)
 _ANNOTATION_RE = re.compile(
@@ -136,6 +142,7 @@ def gtawiki_fetch_vehicle(vehicle_name: str) -> dict:
     WIKI_NAME_OVERRIDES = {
         # Vehicles whose wiki page name differs significantly from their in-game name
         "rhino tank": "Rhino Tank",
+        "bravado half-track": "Half-track",
         "vapid taxi": "Taxi_(HD_Universe)",
         "benefactor schafter": "Schafter_(second_generation)",
     }
@@ -581,6 +588,8 @@ NON_VEHICLE_KEYWORDS = {
     "upgrades and modifications", "upgrade", "modification",
     "property", "office", "warehouse", "hangar", "facility",
     "bunker", "clubhouse", "bail office", "pass", "membership",
+    "factory", "garage", "shop", "store", "depot", "yard",
+    "returning content", "content", "event content", "independence day",
     # Specific non-vehicle discount items that appear in posts
     "body armor", "ammo",
 }
@@ -660,26 +669,12 @@ def intel_parse_all_discount_groups(body: str) -> list[dict]:
             if name and is_vehicle(name):
                 groups[current_pct].append({"name": name, "discount": current_pct, "removed": removed})
 
-    # Convert to list of group dicts, merging LE vehicles into one group
-    # Group LE vehicles (those with patrol/cruiser/pursuit/interceptor etc) separately
-    LE_KEYWORDS = re.compile(r"cruiser|patrol|pursuit|interceptor|outreach|police bike|park ranger", re.I)
-    result = []
-    le_vehicles = []
-    regular_vehicles = []
-
+    # Return all vehicles in a single Discounts group
+    all_vehicles = []
     for pct in group_order:
-        for v in groups[pct]:
-            if LE_KEYWORDS.search(v["name"]):
-                le_vehicles.append(v)
-            else:
-                regular_vehicles.append(v)
+        all_vehicles.extend(groups[pct])
 
-    if le_vehicles:
-        result.append({"group": "Law Enforcement Vehicle Discounts", "vehicles": le_vehicles})
-    if regular_vehicles:
-        result.append({"group": "Discounts", "vehicles": regular_vehicles})
-
-    return result
+    return [{"group": "Discounts", "vehicles": all_vehicles}] if all_vehicles else []
 
 
 def intel_parse_showroom(body: str, header_keyword: str) -> list[dict]:
@@ -711,26 +706,34 @@ def intel_parse_showroom(body: str, header_keyword: str) -> list[dict]:
 
 def enrich_vehicle(name: str, discount: int | None = None, removed: bool = False) -> dict:
     time.sleep(0.3)  # polite rate limiting
-    # Normalize unicode dashes to hyphens for wiki URL matching
     wiki_name = name.replace("–", "-").replace("—", "-")
-    # Strip variant suffixes like (Arena), (Mk II), (Custom) for wiki lookup
-    # but keep the original name for display
     wiki_name_clean = re.sub(r"\s*\((Arena|Custom|Mk\s*II|Mk\s*III|Weaponized|Armored)\)\s*$",
                              "", wiki_name, flags=re.IGNORECASE).strip()
-    wiki_data = gtawiki_fetch_vehicle(wiki_name_clean)
 
-    # Fall back to Fandom if gta.wiki is missing image or price
-    if not wiki_data.get("image") or not wiki_data.get("price"):
-        print(f"  Trying Fandom fallback for {name!r}...")
-        fandom_data = fandom_fetch_vehicle(wiki_name)
-        if not wiki_data.get("image") and fandom_data.get("image"):
+    # Get image from gta.wiki (primary) or Fandom (fallback)
+    wiki_data = gtawiki_fetch_vehicle(wiki_name_clean)
+    if not wiki_data.get("image"):
+        fandom_data = fandom_fetch_vehicle(wiki_name_clean)
+        if fandom_data.get("image"):
             wiki_data["image"] = fandom_data["image"]
-        if not wiki_data.get("price") and fandom_data.get("price"):
-            wiki_data["price"] = fandom_data["price"]
-        if not wiki_data.get("stats") and fandom_data.get("stats"):
-            wiki_data["stats"] = fandom_data["stats"]
         if not wiki_data.get("wiki_url") and fandom_data.get("wiki_url"):
             wiki_data["wiki_url"] = fandom_data["wiki_url"]
+
+    # Get performance stats from Broughy CSVs
+    broughy = get_vehicle_stats(name) if _BROUGHY_AVAILABLE else {}
+
+    # Get price/store — prefer CSV price as it is more reliable
+    price = wiki_data.get("price", "")
+    store = wiki_data.get("store", "")
+    previously_available = wiki_data.get("previously_available", False)
+    csv_price = broughy.get("price_csv")
+    if csv_price:
+        price = csv_price
+    if not price:
+        fandom_data = fandom_fetch_vehicle(wiki_name_clean)
+        price = fandom_data.get("price", "")
+        if not store:
+            store = fandom_data.get("store", "")
 
     return {
         "name": name,
@@ -738,10 +741,10 @@ def enrich_vehicle(name: str, discount: int | None = None, removed: bool = False
         "removed": removed,
         "wiki_url": wiki_data.get("wiki_url", ""),
         "image": wiki_data.get("image", ""),
-        "price": wiki_data.get("price", ""),
-        "store": wiki_data.get("store", ""),
-        "previously_available": wiki_data.get("previously_available", False),
-        "stats": wiki_data.get("stats", {}),
+        "price": price,
+        "store": store,
+        "previously_available": previously_available,
+        "broughy": broughy,
     }
 
 
