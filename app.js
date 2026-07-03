@@ -278,7 +278,6 @@ async function loadDeals() {
     renderGrid(document.getElementById("grid-luxury"),    data.luxury_autos);
     renderGrid(document.getElementById("grid-pdm"),       data.pdm);
     renderWishlist(data.discounts || []);
-    setTimeout(attachWishlistHandlers, 0);
 
     document.getElementById("loading").classList.add("hidden");
     showSection("discounts");
@@ -305,31 +304,28 @@ function renderWishlist(allDiscounts) {
     wl.items.some(n => n.toLowerCase() === v.name.toLowerCase())
   );
   grid.innerHTML = wishlisted.map(buildCard).join("");
-  attachWishlistHandlers();
 }
 
-function attachWishlistHandlers() {
-  document.querySelectorAll(".wishlist-btn").forEach(btn => {
-    btn.addEventListener("click", e => {
-      e.stopPropagation();
-      const name = btn.dataset.name;
-      toggleWishlist(name, window._dateRange || "");
-      updateWishlistCount();
-      // Re-render all grids so heart states update everywhere
-      const discounts = window._allDiscounts || [];
-      renderWishlist(discounts);
-      // Re-render discount cards to update heart icons
-      document.querySelectorAll(".wishlist-btn").forEach(b => {
-        if (b.dataset.name === name) {
-          const wl = isWishlisted(name);
-          b.textContent = wl ? "♥" : "♡";
-          b.classList.toggle("wishlisted", wl);
-          b.title = wl ? "Remove from wishlist" : "Add to wishlist";
-        }
-      });
-    });
+// Single delegated click handler — set up once, works for all cards
+document.addEventListener("click", e => {
+  const btn = e.target.closest(".wishlist-btn");
+  if (!btn) return;
+  e.stopPropagation();
+  const name = btn.dataset.name;
+  toggleWishlist(name, window._dateRange || "");
+  updateWishlistCount();
+  // Update all hearts for this vehicle without re-rendering
+  document.querySelectorAll(`.wishlist-btn[data-name="${CSS.escape(name)}"]`).forEach(b => {
+    const wl = isWishlisted(name);
+    b.textContent = wl ? "\u2665" : "\u2661";
+    b.classList.toggle("wishlisted", wl);
+    b.title = wl ? "Remove from wishlist" : "Add to wishlist";
   });
-}
+  // Re-render wishlist tab contents
+  renderWishlist(window._allDiscounts || []);
+});
+
+function attachWishlistHandlers() {} // no-op, kept for compatibility
 
 document.getElementById("refresh-btn").addEventListener("click", () => {
   loadDeals();
