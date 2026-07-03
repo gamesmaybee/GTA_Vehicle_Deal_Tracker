@@ -31,6 +31,7 @@
 
   <nav class="section-nav">
     <button class="nav-btn active" data-section="discounts">Discounts</button>
+    <button class="nav-btn" data-section="wishlist">Wishlist <span id="wishlist-count" class="wishlist-count"></span></button>
     <button class="nav-btn" data-section="luxury">Luxury Autos</button>
     <button class="nav-btn" data-section="pdm">Premium Deluxe</button>
   </nav>
@@ -54,6 +55,18 @@
         <span class="section-subtitle">This week's price drops</span>
       </div>
       <div id="grid-discounts"></div>
+    </section>
+
+    <!-- WISHLIST SECTION -->
+    <section id="section-wishlist" class="deals-section hidden">
+      <div class="section-header">
+        <h2 class="section-title">WISHLIST</h2>
+        <span class="section-subtitle">Your saved deals this week</span>
+      </div>
+      <div id="wishlist-empty" class="wishlist-empty hidden">
+        <p>No vehicles saved yet. Click the ♡ on any discounted vehicle to add it.</p>
+      </div>
+      <div class="vehicle-grid" id="grid-wishlist"></div>
     </section>
 
     <!-- LUXURY AUTOS SECTION -->

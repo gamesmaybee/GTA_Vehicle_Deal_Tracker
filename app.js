@@ -106,6 +106,10 @@ function buildCard(vehicle) {
   const storeHTML = vehicle.store
     ? `<span class="store-name ${storeClass}">${storeLabel}: ${vehicle.store}</span>`
     : "";
+  const wishlisted = isWishlisted(vehicle.name);
+  const wishlistBtn = vehicle.discount
+    ? `<button class="wishlist-btn ${wishlisted ? 'wishlisted' : ''}" data-name="${vehicle.name}" title="${wishlisted ? 'Remove from wishlist' : 'Add to wishlist'}">${wishlisted ? '♥' : '♡'}</button>`
+    : "";
   const wikiHTML = vehicle.wiki_url
     ? `<a href="${vehicle.wiki_url}" target="_blank" class="wiki-link">View on GTA Wiki ↗</a>`
     : "";
@@ -122,7 +126,10 @@ function buildCard(vehicle) {
         ${storeHTML}
         ${statsHTML ? `<div class="card-stats">${statsHTML}</div>` : ""}
       </div>
-      ${wikiHTML ? `<div class="card-footer">${wikiHTML}</div>` : ""}
+      <div class="card-footer">
+        ${wikiHTML}
+        ${wishlistBtn}
+      </div>
     </div>
   `;
 }
@@ -162,10 +169,60 @@ function renderGroupedDiscounts(containerEl, groups) {
 // ─── Navigation ─────────────────────────────────────────────────────────────
 
 const sections = {
+  wishlist:  document.getElementById("section-wishlist"),
   discounts: document.getElementById("section-discounts"),
   luxury:    document.getElementById("section-luxury"),
   pdm:       document.getElementById("section-pdm"),
 };
+
+// ─── Wishlist ────────────────────────────────────────────────────────────────
+
+const WISHLIST_KEY = "gta_wishlist";
+
+function loadWishlist() {
+  try {
+    return JSON.parse(localStorage.getItem(WISHLIST_KEY)) || { dateRange: "", items: [] };
+  } catch { return { dateRange: "", items: [] }; }
+}
+
+function saveWishlist(wl) {
+  localStorage.setItem(WISHLIST_KEY, JSON.stringify(wl));
+}
+
+function syncWishlist(currentDateRange, allDiscountedNames) {
+  let wl = loadWishlist();
+  if (wl.dateRange !== currentDateRange) {
+    // New week — remove items no longer discounted, keep ones that rolled over
+    wl.items = wl.items.filter(name => allDiscountedNames.has(name.toLowerCase()));
+    wl.dateRange = currentDateRange;
+    saveWishlist(wl);
+  }
+  return wl;
+}
+
+function toggleWishlist(name, currentDateRange) {
+  let wl = loadWishlist();
+  wl.dateRange = currentDateRange;
+  const idx = wl.items.findIndex(n => n.toLowerCase() === name.toLowerCase());
+  if (idx === -1) {
+    wl.items.push(name);
+  } else {
+    wl.items.splice(idx, 1);
+  }
+  saveWishlist(wl);
+  return wl;
+}
+
+function isWishlisted(name) {
+  const wl = loadWishlist();
+  return wl.items.some(n => n.toLowerCase() === name.toLowerCase());
+}
+
+function updateWishlistCount() {
+  const count = loadWishlist().items.length;
+  const el = document.getElementById("wishlist-count");
+  if (el) el.textContent = count > 0 ? count : "";
+}
 
 function showSection(name) {
   Object.entries(sections).forEach(([key, el]) => {
@@ -207,9 +264,21 @@ async function loadDeals() {
     // Store showroom vehicles globally BEFORE rendering discounts so filter works
     window._luxuryVehicles = data.luxury_autos || [];
     window._pdmVehicles = data.pdm || [];
+    window._dateRange = data.date_range || "";
+
+    // Sync wishlist with current week
+    const allDiscountedNames = new Set(
+      (data.discounts || []).map(v => v.name.toLowerCase())
+    );
+    syncWishlist(data.date_range || "", allDiscountedNames);
+    updateWishlistCount();
+
+    window._allDiscounts = data.discounts || [];
     renderGroupedDiscounts(document.getElementById("grid-discounts"), data.discount_groups || [{group: "Discounts", vehicles: data.discounts}]);
     renderGrid(document.getElementById("grid-luxury"),    data.luxury_autos);
     renderGrid(document.getElementById("grid-pdm"),       data.pdm);
+    renderWishlist(data.discounts || []);
+    setTimeout(attachWishlistHandlers, 0);
 
     document.getElementById("loading").classList.add("hidden");
     showSection("discounts");
@@ -220,6 +289,46 @@ async function loadDeals() {
     document.getElementById("error-msg").textContent = `Error: ${err.message}`;
     console.error(err);
   }
+}
+
+function renderWishlist(allDiscounts) {
+  const wl = loadWishlist();
+  const grid = document.getElementById("grid-wishlist");
+  const empty = document.getElementById("wishlist-empty");
+  if (wl.items.length === 0) {
+    grid.innerHTML = "";
+    empty.classList.remove("hidden");
+    return;
+  }
+  empty.classList.add("hidden");
+  const wishlisted = allDiscounts.filter(v =>
+    wl.items.some(n => n.toLowerCase() === v.name.toLowerCase())
+  );
+  grid.innerHTML = wishlisted.map(buildCard).join("");
+  attachWishlistHandlers();
+}
+
+function attachWishlistHandlers() {
+  document.querySelectorAll(".wishlist-btn").forEach(btn => {
+    btn.addEventListener("click", e => {
+      e.stopPropagation();
+      const name = btn.dataset.name;
+      toggleWishlist(name, window._dateRange || "");
+      updateWishlistCount();
+      // Re-render all grids so heart states update everywhere
+      const discounts = window._allDiscounts || [];
+      renderWishlist(discounts);
+      // Re-render discount cards to update heart icons
+      document.querySelectorAll(".wishlist-btn").forEach(b => {
+        if (b.dataset.name === name) {
+          const wl = isWishlisted(name);
+          b.textContent = wl ? "♥" : "♡";
+          b.classList.toggle("wishlisted", wl);
+          b.title = wl ? "Remove from wishlist" : "Add to wishlist";
+        }
+      });
+    });
+  });
 }
 
 document.getElementById("refresh-btn").addEventListener("click", () => {
