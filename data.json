@@ -1,17 +1,17 @@
 {
-  "date_range": "GTA Online Event Week: New Vehicles Released (23rd-29th)",
-  "post_url": "https://rockstarintel.com/gta-online-event-week-new-vehicles-released-23rd-29th/",
-  "post_title": "GTA Online Event Week: New Vehicles Released (23rd-29th)",
+  "date_range": "August 5th)",
+  "post_url": "https://rockstarintel.com/gta-online-event-week-cayo-summer-special-july-30th-august-5th/",
+  "post_title": "GTA Online Event Week: Cayo Summer Special (July 30th-August 5th)",
   "discount_groups": [],
   "discounts": [],
   "luxury_autos": [
     {
-      "name": "Benefactor Läufer",
+      "name": "Albany Merula",
       "discount": null,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/L%C3%A4ufer",
-      "image": "https://gta.wiki/images/thumb/L%C3%A4ufer-GTAOee-FrontQuarter.png/600px-L%C3%A4ufer-GTAOee-FrontQuarter.png?da070",
-      "price": "$645,000",
+      "wiki_url": "https://gta.wiki/w/Merula",
+      "image": "https://gta.wiki/images/thumb/Merula-GTAOee-FrontQuarter.png/600px-Merula-GTAOee-FrontQuarter.png?cd072",
+      "price": "$1,394,000",
       "store": "Southern San Andreas Super Autos",
       "previously_available": false,
       "broughy": {
@@ -27,13 +27,13 @@
       }
     },
     {
-      "name": "Grotti Veleno GT",
+      "name": "Ocelot E-Stride",
       "discount": null,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Veleno_GT",
-      "image": "https://gta.wiki/images/thumb/VelenoGT-GTAOee-FrontQuarter.png/600px-VelenoGT-GTAOee-FrontQuarter.png?9d31b",
-      "price": "$3,090,000",
-      "store": "Legendary Motorsport",
+      "wiki_url": "https://gta.wiki/w/E-Stride",
+      "image": "https://gta.wiki/images/thumb/EStride-GTAOee-FrontQuarter.png/600px-EStride-GTAOee-FrontQuarter.png?7ccfc",
+      "price": "$1,425,000",
+      "store": "Southern San Andreas Super Autos",
       "previously_available": false,
       "broughy": {
         "top_speed_mph": null,
@@ -50,87 +50,108 @@
   ],
   "pdm": [
     {
-      "name": "Benefactor Vorschlaghammer",
+      "name": "Classique Broadway",
       "discount": null,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Vorschlaghammer",
-      "image": "https://gta.wiki/images/thumb/Vorschlaghammer-GTAOe-FrontQuarter.png/600px-Vorschlaghammer-GTAOe-FrontQuarter.png?9c035",
-      "price": "$1,790,000",
-      "store": "Southern San Andreas Super Autos",
-      "previously_available": false,
-      "broughy": {
-        "top_speed_mph": 122.75,
-        "top_speed_kph": 197.5,
-        "top_speed_rank_class": 5,
-        "lap_time": "1:07.000",
-        "lap_time_rank_class": 8,
-        "vehicle_class": "Sedans",
-        "seats": 4,
-        "drivetrain": "RWD",
-        "price_csv": "$1,790,000"
-      }
-    },
-    {
-      "name": "Declasse Tulip M-100",
-      "discount": null,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Tulip_M-100",
-      "image": "https://gta.wiki/images/thumb/TulipM100-GTAOe-front.png/600px-TulipM100-GTAOe-front.png?ffdb0",
-      "price": "$894,800",
-      "store": "Southern San Andreas Super Autos",
-      "previously_available": false,
-      "broughy": {
-        "top_speed_mph": 116.75,
-        "top_speed_kph": 187.9,
-        "top_speed_rank_class": 26,
-        "lap_time": "1:10.938",
-        "lap_time_rank_class": 47,
-        "vehicle_class": "Muscle",
-        "seats": 2,
-        "drivetrain": "RWD",
-        "price_csv": "$894,800"
-      }
-    },
-    {
-      "name": "Enus Windsor DropPfister 811",
-      "discount": null,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/811",
-      "image": "https://gta.wiki/images/thumb/811-GTAOee-FrontQuarter.png/600px-811-GTAOee-FrontQuarter.png?792a9",
-      "price": "$1,135,000",
+      "wiki_url": "https://gta.wiki/w/Broadway",
+      "image": "https://gta.wiki/images/thumb/Broadway-GTAOe-front.png/600px-Broadway-GTAOe-front.png?a3f7f",
+      "price": "$925,000",
       "store": "Legendary Motorsport",
       "previously_available": false,
       "broughy": {
-        "top_speed_mph": 130.75,
-        "top_speed_kph": 210.4,
-        "top_speed_rank_class": 11,
-        "lap_time": "1:02.946",
-        "lap_time_rank_class": 53,
-        "vehicle_class": "Supers",
+        "top_speed_mph": 100.0,
+        "top_speed_kph": 160.9,
+        "top_speed_rank_class": 75,
+        "lap_time": "1:17.978",
+        "lap_time_rank_class": 70,
+        "vehicle_class": "Muscle",
         "seats": 2,
-        "drivetrain": "AWD (20F/80R)",
-        "price_csv": "$1,135,000"
+        "drivetrain": "RWD",
+        "price_csv": "$925,000"
       }
     },
     {
-      "name": "Vapid Retinue Mk II",
+      "name": "Dinka Blista Kanjo",
       "discount": null,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Retinue_Mk_II",
-      "image": "https://gta.wiki/images/thumb/RetinueMkII-GTAO-front.png/600px-RetinueMkII-GTAO-front.png?2a37d",
-      "price": "$972,000",
+      "wiki_url": "https://gta.wiki/w/Blista_Kanjo",
+      "image": "https://gta.wiki/images/thumb/BlistaKanjo-GTAO-front.png/600px-BlistaKanjo-GTAO-front.png?e869f",
+      "price": "$580,000",
       "store": "Southern San Andreas Super Autos",
       "previously_available": false,
       "broughy": {
-        "top_speed_mph": 120.25,
-        "top_speed_kph": 193.5,
-        "top_speed_rank_class": 14,
-        "lap_time": "1:05.165",
-        "lap_time_rank_class": 13,
+        "top_speed_mph": 108.75,
+        "top_speed_kph": 175.0,
+        "top_speed_rank_class": 3,
+        "lap_time": "1:13.473",
+        "lap_time_rank_class": 4,
+        "vehicle_class": "Compacts",
+        "seats": 2,
+        "drivetrain": "FWD",
+        "price_csv": "$580,000"
+      }
+    },
+    {
+      "name": "Dinka Chavos V6",
+      "discount": null,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Chavos_V6",
+      "image": "https://gta.wiki/images/thumb/ChavosV6-GTAOee-FrontQuarter.png/600px-ChavosV6-GTAOee-FrontQuarter.png?8f2cc",
+      "price": "$1,420,000",
+      "store": "Southern San Andreas Super Autos",
+      "previously_available": false,
+      "broughy": {
+        "top_speed_mph": 115.5,
+        "top_speed_kph": 185.9,
+        "top_speed_rank_class": 8,
+        "lap_time": "1:04.564",
+        "lap_time_rank_class": 1,
+        "vehicle_class": "Sedans",
+        "seats": 4,
+        "drivetrain": "RWD",
+        "price_csv": "$1,420,000"
+      }
+    },
+    {
+      "name": "Invetero Coquette D1",
+      "discount": null,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Coquette_D1",
+      "image": "https://gta.wiki/images/thumb/CoquetteD1-GTAOe-FrontQuarter.png/600px-CoquetteD1-GTAOe-FrontQuarter.png?b2de7",
+      "price": "$1,500,000",
+      "store": "Legendary Motorsport",
+      "previously_available": false,
+      "broughy": {
+        "top_speed_mph": 123.75,
+        "top_speed_kph": 199.2,
+        "top_speed_rank_class": 7,
+        "lap_time": "1:07.050",
+        "lap_time_rank_class": 19,
         "vehicle_class": "Sports Classics",
         "seats": 2,
         "drivetrain": "RWD",
-        "price_csv": "$972,000"
+        "price_csv": "$1,500,000"
+      }
+    },
+    {
+      "name": "Truffade Z-Type",
+      "discount": null,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Z-Type",
+      "image": "https://gta.wiki/images/thumb/TruffadeZType-GTAO-VintagePoster.png/600px-TruffadeZType-GTAO-VintagePoster.png?07b03",
+      "price": "$950,000",
+      "store": "Legendary Motorsport",
+      "previously_available": false,
+      "broughy": {
+        "top_speed_mph": 127.0,
+        "top_speed_kph": 204.4,
+        "top_speed_rank_class": 4,
+        "lap_time": "1:08.936",
+        "lap_time_rank_class": 23,
+        "vehicle_class": "Sports Classics",
+        "seats": 2,
+        "drivetrain": "RWD",
+        "price_csv": "$950,000"
       }
     }
   ]
