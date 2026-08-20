@@ -1,38 +1,17 @@
 {
-  "date_range": "August 6th-12th",
-  "post_url": "https://rockstarintel.com/gta-online-event-week-summer-heist-event-august-6th-12th/",
-  "post_title": "GTA Online Event Week: Summer Heist Event (August 6th-12th)",
+  "date_range": "August 13th-20th",
+  "post_url": "https://rockstarintel.com/gta-online-event-week-brand-war-august-13th-20th/",
+  "post_title": "GTA Online Event Week: Brand War (August 13th-20th)",
   "discount_groups": [],
   "discounts": [],
   "luxury_autos": [
     {
-      "name": "Annis Hardy",
+      "name": "Benefactor LRC GT",
       "discount": null,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Hardy",
-      "image": "https://gta.wiki/images/thumb/Hardy-GTAOee-FrontQuarter.png/600px-Hardy-GTAOee-FrontQuarter.png?e8b3c",
-      "price": "$1,380,000",
-      "store": "Southern San Andreas Super Autos",
-      "previously_available": false,
-      "broughy": {
-        "top_speed_mph": 128.25,
-        "top_speed_kph": 206.4,
-        "top_speed_rank_class": 1,
-        "lap_time": "1:07.498",
-        "lap_time_rank_class": 10,
-        "vehicle_class": "Sedans",
-        "seats": 4,
-        "drivetrain": "RWD",
-        "price_csv": "$1,380,000"
-      }
-    },
-    {
-      "name": "Grotti Cartuccia GT",
-      "discount": null,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Cartuccia_GT",
-      "image": "https://gta.wiki/images/thumb/CartucciaGT-GTAOee-FrontQuarter.png/600px-CartucciaGT-GTAOee-FrontQuarter.png?4514f",
-      "price": "$2,395,000",
+      "wiki_url": "https://gta.wiki/w/LRC_GT",
+      "image": "https://gta.wiki/images/thumb/LRCGT-GTAOee-FrontQuarter.png/600px-LRCGT-GTAOee-FrontQuarter.png?287ee",
+      "price": "$2,650,000",
       "store": "Legendary Motorsport",
       "previously_available": false,
       "broughy": {
@@ -46,112 +25,133 @@
         "drivetrain": null,
         "price_csv": null
       }
+    },
+    {
+      "name": "Pfister X-treme",
+      "discount": null,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/X-treme",
+      "image": "https://gta.wiki/images/thumb/Xtreme-GTAOee-FrontQuarter.png/600px-Xtreme-GTAOee-FrontQuarter.png?96712",
+      "price": "$2,885,000",
+      "store": "Legendary Motorsport",
+      "previously_available": false,
+      "broughy": {
+        "top_speed_mph": 127.25,
+        "top_speed_kph": 204.8,
+        "top_speed_rank_class": 19,
+        "lap_time": "0:59.526",
+        "lap_time_rank_class": 19,
+        "vehicle_class": "Supers",
+        "seats": 2,
+        "drivetrain": "AWD (19F/81R)",
+        "price_csv": "$2,885,000"
+      }
     }
   ],
   "pdm": [
     {
-      "name": "Albany Cavalcade XL",
+      "name": "Obey Tailgater S",
       "discount": null,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Cavalcade_XL",
-      "image": "https://gta.wiki/images/thumb/CavalcadeXL-GTAOe-front.png/600px-CavalcadeXL-GTAOe-front.png?edb24",
-      "price": "$1,665,000",
-      "store": "Southern San Andreas Super Autos",
-      "previously_available": false,
-      "broughy": {
-        "top_speed_mph": 104.25,
-        "top_speed_kph": 167.8,
-        "top_speed_rank_class": 32,
-        "lap_time": "1:09.470",
-        "lap_time_rank_class": 20,
-        "vehicle_class": "SUVs",
-        "seats": 4,
-        "drivetrain": "AWD (50F/50R)",
-        "price_csv": "$1,665,000"
-      }
-    },
-    {
-      "name": "BF Weevil",
-      "discount": null,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Weevil",
-      "image": "https://gta.wiki/images/thumb/Weevil-GTAO-front.png/600px-Weevil-GTAO-front.png?7e0f3",
-      "price": "$870,000",
-      "store": "(Southern San Andreas Super Autos",
-      "previously_available": false,
-      "broughy": {
-        "top_speed_mph": 102.5,
-        "top_speed_kph": 165.0,
-        "top_speed_rank_class": 9,
-        "lap_time": "1:15.642",
-        "lap_time_rank_class": 7,
-        "vehicle_class": "Compacts",
-        "seats": 2,
-        "drivetrain": "RWD",
-        "price_csv": "$870,000"
-      }
-    },
-    {
-      "name": "Canis Castigator",
-      "discount": null,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Castigator",
-      "image": "https://gta.wiki/images/thumb/Castigator-GTAOe-FrontQuarter.png/600px-Castigator-GTAOe-FrontQuarter.png?f6cdc",
-      "price": "$1,650,000",
-      "store": "Southern San Andreas Super Autos",
-      "previously_available": false,
-      "broughy": {
-        "top_speed_mph": 126.0,
-        "top_speed_kph": 202.8,
-        "top_speed_rank_class": 6,
-        "lap_time": "1:03.864",
-        "lap_time_rank_class": 3,
-        "vehicle_class": "SUVs",
-        "seats": 4,
-        "drivetrain": "AWD (50F/50R)",
-        "price_csv": "$1,650,000"
-      }
-    },
-    {
-      "name": "Dinka Kanjo SJ",
-      "discount": null,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Kanjo_SJ",
-      "image": "https://gta.wiki/images/thumb/KanjoSJ-GTAOe-front.png/600px-KanjoSJ-GTAOe-front.png?4c7a9",
-      "price": "$1,370,000",
-      "store": "Southern San Andreas Super Autos",
-      "previously_available": false,
-      "broughy": {
-        "top_speed_mph": 107.25,
-        "top_speed_kph": 172.6,
-        "top_speed_rank_class": 20,
-        "lap_time": "1:12.322",
-        "lap_time_rank_class": 19,
-        "vehicle_class": "Coupes",
-        "seats": 2,
-        "drivetrain": "FWD",
-        "price_csv": "$1,370,000"
-      }
-    },
-    {
-      "name": "Obey 8F Drafter",
-      "discount": null,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/8F_Drafter",
-      "image": "https://gta.wiki/images/thumb/8FDrafter-GTAOee-FrontQuarter.png/600px-8FDrafter-GTAOee-FrontQuarter.png?9a89b",
-      "price": "$718,000",
+      "wiki_url": "https://gta.wiki/w/Tailgater_S",
+      "image": "https://gta.wiki/images/thumb/TailgaterS-GTAO-front.png/600px-TailgaterS-GTAO-front.png?fc859",
+      "price": "$1,495,000",
       "store": "Legendary Motorsport",
       "previously_available": false,
       "broughy": {
-        "top_speed_mph": 117.75,
-        "top_speed_kph": 189.5,
-        "top_speed_rank_class": 74,
-        "lap_time": "1:03.096",
-        "lap_time_rank_class": 39,
-        "vehicle_class": "Sports",
+        "top_speed_mph": 116.0,
+        "top_speed_kph": 186.7,
+        "top_speed_rank_class": 7,
+        "lap_time": "1:04.732",
+        "lap_time_rank_class": 3,
+        "vehicle_class": "Sedans",
+        "seats": 4,
+        "drivetrain": "RWD",
+        "price_csv": "$1,495,000"
+      }
+    },
+    {
+      "name": "Shitzu Keitora",
+      "discount": null,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Keitora",
+      "image": "https://gta.wiki/images/thumb/Keitora-GTAOee-FrontQuarter.png/600px-Keitora-GTAOee-FrontQuarter.png?4da5d",
+      "price": "$810,000",
+      "store": "Southern San Andreas Super Autos",
+      "previously_available": false,
+      "broughy": {
+        "top_speed_mph": 87.0,
+        "top_speed_kph": 140.0,
+        "top_speed_rank_class": 4,
+        "lap_time": "1:25.936",
+        "lap_time_rank_class": 2,
+        "vehicle_class": "Utility",
         "seats": 2,
+        "drivetrain": "RWD",
+        "price_csv": "$810,000"
+      }
+    },
+    {
+      "name": "Mammoth Patriot Mil-Spec",
+      "discount": null,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Patriot_Mil-Spec",
+      "image": "https://gta.wiki/images/thumb/PatriotMilSpec-GTAOe-front.png/600px-PatriotMilSpec-GTAOe-front.png?6909c",
+      "price": "$1,710,000",
+      "store": "Southern San Andreas Super Autos",
+      "previously_available": false,
+      "broughy": {
+        "top_speed_mph": 96.0,
+        "top_speed_kph": 154.5,
+        "top_speed_rank_class": 39,
+        "lap_time": "1:16.043",
+        "lap_time_rank_class": 35,
+        "vehicle_class": "Off-Road",
+        "seats": 4,
         "drivetrain": "AWD (40F/60R)",
-        "price_csv": "$718,000"
+        "price_csv": "$1,710,000"
+      }
+    },
+    {
+      "name": "Benefactor Stirling GT",
+      "discount": null,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Stirling_GT",
+      "image": "https://gta.wiki/images/thumb/StirlingGT-GTAO-front-M4J3ST1C.png/600px-StirlingGT-GTAO-front-M4J3ST1C.png?3854e",
+      "price": "$975,000",
+      "store": "Legendary Motorsport",
+      "previously_available": false,
+      "broughy": {
+        "top_speed_mph": 113.0,
+        "top_speed_kph": 181.9,
+        "top_speed_rank_class": 28,
+        "lap_time": "1:05.715",
+        "lap_time_rank_class": 15,
+        "vehicle_class": "Sports Classics",
+        "seats": 2,
+        "drivetrain": "RWD",
+        "price_csv": "$975,000"
+      }
+    },
+    {
+      "name": "Progen GP1",
+      "discount": null,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/GP1",
+      "image": "https://gta.wiki/images/thumb/GP1-GTAOee-FrontQuarter.png/600px-GP1-GTAOee-FrontQuarter.png?867b0",
+      "price": "$1,260,000",
+      "store": "Legendary Motorsport",
+      "previously_available": false,
+      "broughy": {
+        "top_speed_mph": 123.75,
+        "top_speed_kph": 199.2,
+        "top_speed_rank_class": 39,
+        "lap_time": "1:03.097",
+        "lap_time_rank_class": 55,
+        "vehicle_class": "Supers",
+        "seats": 2,
+        "drivetrain": "RWD",
+        "price_csv": "$1,260,000"
       }
     }
   ]
