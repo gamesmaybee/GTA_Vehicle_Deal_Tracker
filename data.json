@@ -1,19 +1,83 @@
 {
-  "date_range": "August 20th-26th",
-  "post_url": "https://rockstarintel.com/gta-online-event-week-brand-war-finale-august-20th-26th/",
-  "post_title": "GTA Online Event Week: Brand War Finale (August 20th-26th)",
+  "date_range": "October 8th-14th",
+  "post_url": "https://rockstarintel.com/gta-online-event-week-halloween-event-continues-october-8th-14th/",
+  "post_title": "GTA Online Event Week: Halloween Event Continues (October 8th-14th)",
   "discount_groups": [],
   "discounts": [],
-  "luxury_autos": [],
-  "pdm": [
+  "luxury_autos": [
     {
-      "name": "Gallivanter Warden",
+      "name": "Dewbauchee Rapid GT X",
       "discount": null,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Warden",
-      "image": "https://gta.wiki/images/thumb/Warden-GTAOee-FrontQuarter.png/600px-Warden-GTAOee-FrontQuarter.png?67628",
-      "price": "$1,597,500",
+      "wiki_url": "https://gta.wiki/w/Rapid_GT_X",
+      "image": "https://gta.wiki/images/thumb/RapidGTX-GTAOee-FrontQuarter.png/600px-RapidGTX-GTAOee-FrontQuarter.png?7f919",
+      "price": "$2,705,500",
       "store": "Legendary Motorsport",
+      "previously_available": false,
+      "broughy": {
+        "top_speed_mph": 132.25,
+        "top_speed_kph": 212.8,
+        "top_speed_rank_class": 10,
+        "lap_time": "1:01.395",
+        "lap_time_rank_class": 20,
+        "vehicle_class": "Sports",
+        "seats": 2,
+        "drivetrain": "RWD",
+        "price_csv": "$2,705,500"
+      }
+    },
+    {
+      "name": "Übermacht Sentinel XS4",
+      "discount": null,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Sentinel_XS4",
+      "image": "https://gta.wiki/images/thumb/SentinelXS4-GTAOee-FrontQuarter.png/600px-SentinelXS4-GTAOee-FrontQuarter.png?0df7d",
+      "price": "$1,429,000",
+      "store": "Southern San Andreas Super Autos",
+      "previously_available": false,
+      "broughy": {
+        "top_speed_mph": 127.25,
+        "top_speed_kph": 204.8,
+        "top_speed_rank_class": 2,
+        "lap_time": "1:06.416",
+        "lap_time_rank_class": 7,
+        "vehicle_class": "Sedans",
+        "seats": 4,
+        "drivetrain": "RWD",
+        "price_csv": "$1,429,000"
+      }
+    }
+  ],
+  "pdm": [
+    {
+      "name": "Albany Brigham",
+      "discount": null,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Brigham",
+      "image": "https://gta.wiki/images/thumb/Brigham-GTAOe-front.png/600px-Brigham-GTAOe-front.png?4c9a7",
+      "price": "$999,400",
+      "store": "Southern San Andreas Super Autos",
+      "previously_available": false,
+      "broughy": {
+        "top_speed_mph": 105.5,
+        "top_speed_kph": 169.8,
+        "top_speed_rank_class": 67,
+        "lap_time": "1:15.559",
+        "lap_time_rank_class": 66,
+        "vehicle_class": "Muscle",
+        "seats": 4,
+        "drivetrain": "RWD",
+        "price_csv": "$999,400"
+      }
+    },
+    {
+      "name": "Albany Fränken Stange",
+      "discount": null,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Fr%C3%A4nken_Stange",
+      "image": "https://gta.wiki/images/thumb/Fr%C3%A4nkenStange-GTAOee-FrontQuarter.png/600px-Fr%C3%A4nkenStange-GTAOee-FrontQuarter.png?71762",
+      "price": "$550,000",
+      "store": "Southern San Andreas Super Autos",
       "previously_available": false,
       "broughy": {
         "top_speed_mph": null,
@@ -28,66 +92,66 @@
       }
     },
     {
-      "name": "Vapid Desert Raid",
+      "name": "Albany Lurcher",
       "discount": null,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/Desert_Raid",
-      "image": "https://gta.wiki/images/thumb/DesertRaid-GTAO-front.png/600px-DesertRaid-GTAO-front.png?58b16",
-      "price": "$695,000",
+      "wiki_url": "https://gta.wiki/w/Lurcher",
+      "image": "https://gta.wiki/images/thumb/Lurcher-GTAO-FrontQuarter.png/600px-Lurcher-GTAO-FrontQuarter.png?2f7df",
+      "price": "$650,000",
       "store": "Southern San Andreas Super Autos",
       "previously_available": false,
       "broughy": {
-        "top_speed_mph": 106.75,
-        "top_speed_kph": 171.8,
-        "top_speed_rank_class": 16,
-        "lap_time": "1:06.549",
-        "lap_time_rank_class": 11,
-        "vehicle_class": "Off-Road",
-        "seats": 2,
-        "drivetrain": "AWD (50F/50R)",
-        "price_csv": "$695,000"
-      }
-    },
-    {
-      "name": "Willard Eudora",
-      "discount": null,
-      "removed": false,
-      "wiki_url": "https://gta.wiki/w/Eudora",
-      "image": "https://gta.wiki/images/thumb/Eudora-GTAOe-front.png/600px-Eudora-GTAOe-front.png?14d0d",
-      "price": "$1,250,000",
-      "store": "Southern San Andreas Super Autos",
-      "previously_available": false,
-      "broughy": {
-        "top_speed_mph": 109.0,
-        "top_speed_kph": 175.4,
-        "top_speed_rank_class": 59,
-        "lap_time": "1:16.776",
-        "lap_time_rank_class": 68,
+        "top_speed_mph": 114.5,
+        "top_speed_kph": 184.3,
+        "top_speed_rank_class": 37,
+        "lap_time": "1:13.757",
+        "lap_time_rank_class": 60,
         "vehicle_class": "Muscle",
-        "seats": 4,
+        "seats": 2,
         "drivetrain": "RWD",
-        "price_csv": "$1,250,000"
+        "price_csv": "$650,000"
       }
     },
     {
-      "name": "Canis Terminus and Emperor ETR1",
+      "name": "Declasse Tornado Rat Rod",
       "discount": null,
       "removed": false,
-      "wiki_url": "https://gta.wiki/w/ETR1",
-      "image": "https://gta.wiki/images/thumb/ETR1-GTAOee-FrontQuarter.png/600px-ETR1-GTAOee-FrontQuarter.png?e3723",
-      "price": "$1,097,000",
-      "store": "Legendary Motorsport",
-      "previously_available": false,
+      "wiki_url": "https://gta.wiki/w/Tornado_Rat_Rod",
+      "image": "https://gta.wiki/images/thumb/TornadoRatRod-GTAO-front.png/600px-TornadoRatRod-GTAO-front.png?5614f",
+      "price": "$378,000",
+      "store": "no longer available",
+      "previously_available": true,
       "broughy": {
-        "top_speed_mph": 121.25,
-        "top_speed_kph": 195.1,
-        "top_speed_rank_class": 55,
-        "lap_time": "1:00.593",
-        "lap_time_rank_class": 29,
-        "vehicle_class": "Supers",
+        "top_speed_mph": 99.5,
+        "top_speed_kph": 160.1,
+        "top_speed_rank_class": 39,
+        "lap_time": "1:17.510",
+        "lap_time_rank_class": 41,
+        "vehicle_class": "Sports Classics",
         "seats": 2,
         "drivetrain": "RWD",
-        "price_csv": "$1,097,000"
+        "price_csv": "$378,000"
+      }
+    },
+    {
+      "name": "LCC Sanctus",
+      "discount": null,
+      "removed": false,
+      "wiki_url": "https://gta.wiki/w/Sanctus",
+      "image": "https://gta.wiki/images/thumb/Sanctus-GTAO-front.png/600px-Sanctus-GTAO-front.png?ef004",
+      "price": "$1,995,000",
+      "store": "Southern San Andreas Super Autos",
+      "previously_available": false,
+      "broughy": {
+        "top_speed_mph": null,
+        "top_speed_kph": null,
+        "top_speed_rank_class": null,
+        "lap_time": null,
+        "lap_time_rank_class": null,
+        "vehicle_class": "Motorcycles",
+        "seats": 1,
+        "drivetrain": "RWD",
+        "price_csv": "$1,995,000"
       }
     }
   ]
